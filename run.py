@@ -22,6 +22,11 @@ def blog():
     return render_template("blog.html")
 
 
+@app.route("/opinions")
+def tech():
+    return render_template("opinions.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
