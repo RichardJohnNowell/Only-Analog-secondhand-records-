@@ -17,6 +17,11 @@ def listings():
     return render_template("listings.html")
 
 
+@app.route("/blog")
+def blog():
+    return render_template("blog.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
