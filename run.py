@@ -5,7 +5,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-#routing here
 
 @app.route("/")
 def index():
