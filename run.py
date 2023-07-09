@@ -22,7 +22,7 @@ def blog():
 
 
 @app.route("/opinions")
-def tech():
+def opinions():
     return render_template("opinions.html")
 
 
