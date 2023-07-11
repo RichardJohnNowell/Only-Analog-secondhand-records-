@@ -2,11 +2,11 @@
 
 body {
     background-attachment: fixed;
-    background-image: url("https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/only-analog-main-image_orig.jpg");
+    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: black;
     font-size: 1.0rem;
     font-weight: 400;
     line-height: 1.5;
