@@ -22,6 +22,8 @@ body {
 
   .navbar {
     background: #31ffc8;
+    position: absolute;
+    top: 90px;
   }
 
   .navbar ul li a {
