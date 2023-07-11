@@ -28,6 +28,10 @@ body {
     color: #f5793b;
   }
 
+  .navbar-fixed-top {
+    min-height: 90px;
+  }  
+
 
   /*-----------------------------------------image_sizing*/
 
