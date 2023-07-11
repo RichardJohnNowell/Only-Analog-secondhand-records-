@@ -22,15 +22,14 @@ body {
 
   .navbar {
     background: #31ffc8;
+    min-height: 90px;
   }
 
   .navbar ul li a {
     color: #f5793b;
   }
 
-  .navbar-fixed-top {
-    min-height: 90px;
-  }  
+  
 
 
   /*-----------------------------------------image_sizing*/
