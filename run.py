@@ -18,7 +18,7 @@ def listings():
 
 @app.route("/blog")
 def blog():
-    return render_template("blog.html")
+    return render_template("blog.html", page_title="Blog")
 
 
 @app.route("/opinions")
