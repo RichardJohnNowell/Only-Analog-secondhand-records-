@@ -13,7 +13,7 @@ def index():
 
 @app.route("/listings")
 def listings():
-    return render_template("listings.html")
+    return render_template("listings.html", page_title="Listings")
 
 
 @app.route("/blog")
