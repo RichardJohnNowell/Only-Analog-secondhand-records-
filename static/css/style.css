@@ -24,7 +24,7 @@ body {
     background: #31ffc8;
   }
 
-  #navbar ul li a {
+  .navbar ul li a {
     color:red;
   }
 
