@@ -34,49 +34,64 @@ body {
   
 /*-----------------------------------------image_sizing*/
 
-  #wanted-records-group {
-      width: 350px;
-      height: 179px;
-  }
-
-  #wanted-records-2 {
-      width: 350px;
-      height: 179px;
-  }
-
-  #st-nicholas-market {
-      width: 350px;
-      height: 219px;
-  }
-  
-  #rockshop-coloured {
-      width: 350px;
-      height: 350px;
-  }
-
-  #rockshop-singles {
-      width: 350px;
-      height: 211px;
+  #avril-lavigne-love-sux {
+    width: 350px;
+    height: 551px;
   }
 
   #hombre-1998 {
-      width: 350px;
-      height: 352px;
+    width: 350px;
+    height: 352px;
   }
 
   #new-boots-and-panties {
-      width: 350px;
-      height: 351;
+    width: 350px;
+    height: 351px;
+  }  
+
+  #payback-stall-1-sized {
+    width: 350px;
+    height: 135px;
   }
 
-  #avril-lavigne-love-sux {
-      width: 350;
-      height: 551;
+  #plastic-wax-cassettes-sized {
+    width: 350px;
+    height: 241px;
+  }
+
+  #prime-cuts-poster {
+    width: 350px;
+    height: 599px;
+  }
+
+  #rockshop-coloured {
+    width: 350px;
+    height: 350px;
+  }
+
+  #rockshop-singles {
+    width: 350px;
+    height: 211px;
+  }
+
+  #st-nicholas-market {
+    width: 350px;
+    height: 219px;
   }
 
   #the-idles-crawler {
-      width: 350px;
-      height: 559;
+    width: 350px;
+    height: 559px;
+  }
+
+  #wanted-records-group {
+    width: 350px;
+    height: 179px;
+  }
+
+  #wanted-records-2 {
+    width: 350px;
+    height: 179px;
   }
 
 /*-----------------------------------------flexbox*/
