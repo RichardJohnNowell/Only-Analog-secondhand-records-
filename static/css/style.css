@@ -36,6 +36,21 @@ body {
 
   /*-----------------------------------------image_sizing*/
 
+  #wanted-records-group {
+      width: 350px;
+      height: 179px;
+  }
+
+  #wanted-records-2 {
+      width: 350px;
+      height: 179px;
+  }
+
+  #st-nicholas-market {
+      width: 350px;
+      height: 219px;
+  }
+
   /*-----------------------------------------flexbox*/
   
   .flex-container {
