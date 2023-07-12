@@ -13,22 +13,22 @@ def index():
 
 @app.route("/listings")
 def listings():
-    return render_template("listings.html", page_title="Listings")
+    return render_template("listings.html")
 
 
 @app.route("/blog")
 def blog():
-    return render_template("blog.html", page_title="Blog")
+    return render_template("blog.html")
 
 
 @app.route("/opinions")
 def opinions():
-    return render_template("opinions.html", page_title="Opinions")
+    return render_template("opinions.html")
 
 
 @app.route("/contact")
 def contact():
-    return render_template("contact.html", page_title="Contact")
+    return render_template("contact.html")
 
 
 if __name__ == "__main__":
