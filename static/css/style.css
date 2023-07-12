@@ -62,7 +62,7 @@ body {
   /*-----------------------------------------media_queries*/
 
   @media only screen and (min-width: 601px) {
-    nav ul, p {
+    nav ul i a p {
       width: 58%;
     }
   }
