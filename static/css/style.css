@@ -32,9 +32,7 @@ body {
   }
 
   
-
-
-  /*-----------------------------------------image_sizing*/
+/*-----------------------------------------image_sizing*/
 
   #wanted-records-group {
       width: 350px;
@@ -60,7 +58,28 @@ body {
       width: 350px;
       height: 211px;
   }
-  /*-----------------------------------------flexbox*/
+
+  #hombre-1998 {
+      width: 350px;
+      height: 352px;
+  }
+
+  #new-boots-and-panties {
+      width: 350px;
+      height: 351;
+  }
+
+  #avril-lavigne-love-sux {
+      width: 350;
+      height: 551;
+  }
+
+  #the-idles-crawler {
+      width: 350px;
+      height: 559;
+  }
+
+/*-----------------------------------------flexbox*/
   
   .flex-container {
       display: flex;
