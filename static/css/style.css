@@ -50,7 +50,16 @@ body {
       width: 350px;
       height: 219px;
   }
+  
+  #rockshop-coloured {
+      width: 350px;
+      height: 350px;
+  }
 
+  #rockshop-singles {
+      width: 350px;
+      height: 211px;
+  }
   /*-----------------------------------------flexbox*/
   
   .flex-container {
