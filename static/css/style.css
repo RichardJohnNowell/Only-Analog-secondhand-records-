@@ -28,7 +28,7 @@ body {
     font-weight: 500;
   }
 
-  .navbar ul {
+  .navbar ul li{
     color: #f5793b;
   }
 
