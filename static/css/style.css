@@ -20,16 +20,7 @@ body {
 
   /*-----------------------------------------navbar*/
 
-  .navbar {
-    background: #31ffc8;
-    min-height: 2.0rem;
-    font-size: 1.75rem;
-    font-weight: 500;
-  }
 
-  .navbar ul li a {
-    color: #f5793b;
-  }
 
 
   
@@ -127,7 +118,7 @@ body {
   }
 
   @media only screen and (min-width: 601px) {
-    navbar ul, p {
+    p {
       width: 58%;
     }
   }
