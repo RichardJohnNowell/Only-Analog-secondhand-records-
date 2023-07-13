@@ -26,6 +26,8 @@ body {
   
 /*-----------------------------------------image_sizing*/
 
+
+
   #avril-lavigne-love-sux {
     width: 350px;
     height: 551px;
@@ -84,6 +86,21 @@ body {
   #wanted-records-2 {
     width: 350px;
     height: 179px;
+  }
+
+/* ----------------------------------------blog */
+
+  .blog {
+    padding: 20px 10px 20px 10px;
+    position: static;
+    text-align: center;
+  }
+
+
+  .figure-caption {
+    color: black;
+    font-size: 1rem;
+    margin: auto;
   }
 
 /*-----------------------------------------flexbox*/
