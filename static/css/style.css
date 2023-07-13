@@ -23,6 +23,7 @@ body {
   .navbar {
     background: #31ffc8;
     min-height: 2.0rem;
+    color: #f5793b;
     font-size: 1.75rem;
     font-weight: 500;
   }
