@@ -36,6 +36,7 @@ body {
 
 
 
+
   
 /*-----------------------------------------image_sizing*/
 
@@ -54,7 +55,12 @@ body {
   #new-boots-and-panties {
     width: 350px;
     height: 351px;
-  }  
+  }
+  
+  #oa-logo {
+    width: 250px;
+    height: 85px;
+  }
 
   #payback-stall-1-sized {
     width: 350px;
