@@ -22,9 +22,9 @@ body {
 
   .navbar {
     background: #31ffc8;
-    min-height: 2.0rem;
+    min-height: 1.9rem;
     
-    font-size: 1.75rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 
@@ -159,8 +159,4 @@ body {
     }
   }
 
-  @media only screen and (min-width: 601px) {
-    .navbar {
-      width: 88%;
-    }
-  }
+
