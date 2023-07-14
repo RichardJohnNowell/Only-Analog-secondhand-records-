@@ -23,12 +23,23 @@ body {
   .navbar {
     background: #31ffc8;
     min-height: 1.9rem;
-    
     font-size: 1.3rem;
     font-weight: 500;
   }
 
-  .navbar ul li a{
+  .navbar ul a{
+    color: #f5793b;
+    margin: auto;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 7px;
     color: #f5793b;
   }
 
