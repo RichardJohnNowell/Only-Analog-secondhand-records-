@@ -24,7 +24,11 @@ body {
     min-height: 1.9rem;
   }
 
-
+  .navbar ul li a{
+    color: #f5793b;
+    margin: auto;
+    text-align: center;
+  }
 
   nav li {
     display: inline-block;
