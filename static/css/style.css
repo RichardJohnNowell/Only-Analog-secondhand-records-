@@ -22,8 +22,6 @@ body {
   .navbar {
     background: #31ffc8;
     min-height: 1.9rem;
-    font-size: 1.3rem;
-    font-weight: 500;
   }
 
   .navbar ul li a{
