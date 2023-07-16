@@ -50,11 +50,19 @@ body {
   
 /*-----------------------------------------image_sizing*/
 
-
+  #aswad-a-new-chapter-of-dub {
+      width: 350px;
+      height: 413px;
+  }
 
   #avril-lavigne-love-sux {
     width: 350px;
     height: 551px;
+  }
+
+  #dr-dre-the-chronic {
+      width: 350px;
+      height: 546px;
   }
 
   #hombre-1998 {
