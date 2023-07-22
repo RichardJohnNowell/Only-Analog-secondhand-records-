@@ -163,6 +163,12 @@ body {
       border:none;
      }
 
+  /*------------------------------------------footer*/
+
+  .navbar {
+  background: #31ffc8;
+}
+
   /*-----------------------------------------media_queries*/
 
   @media only screen and (min-width: 601px) {
