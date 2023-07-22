@@ -55,5 +55,19 @@ Objects cannot be bought online - no ecommerce (as with the stalls and shops vis
 
 VAT is not included - business users might wish this (they can get VAT)???????????
 </p>
+<br>
+<p>
+User Experience and customer expectations:
+i) When a user visits the site, they will find it easily navigable.
+ii) Information can be clearly seen by people with limited sight options.
+iii) Membership can be obtained free-of-charge (with conditions).
+iv) Membership allows a user to reserve any products they wish to buy (max. 5 items 10 days).
+v) Contacting OA is easily done with a professional form.
+vi) A Blog contains item of interest and possible hints to buy...
+vii) The Opinions page shows different arguments for and against. Nerdy!
+viii) The site has images that can show different media.
+ix) Only Analog is shown to be a reputable business with a history.
+x) Some information about the market itself.
+</p>
 
 
