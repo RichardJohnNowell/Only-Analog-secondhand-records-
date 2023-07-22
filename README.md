@@ -69,5 +69,26 @@ viii) The site has images that can show different media.
 ix) Only Analog is shown to be a reputable business with a history.
 x) Some information about the market itself.
 </p>
+<br>
+<p>
+## Contents
+* [Introduction](#introduction)
+* [Expectations](#expectations)
+* [UserExperience](#userexperience)
+* [Features](#features)
+    * [Homepage](#homepage)
+    * [Listings](#listings)
+    * [Blog](#blog)
+    * [Opinions](#opinions)
+    * [Contacts](#contacts)
+    * [Login](#login)
+    * [Register](#register)
+    * [Footer](#footer)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Validation](#validation)
+* [Wireframes](#wireframes)
+* [Credits](#credits)
+</p>
 
 
