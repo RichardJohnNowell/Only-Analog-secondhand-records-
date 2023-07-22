@@ -90,5 +90,14 @@ x) Some information about the market itself.
 * [Wireframes](#wireframes)
 * [Credits](#credits)
 </p>
+<br>
+<p>
+Credits:
+https://www.wantedrecords.co.uk/
+https://www.bristol.gov.uk/st-nicholas-markets/shopping/the-rock-shop
+https://www.bristol.gov.uk/st-nicholas-markets/shopping/payback-records
+https://prime-cuts.edan.io
+https://plasticwaxrecords.com
+</p>
 
 
