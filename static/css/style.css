@@ -166,6 +166,30 @@ body {
 
   /*------------------------------------------footer*/
 
+  footer {
+    height: 3.0rem;
+  }
+  
+  .social-networks {
+    text-align: center;
+  }
+  
+  .social-networks li {
+    display: inline;
+  }
+  
+  .social-networks i {
+    font-size: 150%;
+    margin: 1.25rem;
+  }
+  
+  #websitecredit {
+    color: #0b48ff;
+    font-size: 0.8rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+  }
+
   
 
 
