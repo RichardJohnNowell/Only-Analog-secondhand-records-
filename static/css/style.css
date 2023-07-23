@@ -22,7 +22,7 @@ body {
 
   .navbar {
     background: #31ffc8;
-    height: 60px;
+    min-height: 60px;
   }
 
   .navbar ul li a{
