@@ -28,6 +28,7 @@
 * [Credits](#credits)
 
 <br>
+
 ## Introduction
 
 The idea of the Only Analog stall was inspired by various existing stalls in 
@@ -53,6 +54,38 @@ suggests people and professionals interested in the media tend to pay good money
 they want. The three stalls and two shops which have kindly participated, have existed in 
 various forms for decades and each has a vast stock of the media. There is money to be made!
 Links to the vendors' websites can be found in the credits section.
+
+## Expectations
+
+
+## User Experience
+
+User Experience and customer expectations:
+i) When a user visits the site, they will find it easily navigable.
+ii) Information can be clearly seen by people with limited sight options.
+iii) Membership can be obtained free-of-charge (with conditions).
+iv) Membership allows a user to reserve any products they wish to buy (max. 5 items 10 days).
+v) Contacting OA is easily done with a professional form.
+vi) A Blog contains item of interest and possible hints to buy...
+vii) The Opinions page shows different arguments for and against. Nerdy!
+viii) The site has images that can show different media.
+ix) Only Analog is shown to be a reputable business with a history.
+x) Some information about the market itself.
+
+The colour scheme used was inspired by the website "Looka.com" and their blog article
+on the top logo colour trends for 2023. It's easy to opt for, say, Bootstrap's
+default colours, but having something more up-to-date seemed a resonable move.
+I chose a 'zesty' Orange #F5793B as it is popular at the moment and is different from
+red or blue etc. Then using encycolorpedia.com/#f5793b, I chose
+colours that were complimentary or seemed attractive. This approach gave
+me a poool of colours to work from.
+
+The font Nunito Sans is a modern, plain and readable font that is sixth
+in the "justcreative.com/best-google-fonts for professional
+designers". Quoting: "Projecting professional confidence, this font can 
+make words hold integrity and depth."
+
+<!--- comment --->
 
 A user can login or register. They can then go to the record or cassettte
 database where they can reserve up to 5 items for 10 days.
