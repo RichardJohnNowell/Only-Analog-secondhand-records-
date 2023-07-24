@@ -179,14 +179,14 @@ body {
   }
   
   .social-networks i {
-    font-size: 150%;
+    font-size: 1.0rem;
     margin: 1.25rem;
   }
   
   #websitecredit {
-    color: #f5793b;
-    font-size: 0.8rem;
-    padding-bottom: 0.5rem;
+    color: #ff3148;
+    font-size: 1.0rem;
+    padding-bottom: 1.0rem;
     text-align: center;
   }
 
