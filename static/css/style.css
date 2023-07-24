@@ -165,13 +165,37 @@ body {
     text-decoration: underline;
    }
 
-   #record-stall
+   #record-stall {   
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+   }
 
-   #debate
+   #debate {   
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+   }
 
-   #lots-singles
+   #lots-singles {   
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+   }
 
-   #continuity
+   #continuity {   
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+   }
 
 
 
