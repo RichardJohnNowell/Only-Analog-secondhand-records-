@@ -120,7 +120,7 @@ VAT is not included - business users might wish this (they can get VAT)?????????
             <a href="https://www.groupon.co.uk/deals/viator-st-nicholas-market-and-air-raid-shelter-walking-tour" title="groupon-walking-tour" alt="groupon-walking-tour" target="_blank" 
              rel="noopener">Groupon Tour
             </a>
-        <li>
+        </li>
     </ul
 </div>
 <!--- end --->
