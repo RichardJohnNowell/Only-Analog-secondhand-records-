@@ -7,6 +7,25 @@
 <p>Only Analog is a well-known store in St.Nicholas market, Bristol. We sell only records and cassettes, preferring the sound of analog formats.</p>
 <br>
 <p>
+
+## Contents
+* [Introduction](#introduction)
+* [Expectations](#expectations)
+* [UserExperience](#userexperience)
+* [Features](#features)
+    * [Homepage](#homepage)
+    * [Listings](#listings)
+    * [Blog](#blog)
+    * [Opinions](#opinions)
+    * [Contacts](#contacts)
+    * [Login](#login)
+    * [Register](#register)
+    * [Footer](#footer)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Validation](#validation)
+* [Wireframes](#wireframes)
+* [Credits](#credits)
 The idea of the Only Analog stall was inspired by various existing stalls in 
 the indoor St. Nicholas market in Bristol. 
 
@@ -70,26 +89,7 @@ ix) Only Analog is shown to be a reputable business with a history.
 x) Some information about the market itself.
 </p>
 <br>
-<p>
-## Contents
-* [Introduction](#introduction)
-* [Expectations](#expectations)
-* [UserExperience](#userexperience)
-* [Features](#features)
-    * [Homepage](#homepage)
-    * [Listings](#listings)
-    * [Blog](#blog)
-    * [Opinions](#opinions)
-    * [Contacts](#contacts)
-    * [Login](#login)
-    * [Register](#register)
-    * [Footer](#footer)
-* [Testing](#testing)
-* [Deployment](#deployment)
-* [Validation](#validation)
-* [Wireframes](#wireframes)
-* [Credits](#credits)
-</p>
+
 <br>
 <p>
 Credits:
