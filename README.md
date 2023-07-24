@@ -26,43 +26,32 @@
 * [Validation](#validation)
 * [Wireframes](#wireframes)
 * [Credits](#credits)
+
+<br>
+## Introduction
+
 The idea of the Only Analog stall was inspired by various existing stalls in 
-the indoor St. Nicholas market in Bristol. 
+the indoor St. Nicholas market in Bristol. These three stalls and two local shops
+provide a wide selection of secondhand records and some cassettes. Many of the images 
+on this website were taken by me at those shops with the cooperation of the owners 
+who all expressed an interest in the project.
 
-These three stalls and two local shops
-provide a wide selection of secondhand records and some cassettes.
+The background to this re-emergence of my liking for the anlogue sound was started 
+by finding a once-valuable cassette deck in another, less fancy market building,
+known simply as 'The Stokes Croft Indoor Market'. I knew a friend who had a huge 
+cassette collection and knowing he'd buy a secondhand machine, I paid the £20 and 
+took home the player, which was filthy. 
 
-Many of the images on this website were taken by me at those shops 
-with the cooperation of the owners who all expressed an interest in
-the project.
+Cleaning the body and the heads with Dettol wet-wipes, a lovely machine emerged.
+I then presented it to him and he has not stopped using it since. It was noticeable 
+that when compared to cds he had, the sound of the cassettes, for all its faults, 
+was so much smoother - voices became lush rather than exact algorithmic products.
+This is the origin of OA's logo 'Smooth not brittle': digital music sounds brittle.
 
-A re-emergence of my liking for the anlogue sound was started by finding
-a once-valuable cassette deck in another, less fancy market building,
-known simply as 'The Stokes Croft Indoor Market'. 
-
-I knew a friend who had a huge cassette collection and knowing he'd buy 
-a secondhand machine, I paid the £20 and took home the player, which was filthy. 
-
-Cleaning it and the heads with Dettol wet-wipes, a lovely machine emerged.
-
-I then presented it to him and he has not stopped using it since.
-
-It was noticeable that when compared to cds he had, the sound of the
-cassettes, for all its faults, was so much smoother - voices became 
-lush rather than exact algorithmic products.
-
-This is the origin of OA's logo 'Smooth not brittle': digital
-music sounds brittle.
-
-While there is a limited interest in records and less so in cassettes,
-market research suggests people interested in the media tend to pay good 
-money for what they want.
-
-The three stalls and two shops have existed in various forms for decades
-and each has a vast stock of the media.
-
-There is money to be made!
-
+While there is a limited interest in records and less so in cassettes, market research 
+suggests people and professionals interested in the media tend to pay good money for what 
+they want. The three stalls and two shops which have kindly participated, have existed in 
+various forms for decades and each has a vast stock of the media. There is money to be made!
 Links to the vendors' websites can be found in the credits section.
 
 A user can login or register. They can then go to the record or cassettte
@@ -111,7 +100,8 @@ x) Some information about the market itself.
             </a>
         </li>
         <li>Uncredited image from Groupon "St. Nicholas Market and Air Raid Shelter Walking Tour" page.
-            <a href="https://www.groupon.co.uk/deals/viator-st-nicholas-market-and-air-raid-shelter-walking-tour" title="groupon-walking-tour" alt="groupon-walking-tour" target="_blank" rel="noopener">Groupon Tour
+            <a href="https://www.groupon.co.uk/deals/viator-st-nicholas-market-and-air-raid-shelter-walking-tour" title="groupon-walking-tour" alt="groupon-walking-tour" target="_blank" 
+             rel="noopener">Groupon Tour
             </a>
         <li>
     </ul
