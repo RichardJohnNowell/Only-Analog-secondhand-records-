@@ -85,13 +85,37 @@ body {
     text-decoration: underline;
    }
 
-  #record-selection
+  #record-selection {   
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+   }
 
-  #list-records
+  #list-records {   
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+   }
 
-  #img-cassettes
+  #img-cassettes {   
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+   }
 
-  #cassettes
+  #cassettes {   
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+   }
 
 
 
