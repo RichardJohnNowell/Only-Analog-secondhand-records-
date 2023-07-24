@@ -90,14 +90,31 @@ x) Some information about the market itself.
 </p>
 <br>
 
-<br>
-<p>
-Credits:
-https://www.wantedrecords.co.uk/
-https://www.bristol.gov.uk/st-nicholas-markets/shopping/the-rock-shop
-https://www.bristol.gov.uk/st-nicholas-markets/shopping/payback-records
-https://prime-cuts.edan.io
-https://plasticwaxrecords.com
-</p>
+## Credits
 
+<div align="left">
+    <ul>
+        <li>Payback records is a stall in St. Nicks specialising in reggae and jamaican music.
+            <a href="https://www.bristol.gov.uk/st-nicholas-markets/shopping/payback-records" title="payback-records" alt="payback-records" target="_blank" rel="noopener">Payback Records
+            </a>
+        </li>
+        <li>Plastic Wax Records are likely the biggest secondhand record & cassette shop in Bristol.
+            <a href="https://plasticwaxrecords.com" title="plastic-wax" alt="plastic-wax" target="_blank" rel="noopener">Plastic Wax Records
+            </a>
+        </li>
+        <li>The Rockshop is a stall in St. Nicks with an extraordinary rock-orientated collection.
+            <a href="https://www.bristol.gov.uk/st-nicholas-markets/shopping/the-rock-shop" title="rockshop" alt="rockshop" target="_blank" rel="noopener">Rockshop
+            </a>
+        </li>
+        <li>Wanted Records is a shop next to St. Nicks and has an enviable stock.
+            <a href="https://www.wantedrecords.co.uk/" title="wanted-records" alt="wanted-records" target="_blank" rel="noopener">Wanted Records
+            </a>
+        </li>
+        <li>Uncredited image from Groupon "St. Nicholas Market and Air Raid Shelter Walking Tour" page.
+            <a href="https://www.groupon.co.uk/deals/viator-st-nicholas-market-and-air-raid-shelter-walking-tour" title="groupon-walking-tour" alt="groupon-walking-tour" target="_blank" rel="noopener">Groupon Tour
+            </a>
+        <li>
+    </ul
+</div>
+<!--- end --->
 
