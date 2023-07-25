@@ -23,7 +23,6 @@ body {
   .navbar {
     background: #31ffc8;
     min-height: 60px;
-    padding-bottom: 2.0rem;
   }
 
   .navbar ul li a{
