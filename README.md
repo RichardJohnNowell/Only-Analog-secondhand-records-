@@ -8,8 +8,8 @@
 
 ## Contents
 * [Introduction](#introduction)
-* [Expectations](#expectations)
 * [UserExperience](#userexperience)
+* [Expectations](#expectations)
 * [Features](#features)
     * [Homepage](#homepage)
     * [Listings](#listings)
@@ -53,23 +53,58 @@ they want. The three stalls and two shops which have kindly participated, have e
 various forms for decades and each has a vast stock of the media. There is money to be made!
 Links to the vendors' websites can be found in the credits section.
 
+## UserExperience
+
+<div class="flex-container">
+  <ol>
+    <li> When a user visits the site, they will find it easily navigable. 
+    </li>
+    <li> Information can be clearly seen by people with limited sight options. 
+    </li>
+    <li> Membership can be obtained free-of-charge (with conditions). 
+    </li>
+    <li> Membership allows a user to reserve any products they wish to buy (max. 3 items for 10 calender days). 
+    </li>
+    <li> For non-members contacting OA is easily done with a professional form. 
+    </li>
+    <li> Only Analog is shown to be a reputable business with a history. 
+    </li>
+    <li> Some information about the market itself.
+    </li>
+  </ol>
+</div>
+
 ## Expectations
 
+<div class="flex-container">
+  <ol>
+    <li> OAR's commitment to updating the list once every calendar fortnight by date (if 1st of month, listings will be changed after the 14th.
+    </li>
+    <li> Registered members will be allowed to reserve listed items for 14 calendar days.
+    </li>
+    <li> Registered members will have a personal secure account that can be changed or deleted.
+    </li>
+    <li> Registered members can send a secure message to Only Analog requesting record reservations or to discuss payments.
+    </li>
+    <li> Registered members can expect other members to be treated equally.
+    </li>
+    <li> Conditions of membership are:
+    </li>
+      <ul>
+        <li> Management reserve the right to decline, issue or delete an account at any point. 
+        </li>
+        <li> Payments can be made by arrangement using debit or credit cards.
+        </li>
+        <li> Vandalism or harrassment will result in deletion of account.
+        </li>
+        <li> Enquiries and reservations will be dealt within three calender days of message arrival (please, no multiple accounts).
+        </li>
+      </ul>
+    </li>
+  </ol>
+</div>
 
-## User Experience
-
-User Experience and customer expectations:
-i) When a user visits the site, they will find it easily navigable.
-ii) Information can be clearly seen by people with limited sight options.
-iii) Membership can be obtained free-of-charge (with conditions).
-iv) Membership allows a user to reserve any products they wish to buy (max. 5 items 10 days).
-v) Contacting OA is easily done with a professional form.
-vi) A Blog contains item of interest and possible hints to buy...
-vii) The Opinions page shows different arguments for and against. Nerdy!
-viii) The site has images that can show different media.
-ix) Only Analog is shown to be a reputable business with a history.
-x) Some information about the market itself.
-
+<!--- comment --->
 The colour scheme used was inspired by the website "Looka.com" and their blog article
 on the top logo colour trends for 2023. It's easy to opt for, say, Bootstrap's
 default colours, but having something more up-to-date seemed a resonable move.
@@ -82,18 +117,7 @@ The font Nunito Sans is a modern, plain and readable font that is sixth
 in the "justcreative.com/best-google-fonts for professional
 designers". Quoting: "Projecting professional confidence, this font can 
 make words hold integrity and depth."
-
 <!--- comment --->
-
-A user can login or register. They can then go to the record or cassettte
-database where they can reserve up to 5 items for 10 days.
-
-The user needs assurances that passwords are well protectyed.
-The user needs o know that they have reserved items.
-Objects cannot be bought online - no ecommerce (as with the stalls and shops visited).
-
-VAT is not included - business users might wish this (they can get VAT)???????????
-</p>
 
 
 ## Credits
