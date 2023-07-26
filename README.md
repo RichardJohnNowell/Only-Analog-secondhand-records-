@@ -15,7 +15,7 @@
     * [Listings](#listings)
     * [Blog](#blog)
     * [Opinions](#opinions)
-    * [Contacts](#contacts)
+    * [Contact](#contact)
     * [Login](#login)
     * [Register](#register)
     * [Footer](#footer)
@@ -104,6 +104,7 @@ Links to the vendors' websites can be found in the credits section.
   </ol>
 </div>
 
+<p>Colour Scheme and appearance</p>
 <!--- comment --->
 The colour scheme used was inspired by the website "Looka.com" and their blog article
 on the top logo colour trends for 2023. It's easy to opt for, say, Bootstrap's
@@ -119,6 +120,42 @@ designers". Quoting: "Projecting professional confidence, this font can
 make words hold integrity and depth."
 <!--- comment --->
 
+## Features
+<!--- pages and footer --->
+### Homepage
+<!--- homepage --->
+### Listings
+<!--- listings --->
+### Blog
+<!--- blog --->
+### Opinions
+<!--- opinions --->
+### Contact
+<!--- contact --->
+### Login
+<!--- login --->
+### Register
+<!--- register --->
+### Footer
+<!--- footer --->
+
+<!--- comment --->
+
+## Testing
+
+<!--- comment --->
+
+## Deployment
+
+<!--- comment --->
+
+## Validation
+
+<!--- comment --->
+
+## Wireframes
+
+<!--- comment --->
 
 ## Credits
 
