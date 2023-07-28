@@ -147,7 +147,7 @@ make words hold integrity and depth."
 
 ## Deployment
 
-<!--- comment --->
+The website Only Analog Records was deployed using Render.com around 10am on 27th July 2023. I used Render as it has a free tier for its smaller websites and connects internally to a new PostgreSQL database, thus minimising linkage hassles between the site and the database. Render built the site within a a couple of minutes using the GitHub repo. The first few tries at deployment, as it was not a process I knew much about, failed mainly through choosing the wrong type of site (it is now part of their webservices category) and a struggle to get versions of the modules needed that Render insisted on. I then had to change the python file run.py to app.py, but it has now succeeded and the website is up-and-running. I considered using Heroku, but apart from its authentification regime, the amazing sites fellow students have put together now no longer work because of Heroku's 12 month limit. Migration from Heroku is not easy, so my choice was to use Render.com from the beginning.
 
 ## Validation
 
