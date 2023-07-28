@@ -21,12 +21,12 @@ body {
   /*-----------------------------------------navbar*/
 
   .navbar {
-    background: #31ffc8;
+    background: #234F4E;
     min-height: 60px;
   }
 
   .navbar ul li a{
-    color: #f5793b;
+    color: #3EFFFF;
     margin: auto;
     text-align: center;
   }
@@ -40,7 +40,7 @@ body {
   }
 
   li a:hover {
-    background-color: #31c4ff;
+    background-color: #92bfbe;
   }
 
 /*-----------------------------------------headings*/
