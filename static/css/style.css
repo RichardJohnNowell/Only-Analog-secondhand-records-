@@ -6,7 +6,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: black;
+    color: #010b13;
     font-size: 1.0rem;
     font-weight: 400;
     line-height: 1.5;
@@ -357,7 +357,7 @@ body {
   }
   
   #websitecredit {
-    color: #ff3148;
+    color: #010b13;
     font-size: 1.0rem;
     padding-bottom: 1.0rem;
     text-align: center;
