@@ -12,6 +12,7 @@
 * [Introduction](#introduction)
 * [UserExperience](#userexperience)
 * [Expectations](#expectations)
+* [Font and color scheme](#font-and-color-scheme)
 * [Features](#features)
     * [Homepage](#homepage)
     * [Listings](#listings)
@@ -105,6 +106,17 @@ Links to the vendors' websites can be found in the credits section.
     </li>
   </ol>
 </div>
+
+## Font and colour scheme
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/nunito-sans-example.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/nunito-sans-example.jpg?raw=true" width="350"
+        height="192" title="nunito-sans-example" id="nunito-sans-example" alt="nunito-sans-example">
+    </a>
+</div>
+
+The font Nunito Sans is a modern, plain and readable font that is seventh in the <a href="https://justcreative.com/best-google-fonts" title="best-google-fonts" alt="best-google-fonts" target="_blank" rel="noopener">Best Google fonts 2023 for Professional Design</a> list. Quoting: "Projecting professional confidence, this font can make words hold integrity and depth."
 
 
 
