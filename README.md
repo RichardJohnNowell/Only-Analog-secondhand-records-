@@ -1,6 +1,7 @@
 # Only Analog secondhand records and cassettes
 
-<img src="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-logo-11-july-2023_orig.jpg?raw=true" width="250" height="85" id="nu-logo" title="nu-logo" alt="nu-logo">
+<img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/OAR-Logo-28July-sized.jpg?raw=true" width="176"
+        height="60" title="OAR-Logo-28July-sized" id="OAR-Logo-28July-sized" alt="OAR-Logo-28July-sized">
 <br>
 <p>The website for Only Analog records and cassettes.</p>
 <p>Only Analog is a well-known store in St.Nicholas market, Bristol. We sell only records and cassettes, preferring the sound of analog formats.</p>
@@ -105,21 +106,7 @@ Links to the vendors' websites can be found in the credits section.
   </ol>
 </div>
 
-<p>Colour Scheme and appearance</p>
-<!--- comment --->
-The colour scheme used was inspired by the website "Looka.com" and their blog article
-on the top logo colour trends for 2023. It's easy to opt for, say, Bootstrap's
-default colours, but having something more up-to-date seemed a resonable move.
-I chose a 'zesty' Orange #F5793B as it is popular at the moment and is different from
-red or blue etc. Then using encycolorpedia.com/#f5793b, I chose
-colours that were complimentary or seemed attractive. This approach gave
-me a poool of colours to work from.
 
-The font Nunito Sans is a modern, plain and readable font that is sixth
-in the "justcreative.com/best-google-fonts for professional
-designers". Quoting: "Projecting professional confidence, this font can 
-make words hold integrity and depth."
-<!--- comment --->
 
 ## Features
 <!--- pages and footer --->
