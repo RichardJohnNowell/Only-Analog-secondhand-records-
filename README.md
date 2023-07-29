@@ -118,6 +118,16 @@ Links to the vendors' websites can be found in the credits section.
 
 The font Nunito Sans is a modern, plain and readable font that is seventh in the <a href="https://justcreative.com/best-google-fonts" title="best-google-fonts" alt="best-google-fonts" target="_blank" rel="noopener">Best Google fonts 2023 for Professional Design</a> list. Quoting: "Projecting professional confidence, this font can make words hold integrity and depth."
 
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/OAR-palette-and-deque-pass.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/OAR-palette-and-deque-pass.jpg?raw=true" width="350"
+        height="948" title="OAR-palette-and-deque-pass" id="OAR-palette-and-deque-pass" alt="OAR-palette-and-deque-pass">
+    </a>
+</div>
+
+My first colour scheme was based around a bright, trendy, 'fizzy' orange, but after testing the homepage with Page Speed Insights, I had to change. I then proceeded to use
+the recommended Deque University accessibility checker, which conforms to WCAG standards. After many combinations that didn't work, I eventually found a 'muted'
+palette using the colours shown in the image above. While this wasn't an exciting and fresh scheme, there is a clear contrast and as shown, passes the WCAG test.
 
 
 ## Features
