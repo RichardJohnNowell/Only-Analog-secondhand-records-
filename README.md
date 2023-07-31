@@ -195,7 +195,7 @@ The website Only Analog Records was deployed using Render.com around 10am on 27t
 </div>
 <div align="center">
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/wireframes/oa-wireframes-ipad/oa-wireframe-ipad-listings.jpg?raw=true">
-        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/wireframes/oa-wireframes-ipad/oa-wireframe-ipad-listings.jpg?raw=true
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/wireframes/oa-wireframes-ipad/oa-wireframe-ipad-listings.jpg?raw=true"
         width="350" height="518" id="oa-wireframe-ipad-listings" title="oa-wireframe-ipad-listings" alt="oa-wireframe-ipad-listings">
     </a>
 </div>
@@ -217,7 +217,7 @@ The website Only Analog Records was deployed using Render.com around 10am on 27t
         width="350" height="216" id="oa-wireframe-nest-hub-max-listings" title="oa-wireframe-nest-hub-max-listings" alt="oa-wireframe-nest-hub-max-listings">
     </a>
 </div>
-<div align=""center">
+<div align="center">
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/wireframes/oa-wireframes-nest-hub-max/oa-wireframe-nest-hub-max-blog.jpg?raw=true">
         <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/wireframes/oa-wireframes-nest-hub-max/oa-wireframe-nest-hub-max-blog.jpg?raw=true"
         width="350" height="216" id="oa-wireframe-nest-hub-max-blog" title="oa-wireframe-nest-hub-max-blog" alt="oa-wireframe-nest-hub-max-blog">
