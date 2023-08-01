@@ -167,7 +167,14 @@ The website Only Analog Records was deployed using Render.com around 10am on 27t
 
 ## Wireframes
 
-<!--- comment --->
+21 wireframes were made using the online software Balsamiq. I used three sizes from the choices available: smartphone, ipad and browser (1280x720). The browser choice was sized inline with the Nest Hub Max template on Chrome developers' tools. Each of the 7 website pages was drawn with the 3 choices above as part of the development of the site. So far, it has helped me move badly-placed paragraphs and think more about structure. Shown below are 9 images from the 21 available. All wireframes can be shown by following the link. Here are shown the first 3 pages (home, listings, blog) from the site in the 3 choices above. Please see the full range.
+<div align="center">
+    <p>All images can be clicked on for their full size.</p>
+    <br>
+    <p>Link to wireframe folders:
+      <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/tree/main/static/img/wireframes">Only Analog wireframes.</a>
+    </p>
+</div>
 
 <div align="center">
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/wireframes/oa-wireframes-smartphone/oa-wireframe-smartphone-home.jpg?raw=true">
