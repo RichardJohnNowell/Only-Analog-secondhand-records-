@@ -32,6 +32,14 @@
                 <li class="nav-item">
                     <a class="nav-link" aria-label="listings" href="{{ url_for('listings') }}">Listings</a>
                 </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="{{ url_for('listings') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Listings
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" aria-label="records" href="{{ url_for('records') }}">Records</a>
+                    <a class="dropdown-item" aria-label="cassettes" href="{{ url_for('cassettes') }}">Cassettes</a>
+                  </div>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-label="blog" href="{{ url_for('blog') }}">Blog</a>
                 </li>
