@@ -41,6 +41,16 @@ def register():
     return render_template("register.html")
 
 
+@app.route("/records")
+def records():
+    return render_template("records.html")
+
+
+@app.route("/cassettes")
+def cassettes():
+    return render_template("cassettes.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
