@@ -56,6 +56,10 @@ they want. The three stalls and two shops which have kindly participated, have e
 various forms for decades and each has a vast stock of the media. There is money to be made!
 Links to the vendors' websites can be found in the credits section.
 
+Inline with other secondhand record shops and stalls, Only Analog does not have an e-commerce
+facility on this site or an ebay store. This is because Only Analog wants customers to come to the
+stall and maybe buy other items. This stance has been taken because of market research.
+
 ## UserExperience
 
 <div class="flex-container">
@@ -64,15 +68,11 @@ Links to the vendors' websites can be found in the credits section.
     </li>
     <li> Information can be clearly seen by people with limited sight options. 
     </li>
-    <li> Membership can be obtained free-of-charge (with conditions). 
-    </li>
-    <li> Membership allows a user to reserve any products they wish to buy (max. 3 items for 10 calender days). 
-    </li>
-    <li> For non-members contacting OA is easily done with a professional form. 
+    <li> For non-members contacting Only Analog is easily done with a professional Jotform. 
     </li>
     <li> Only Analog is shown to be a reputable business with a history. 
     </li>
-    <li> Some information about the market itself.
+    <li> Information about St. Nicholas Market.
     </li>
   </ol>
 </div>
@@ -81,14 +81,18 @@ Links to the vendors' websites can be found in the credits section.
 
 <div class="flex-container">
   <ol>
-    <li> OAR's commitment to updating the list once every calendar fortnight by date (if 1st of month, listings will be changed after the 14th.
+    <li> Membership can be obtained free-of-charge (with conditions). 
+    </li>
+    <li> OAR's commitment to updating the listings on the first of every calendar month.
     </li>
     <li> Registered members will be allowed to reserve listed items for 14 calendar days.
     </li>
     <li> Registered members will have a personal secure account that can be changed or deleted.
     </li>
-    <li> Registered members can send a secure message to Only Analog requesting record reservations or to discuss payments.
+    <li> Registered members can send a secure message to Only Analog requesting record reservations.
     </li>
+    <li> Registered members will receive a discount privilege card when first buying a record in person.
+    </li>   
     <li> Registered members can expect other members to be treated equally.
     </li>
     <li> Conditions of membership are:
@@ -96,15 +100,20 @@ Links to the vendors' websites can be found in the credits section.
       <ul>
         <li> Management reserve the right to decline, issue or delete an account at any point. 
         </li>
-        <li> Payments can be made by arrangement using debit or credit cards.
-        </li>
         <li> Vandalism or harrassment will result in deletion of account.
         </li>
-        <li> Enquiries and reservations will be dealt within three calender days of message arrival (please, no multiple accounts).
+        <li> Enquiries and reservations will be dealt within three calender days of message arrival.
         </li>
       </ul>
     </li>
   </ol>
+</div>
+<br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/oa-privilege-card.jpg?raw=true">
+      <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/oa-privilege-card.jpg?raw=true"
+       width="350" height="228" title="oa-privilege-card" id="oa-privilege-card" alt="oa-privilege-card">
+    </a>
 </div>
 
 ## Font
