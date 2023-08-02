@@ -63,5 +63,37 @@
       {% block content %}
       {% endblock %}
 
+      <nav aria-label="page navigation">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#">Previous</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="{{ url_for('index') }}">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="{{ url_for('listings') }}">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="{{ url_for('blog') }}">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="{{ url_for('opinions') }}">4</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="{{ url_for('contact') }}">5</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="{{ url_for('login') }}">6</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="{{ url_for('register') }}">7</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+      </nav>
+
   </body>
 </html>
