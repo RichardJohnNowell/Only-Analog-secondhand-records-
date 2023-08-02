@@ -30,12 +30,13 @@
                     <a class="nav-link" aria-label="home" href="{{ url_for('index') }}">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="{{ url_for('listings') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Listings
+                  <a class="nav-link dropdown-toggle" href="{{ url_for('listings') }}"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Listings
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul class="dropdown-menu">
                     <a class="dropdown-item" aria-label="records" href="{{ url_for('records') }}">Records</a>
                     <a class="dropdown-item" aria-label="cassettes" href="{{ url_for('cassettes') }}">Cassettes</a>
-                  </div>
+                  </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-label="blog" href="{{ url_for('blog') }}">Blog</a>
