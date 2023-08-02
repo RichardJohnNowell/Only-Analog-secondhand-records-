@@ -1,6 +1,6 @@
 # Only Analog secondhand records and cassettes
 
-<img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/OAR-Logo-28July-sized.jpg?raw=true" title="OAR-Logo-28July-sized" id="OAR-Logo-28July-sized" alt="OAR-Logo-28July-sized">
+<img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/oar-Logo-28July-sized.jpg?raw=true" title="OAR-Logo-28July-sized" id="OAR-Logo-28July-sized" alt="OAR-Logo-28July-sized">
 <br>
 <p>The website for Only Analog records and cassettes.</p>
 <p>Only Analog is a well-known store in St.Nicholas market, Bristol. We sell only records and cassettes, preferring the sound of analog formats.</p>
@@ -130,8 +130,8 @@ The font Nunito Sans is a modern, plain and readable font that is seventh in the
 ## Colours
 
 <div align="center">
-    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/OAR-palette-and-deque-pass.jpg?raw=true">
-        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/OAR-palette-and-deque-pass.jpg?raw=true" width="350"
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oar-palette-and-deque-pass.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oar-palette-and-deque-pass.jpg?raw=true" width="350"
         height="948" title="OAR-palette-and-deque-pass" id="OAR-palette-and-deque-pass" alt="OAR-palette-and-deque-pass">
     </a>
 </div>
