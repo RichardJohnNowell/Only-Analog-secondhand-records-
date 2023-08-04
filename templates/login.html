@@ -1,7 +1,34 @@
-{% extends "base.html" %}
+{% extends "base.html" %} 
 {% block content %}
-    <br>
-    <p>
-        Login page for OA.
-    </p>
+  <!-- login page -->
+  <div class="login-box">
+    <div class="login-body">
+      <!-- username and password form -->
+      <p>Please enter your OA username and password:
+      </p>
+      <form class="form-group" action="{{ url_for('login') }}" method="post">
+        <!-- username -->
+        <label>Username 
+        </label>
+        <input type="text" class="form-control" name="username" placeholder="Username" id="username" required>
+        <!-- password -->
+        <label>Password 
+        </label>
+        <input type="password" class="form-control" name="password" placeholder="Password" id="password" required>
+      </form>
+      <!-- end of form --> {% with messages = get_flashed_messages()  %} {% if messages %} {% for message in messages %}
+      <!-- flash message --> 
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+          {{ message }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+        </div> {% endfor %} {% endif %} {% endwith %}
+        <!-- if no account found -->
+        <br>
+        <p>Sorry, no account found! 
+          <a href="{{ url_for('register') }}">Please register</a>
+        </p>
+    </div>
+  </div>
 {% endblock %}
