@@ -16,6 +16,7 @@
 
   <body>
       <header>
+        <!-- bootstrap navbar -->
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -30,7 +31,7 @@
                 <li class="nav-item">
                     <a class="nav-link" aria-label="home" href="{{ url_for('index') }}">Home</a>
                 </li>
-                <!-- listings, records, cassettes -->
+                <!-- listings, records, cassettes dropdown -->
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="{{ url_for('listings') }}"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Listings
@@ -44,20 +45,23 @@
                     </li>
                   </ul>
                 </li>
-
                 <!-- blog -->
                 <li class="nav-item">
                     <a class="nav-link" aria-label="blog" href="{{ url_for('blog') }}">Blog</a>
                 </li>
+                <!-- opinions -->
                 <li class="nav-item">
                     <a class="nav-link" aria-label="opinions" href="{{ url_for('opinions') }}">Opinions</a>   
                 </li>
+                <!-- contact -->
                 <li class="nav-item">
                     <a class="nav-link" aria-label="contact" href="{{ url_for('contact') }}">Contact</a>                    
                 </li>
+                <!-- login -->
                 <li class="nav-item">
                   <a class="nav-link" aria-label="login" href="{{ url_for('login') }}">Login</a>
                 </li>
+                <!-- register -->
                 <li class="nav-item">
                   <a class="nav-link" aria-label="register" href="{{ url_for('register') }}">Register</a>
                 </li>
@@ -65,40 +69,34 @@
             </div>
           </div>
         </nav>
+        <!-- end of navbar -->
       </header>
-      
-
       {% block content %}
       {% endblock %}
-
+    
+      <!-- bootstrap pagination -->
       <nav aria-label="page navigation">
         <ul class="pagination pagination-sm justify-content-center">
-            <li class="page-item">
-                <a class="page-link" href="#">Previous</a>
-            </li>
-            <li class="page-item">
+            <li class="page-item active" aria-current="page">
                 <a class="page-link" href="{{ url_for('index') }}">1</a>
             </li>
-            <li class="page-item">
+            <li class="page-item active" aria-current="page">
                 <a class="page-link" href="{{ url_for('listings') }}">2</a>
             </li>
-            <li class="page-item">
+            <li class="page-item active" aria-current="page">
                 <a class="page-link" href="{{ url_for('blog') }}">3</a>
             </li>
-            <li class="page-item">
+            <li class="page-item active" aria-current="page">
                 <a class="page-link" href="{{ url_for('opinions') }}">4</a>
             </li>
-            <li class="page-item">
+            <li class="page-item active" aria-current="page">
                 <a class="page-link" href="{{ url_for('contact') }}">5</a>
             </li>
-            <li class="page-item">
+            <li class="page-item active" aria-current="page">
                 <a class="page-link" href="{{ url_for('login') }}">6</a>
             </li>
-            <li class="page-item">
+            <li class="page-item active" aria-current="page">
                 <a class="page-link" href="{{ url_for('register') }}">7</a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="#">Next</a>
             </li>
         </ul>
       </nav>
