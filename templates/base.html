@@ -77,6 +77,9 @@
       <!-- bootstrap pagination -->
       <nav aria-label="page navigation">
         <ul class="pagination pagination-sm justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#">Previous</a>
+            </li>
             <li class="page-item active" aria-current="page">
                 <a class="page-link" href="{{ url_for('index') }}">1</a>
             </li>
@@ -97,6 +100,9 @@
             </li>
             <li class="page-item active" aria-current="page">
                 <a class="page-link" href="{{ url_for('register') }}">7</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
             </li>
         </ul>
       </nav>
