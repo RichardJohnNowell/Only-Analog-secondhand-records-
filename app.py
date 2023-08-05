@@ -1,15 +1,12 @@
 #start
 import os
-from flask import Flask, flash, redirect, render_template, request, session, url_for
-import psycopg2 
-import psycopg2.extras
-import re 
-from werkzeug.security import generate_password_hash, check_password_hash
+from flask import Flask, render_template
 
 
 app = Flask(__name__)
-app.secret_key = 'secret key'
 
+"""
+app.secret_key = 'secret key'
 
 #postgresql database
 DB_HOST = "dpg-cj15uic07spjv9qfcr0g-a"
@@ -17,9 +14,9 @@ DB_NAME = "only_analog_records"
 DB_USER = "only_analog_records_user"
 DB_PASS = "etc"
 
-
 #postgresql connection
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
+"""
 
 
 @app.route("/")
