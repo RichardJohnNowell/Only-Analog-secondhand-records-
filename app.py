@@ -8,47 +8,82 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
+    """
+    routing for homepage
+    """
     return render_template("index.html")
 
 
 @app.route("/listings")
 def listings():
+    """
+    routing for listings page
+    """
     return render_template("listings.html")
-
-
-@app.route("/blog")
-def blog():
-    return render_template("blog.html")
-
-
-@app.route("/opinions")
-def opinions():
-    return render_template("opinions.html")
-
-
-@app.route("/contact")
-def contact():
-    return render_template("contact.html")
-
-
-@app.route("/login")
-def login():
-    return render_template("login.html")
-
-
-@app.route("/register")
-def register():
-    return render_template("register.html")
 
 
 @app.route("/records")
 def records():
+    """
+    routing for records page
+    """
     return render_template("records.html")
 
 
 @app.route("/cassettes")
 def cassettes():
+    """
+    routings for cassettes page
+    """
     return render_template("cassettes.html")
+
+
+@app.route("/blog")
+def blog():
+    """
+    routing for blog page
+    """
+    return render_template("blog.html")
+
+
+@app.route("/opinions")
+def opinions():
+    """
+    routing for opinions page
+    """
+    return render_template("opinions.html")
+
+
+@app.route("/contact")
+def contact():
+    """
+    routing for contact page
+    """
+    return render_template("contact.html")
+
+
+@app.route("/login")
+def login():
+    """
+    routing for login page
+    """
+    return render_template("login.html")
+
+
+@app.route("/register")
+def register():
+    """
+    routing for register page
+    """
+    return render_template("register.html")
+
+
+@app.route("/profile")
+def profile():
+    """
+    routing for profile page
+    """
+    return render_template("register.html")
 
 
 if __name__ == "__main__":
