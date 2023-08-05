@@ -43,7 +43,91 @@ body {
     background-color: #92bfbe;
   }
 
-/*-----------------------------------------headings*/
+/*login and register*/
+
+  .form-control {
+    height: auto;
+    padding: 8px 12px;
+  }
+
+  .form-group{
+    margin-bottom: 15px;
+  }
+
+  .login-box {
+    background: #92bfbe;
+    height: 50%;
+    margin-left: 35%;
+    margin-top: 10%;
+    position: relative;
+    width: 30%;
+  }
+
+  .login-body {
+    line-height: 2px;
+    padding: 20px;
+  }
+
+  .login-button {
+    margin-top: 5px;
+  }
+
+  .login-header {
+    background: #3Effff;
+    color: #fefefa;
+    font-size: 35px;
+    position: relative;
+    text-align: center;
+  }
+
+  .login-register {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .main {
+    margin-top:50px;
+  }
+
+  .main-login {
+    background-color: #92bfbe;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+  }
+
+  .main-center {
+    background: #92bfbe;
+    color: #fefefa;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 400px;
+    padding: 10px 40px;
+  }
+
+  .msg {
+    background-color: #234f4e;
+    color: #92bfbe;
+    margin-bottom: 1rem;
+    padding: .75rem 1.25rem;
+  } 
+
+  input, input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+  }
+
+  hr {
+    color: #fefefa;
+    width: 10%;
+  }
+
+  label {
+    margin-bottom: 15px;
+  }
+
+/*-----------------------------------------headings*/ 
+
   #intro {   
     color: #234F4E;
     font-size: 1.5rem;
