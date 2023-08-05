@@ -5,7 +5,7 @@
     <div class="row main">
       <div class="main-login main-center">
         <!-- main page title -->
-        <h1>Register as a new user or login to existing Only Analog account:</h1>
+        <h1>Register as a new user or login to existing OA account:</h1>
         <form action="{{ url_for('register') }}" method="post" autocomplete="off">
           <!-- name entry -->
           <div class="form-group">
@@ -13,9 +13,6 @@
             </label>
             <div class="cols-sm-10">
               <div class="input-group">
-                <span class="input-group-addon">
-                  <i class="fa fa-user fa" aria-hidden="true"></i>
-                </span>
                 <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter your Name" />
               </div>
             </div>
@@ -25,9 +22,6 @@
             <label for="email" class="cols-sm-2 control-label">Your Email</label>
             <div class="cols-sm-10">
               <div class="input-group">
-                <span class="input-group-addon">
-                  <i class="fa fa-envelope fa" aria-hidden="true"></i>
-                </span>
                 <input type="text" class="form-control" name="email" id="email" placeholder="Enter your Email" />
               </div>
             </div>
@@ -37,9 +31,6 @@
             <label for="username" class="cols-sm-2 control-label">Username</label>
             <div class="cols-sm-10">
               <div class="input-group">
-                <span class="input-group-addon">
-                  <i class="fa fa-users fa" aria-hidden="true"></i>
-                </span>
                 <input type="text" class="form-control" name="username" id="username" placeholder="Enter your Username" required>
               </div>
             </div>
@@ -49,13 +40,11 @@
             <label for="password" class="cols-sm-2 control-label">Password</label>
             <div class="cols-sm-10">
               <div class="input-group">
-                <span class="input-group-addon">
-                  <i class="fa fa-lock fa-lg" aria-hidden="true"></i>
-                </span>
                 <input type="password" class="form-control" name="password" placeholder="Password" id="password" required placeholder="Enter your Password" />
               </div>
             </div>
           </div>
+          <br>
           <!-- login if registered -->
           <div class="form-group "> {% with messages = get_flashed_messages()  %} {% if messages %} {% for message in messages %} 
               <div class="alert alert-success alert-dismissible fade show" role="alert">
