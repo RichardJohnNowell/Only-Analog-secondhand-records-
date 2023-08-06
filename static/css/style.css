@@ -52,11 +52,7 @@ body {
   }
  
   .login-box {
-    height: 50%;
-    width: 30%;
-  /*----  margin-left: 35%; ---*/
-    margin-top: 10%;
-    position: relative;
+
     box-shadow: 10px 5px 10px 5px #010b13;
     background: #92bfbe;
   }
