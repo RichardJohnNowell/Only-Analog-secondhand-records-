@@ -50,26 +50,35 @@ body {
     background-color: #92bfbe;
     margin: 0; 
   }
- 
-  .login-box {
 
-    box-shadow: 10px 5px 10px 5px #010b13;
-    background: #92bfbe;
-    margin-top: 10%;
+  .form-group {
+    margin-bottom: 15px;
   }
 
-  .login-header {
-    text-align: center;
-    font-size: 35px;
-    background: linear-gradient(to bottom, #3Effff 0%);
-    color:#fff;
-    position: relative;
-    box-shadow: 1px 3px 14px #010b13;
+  .form-control {
+    height: auto;
+    padding: 8px 12px;
+  }
+ 
+  .login-box {
+    box-shadow: 4px 2px 4px 2px #010b13;
+    background: #92bfbe;
+    margin-top: 10%;
+    max-width: 400px;
   }
 
  .login-body {
     padding: 20px;
     line-height: 2;
+  }
+
+  .login-button {
+    margin-top: 5px;
+  }
+
+  .login-register {
+    font-size: 11px;
+    text-align: center;
   }
 
   .msg {
@@ -83,27 +92,9 @@ body {
   }
 
   .main {
-    margin-top:50px;
+    margin-top: 10%;
   }
- 
-  hr {
-    width: 10%;
-    color: #fefefa;
-  }
- 
-  .form-group {
-    margin-bottom: 15px;
-  }
- 
-  label {
-    margin-bottom: 15px;
-  }
- 
-  input, input::-webkit-input-placeholder {
-    font-size: 11px;
-    padding-top: 3px;
-  }
- 
+
   .main-login {
     background-color: #fefefa;
     -moz-border-radius: 2px;
@@ -114,17 +105,6 @@ body {
     box-shadow: 0px 2px 2px #010b13;
   }
 
-  .form-control {
-    height: auto;
-    padding: 8px 12px;
-  }
-
-  .input-group {
-    webkit-box-shadow: 0px 2px 5px 0px #010b13;
-    -moz-box-shadow: 0px 2px 5px 0px #010b13;
-    box-shadow: 0px 2px 5px 0px #010b13; 
-  }
-
   .main-center {
     margin-top: 30px;
     margin: 0 auto;
@@ -132,27 +112,31 @@ body {
     padding: 10px 40px;
     background:#92bfbe;
     color: #fefefa;
-    text-shadow: none;
     -webkit-box-shadow: 0px 3px 5px 0px #010b13;
     -moz-box-shadow: 0px 3px 5px 0px #010b13;
     box-shadow: 0px 3px 5px 0px #010b13;
   }
-  
-  span.input-group-addon i {
+ 
+  hr {
+    width: 10%;
     color: #fefefa;
-    font-size: 17px;
-    padding:10px;
   }
  
-  .login-button {
-    margin-top: 5px;
-  }
- 
-  .login-register {
+  input, input::-webkit-input-placeholder {
     font-size: 11px;
-    text-align: center;
+    padding-top: 3px;
   }
  
+  .input-group {
+    webkit-box-shadow: 0px 2px 5px 0px #010b13;
+    -moz-box-shadow: 0px 2px 5px 0px #010b13;
+    box-shadow: 0px 2px 5px 0px #010b13; 
+  }
+
+  label {
+    margin-bottom: 15px;
+  }
+
   .site-header {
     background-color: #010b13;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
