@@ -96,7 +96,7 @@ def profile():
     """
     routing for profile page
     """
-    return render_template("register.html")
+    return render_template("profile.html")
 
 
 if __name__ == "__main__":
