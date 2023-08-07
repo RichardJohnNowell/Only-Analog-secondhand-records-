@@ -51,6 +51,27 @@ body {
     margin: 0; 
   }
 
+  
+  .btn-dark {
+    color: #234F4E;
+    background-color: #3EFFFF;
+  }
+  
+  .btn-dark:hover {
+    color: #3EFFFF;
+    background-color: #234F4E;
+  }
+
+  .btn-success {
+    color: #234F4E;
+    background-color: #3EFFFF;
+  }
+
+  .btn-success:hover {
+    color: #3EFFFF;
+    background-color: #234F4E;
+  } 
+
   .form-group {
     margin-bottom: 15px;
   }
