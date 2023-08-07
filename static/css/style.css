@@ -64,7 +64,8 @@ body {
     background: #92bfbe;
     box-shadow: 4px 2px 4px 2px #010b13;
     margin-top: 5%;
-    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
  .login-body {
