@@ -1,7 +1,7 @@
 #start
 import os
 from flask import Flask, request, session, redirect, url_for, render_template, flash
-import psycopg2-binary
+import psycopg2 #pip install psycopg2
 import re
 from werkzeug import generate_password_hash, check_password_hash
 
