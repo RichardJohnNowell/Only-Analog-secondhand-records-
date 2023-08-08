@@ -45,12 +45,6 @@ body {
 
 /*-----------------------------------------login and register*/
 
-
-  body {
-    background-color: #92bfbe;
-    margin: 0; 
-  }
-
   
   .btn-dark {
     color: #234F4E;
@@ -81,11 +75,10 @@ body {
     padding: 8px 12px;
     margin-left: auto;
     margin-right: auto;
-
   }
  
   .login-box {
-    background: #92bfbe;
+    background: #f1be53;
     box-shadow: 2px 4px 4px 2px #010b13;
     margin-top: 5%;
     margin-left: auto;
@@ -100,6 +93,10 @@ body {
 
   .login-button {
     margin-top: 5px;
+  }
+
+  .login-entries {
+    box-shadow: 0px 2px 5px 0px #010b13;  
   }
 
   .login-register {
@@ -124,13 +121,13 @@ body {
   .main-login {
     background-color: #fefefa;
     border-radius: 2px;
-    box-shadow: 2px 4px 4px 2px #010b13;
+    box-shadow: 0px 3px 5px 0px #010b13;
   }
 
   .main-center {
-    background:#92bfbe;
-    box-shadow: 0px 3px 5px 0px #010b13;
-    color: #fefefa;
+    background-color: #f1be53;
+    box-shadow: 2px 4px 4px 2px #010b13;
+    color: #010b13;
     margin: 0 auto;
     margin-top: 30px;
     max-width: 400px;
@@ -154,16 +151,6 @@ body {
   label {
     margin-bottom: 15px;
   }
-/*
-  .site-header {
-    background-color: #010b13;
-    backdrop-filter: saturate(180%) blur(20px);
-  }
-
-  .site-header a { 
-    color: #fefefa;
-  }
-*/
 
 /*-----------------------------------------headings*/ 
 
@@ -199,7 +186,6 @@ body {
     text-align: center;
     text-decoration: underline;
    }
-
 
   #contents {   
     color: #234F4E;
@@ -342,12 +328,12 @@ body {
 
   #aswad-a-new-chapter-of-dub {
       width: 350px;
-      height: 413px;
+      height: 369px;
   }
 
   #avril-lavigne-love-sux {
     width: 350px;
-    height: 551px;
+    height: 556px;
   }
 
   #dr-dre-the-chronic {
@@ -360,24 +346,24 @@ body {
     height: 352px;
   }
 
-  #new-boots-and-panties {
-    width: 350px;
-    height: 351px;
-  }
-  
-  #oa-logo {
+  #logo-sized-28july {
     width: 176px;
     height: 60px;
   }
 
+  #new-boots-and-panties {
+    width: 350px;
+    height: 349px;
+  }
+
   #payback-stall-1-sized {
     width: 350px;
-    height: 135px;
+    height: 178px;
   }
 
   #pw-cassettes {
     width: 350px;
-    height: 239px;
+    height: 241px;
   }
 
   #prime-cuts-poster {
