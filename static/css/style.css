@@ -1,487 +1,472 @@
 /* ----------------------------------------start */
 
 body {
-    background-attachment: fixed;
-    background-image: url("https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-background-image-23july_orig.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #010b13;
-    font-size: 1.0rem;
-    font-weight: 400;
-    line-height: 1.5;
-  }
-  
-  p {
-    margin: auto;
-    text-align: center;
-    width: 88%;
-  }
+  background-attachment: fixed;
+  background-image: url("https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-background-image-23july_orig.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #010b13;
+  font-size: 1.0rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
 
-  /*-----------------------------------------navbar*/
+p {
+  margin: auto;
+  text-align: center;
+  width: 88%;
+}
 
-  .navbar {
-    background: #234F4E;
-    min-height: 60px;
-  }
+/*-----------------------------------------navbar*/
 
-  .navbar ul li a{
-    color: #3EFFFF;
-    margin: auto;
-    text-align: center;
-  }
+li a:hover {
+  background-color: #92bfbe;
+}
 
-  nav li {
-    display: inline-block;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 40px;
-    margin-left: 7px;
-  }
+.navbar {
+  background: #234F4E;
+  min-height: 60px;
+}
 
-  li a:hover {
-    background-color: #92bfbe;
-  }
+nav li {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 40px;
+  margin-left: 7px;
+}
+
+.navbar ul li a{
+  color: #3EFFFF;
+  margin: auto;
+  text-align: center;
+}
 
 /*-----------------------------------------login and register*/
 
-  
-  .btn-dark {
-    color: #234F4E;
-    background-color: #3EFFFF;
-  }
-  
-  .btn-dark:hover {
-    color: #3EFFFF;
-    background-color: #234F4E;
-  }
+.btn-dark {
+  color: #234F4E;
+  background-color: #3EFFFF;
+}
 
-  .btn-success {
-    color: #234F4E;
-    background-color: #3EFFFF;
-  }
+.btn-dark:hover {
+  color: #3EFFFF;
+  background-color: #234F4E;
+}
 
-  .btn-success:hover {
-    color: #3EFFFF;
-    background-color: #234F4E;
-  } 
+.btn-success {
+  color: #234F4E;
+  background-color: #3EFFFF;
+}
 
-  .form-group {
-    margin-bottom: 15px;
-  }
+.btn-success:hover {
+  color: #3EFFFF;
+  background-color: #234F4E;
+} 
 
-  .form-control {
-    height: auto;
-    padding: 8px 12px;
-    margin-left: auto;
-    margin-right: auto;
-  }
- 
-  .login-box {
-    background: #f1be53;
-    box-shadow: 2px 4px 4px 2px #010b13;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
+.form-group {
+  margin-bottom: 15px;
+}
 
- .login-body {
-    line-height: 2;
-    padding: 20px;
-  }
+.form-control {
+  height: auto;
+  padding: 8px 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .login-button {
-    margin-top: 5px;
-  }
+hr {
+  color: #fefefa;
+  width: 10%;
+}
 
-  .login-entries {
-    box-shadow: 0px 2px 5px 0px #010b13;  
-  }
+input, input::-webkit-input-placeholder {
+  font-size: 11px;
+  padding-top: 3px;
+}
 
-  .login-register {
-    font-size: 11px;
-    text-align: center;
-  }
+.input-group {
+  box-shadow: 0px 2px 5px 0px #010b13; 
+}
 
-  .msg {
-    background-color: #fefefa;
-    border: 1px solid transparent;
-    border-color: #234F4E;
-    border-radius: .25rem;
-    color: #3EFFFF;
-    margin-bottom: 1rem;
-    padding: .75rem 1.25rem;
-  }
+label {
+  margin-bottom: 15px;
+}
 
-  .main {
-    margin-top: 5%;
-  }
+.login-box {
+  background: #f1be53;
+  box-shadow: 2px 4px 4px 2px #010b13;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
-  .main-login {
-    background-color: #fefefa;
-    border-radius: 2px;
-    box-shadow: 0px 3px 5px 0px #010b13;
-  }
+.login-body {
+  line-height: 2;
+  padding: 20px;
+}
 
-  .main-center {
-    background-color: #f1be53;
-    box-shadow: 2px 4px 4px 2px #010b13;
-    color: #010b13;
-    margin: 0 auto;
-    margin-top: 30px;
-    max-width: 400px;
-    padding: 10px 40px;
-  }
- 
-  hr {
-    color: #fefefa;
-    width: 10%;
-  }
- 
-  input, input::-webkit-input-placeholder {
-    font-size: 11px;
-    padding-top: 3px;
-  }
- 
-  .input-group {
-    box-shadow: 0px 2px 5px 0px #010b13; 
-  }
+.login-button {
+  margin-top: 5px;
+}
 
-  label {
-    margin-bottom: 15px;
-  }
+.login-entries {
+  box-shadow: 0px 2px 5px 0px #010b13;  
+}
+
+.login-register {
+  font-size: 11px;
+  text-align: center;
+}
+
+.msg {
+  background-color: #fefefa;
+  border: 1px solid transparent;
+  border-color: #234F4E;
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+  padding: .75rem 1.25rem;
+}
+
+.main {
+  margin-top: 5%;
+}
+
+.main-login {
+  background-color: #fefefa;
+  border-radius: 2px;
+  box-shadow: 0px 3px 5px 0px #010b13;
+}
+
+.main-center {
+  background-color: #f1be53;
+  box-shadow: 2px 4px 4px 2px #010b13;
+  color: #010b13;
+  margin: 0 auto;
+  margin-top: 30px;
+  max-width: 400px;
+  padding: 10px 40px;
+}
 
 /*-----------------------------------------headings*/ 
 
-  #intro {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-    padding-top: 2.0rem;
-   }
+#aswad {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #record-selection {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#avril {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #pricings {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#cassettes {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #St-Nicks {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+ #contact-oa  {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #contents {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#contents {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #record-selection {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-    padding-top: 3.0rem;
-   }
+ #continuity {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #list-records {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+ #debate {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #img-cassettes {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#dr-dre {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #cassettes {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#hombre {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #hombre {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#ian-dury {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #avril {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#img-cassettes {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #ian-dury {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#intro {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2.0rem;
+}
 
-  #the-idles {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#list-records {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #aswad {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+ #lots-singles {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-  #dr-dre {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#pricings {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-   #record-stall {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#record-selection {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 3.0rem;
+  text-align: center;
+  text-decoration: underline;
+}
 
-   #debate {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+ #record-stall {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-   #lots-singles {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#St-Nicks {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-   #continuity {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#st-nicks-info { 
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-   #contact-oa  {   
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
+#the-idles {   
+  color: #234F4E;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+}
 
-   #st-nicks-info { 
-    color: #234F4E;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-   }
-       
 /*-----------------------------------------image_sizing*/
 
-  #aswad-a-new-chapter-of-dub {
-      width: 350px;
-      height: 369px;
-  }
-
-  #avril-lavigne-love-sux {
+#aswad-a-new-chapter-of-dub {
     width: 350px;
-    height: 556px;
-  }
+    height: 369px;
+}
 
-  #dr-dre-the-chronic {
-      width: 350px;
-      height: 546px;
-  }
+#avril-lavigne-love-sux {
+  width: 350px;
+  height: 556px;
+}
 
-  #hombre-1998 {
+#dr-dre-the-chronic {
     width: 350px;
-    height: 352px;
-  }
+    height: 546px;
+}
 
-  #logo-sized-28july {
-    width: 176px;
-    height: 60px;
-  }
+#hombre-1998 {
+  width: 350px;
+  height: 352px;
+}
 
-  #new-boots-and-panties {
-    width: 350px;
-    height: 349px;
-  }
+#logo-sized-28july {
+  width: 176px;
+  height: 60px;
+}
 
-  #payback-stall-1-sized {
-    width: 350px;
-    height: 178px;
-  }
+#new-boots-and-panties {
+  width: 350px;
+  height: 349px;
+}
 
-  #pw-cassettes {
-    width: 350px;
-    height: 241px;
-  }
+#payback-stall-1-sized {
+  width: 350px;
+  height: 178px;
+}
 
-  #prime-cuts-poster {
-    width: 350px;
-    height: 599px;
-  }
+#pw-cassettes {
+  width: 350px;
+  height: 241px;
+}
 
-  #rockshop-coloured {
-    width: 350px;
-    height: 350px;
-  }
+#prime-cuts-poster {
+  width: 350px;
+  height: 599px;
+}
 
-  #rockshop-singles {
-    width: 350px;
-    height: 211px;
-  }
+#rockshop-coloured {
+  width: 350px;
+  height: 350px;
+}
 
-  #st-nicholas-market {
-    width: 350px;
-    height: 219px;
-  }
+#rockshop-singles {
+  width: 350px;
+  height: 211px;
+}
 
-  #the-idles-crawler {
-    width: 350px;
-    height: 559px;
-  }
+#st-nicholas-market {
+  width: 350px;
+  height: 219px;
+}
 
-  #wanted-records-group {
-    width: 350px;
-    height: 179px;
-  }
+#the-idles-crawler {
+  width: 350px;
+  height: 559px;
+}
 
-  #wanted-records-2 {
-    width: 350px;
-    height: 179px;
-  }
+#wanted-records-group {
+  width: 350px;
+  height: 179px;
+}
+
+#wanted-records-2 {
+  width: 350px;
+  height: 179px;
+}
 
 /* ----------------------------------------blog */
 
-  .blog {
-    padding: 10px 10px 10px 10px;
-    position: static;
-    text-align: center;
-  }
+.blog {
+  padding: 10px 10px 10px 10px;
+  position: static;
+  text-align: center;
+}
 
 
-  .figure-caption {
-    color: black;
-    font-size: 1rem;
-    margin: auto;
-  }
+.figure-caption {
+  color: black;
+  font-size: 1rem;
+  margin: auto;
+}
 
 /*-----------------------------------------flexbox*/
-  
-  .flex-container {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      align-items: center;
-    }
-    
-  .flex-container > div {
-      margin: 0.4rem;
-      padding: 1.2rem;
-    }
 
-  /*-----------------------------------------jotform*/
-
-  #JotFormIFrame-231864072231349 {
-      min-width:100%;
-      max-width:100%;
-      height:539px;
-      border:none;
-     }
-
-  /*------------------------------------------footer*/
-
-  footer {
-    height: 3.0rem;
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
   }
   
-  .social-networks {
-    text-align: center;
-  }
-  
-  .social-networks li {
-    display: inline;
-  }
-  
-  .social-networks i {
-    font-size: 1.0rem;
-    margin: 1.25rem;
-  }
-  
-  #websitecredit {
-    color: #010b13;
-    font-size: 1.0rem;
-    padding-bottom: 1.0rem;
-    text-align: center;
+.flex-container > div {
+    margin: 0.4rem;
+    padding: 1.2rem;
   }
 
-  
+/*-----------------------------------------jotform*/
 
+#JotFormIFrame-231864072231349 {
+    min-width:100%;
+    max-width:100%;
+    height:539px;
+    border:none;
+   }
 
-  /*-----------------------------------------media_queries*/
+/*------------------------------------------footer*/
 
-  @media only screen and (min-width: 601px) {
-    .container, .figure, .form-control, .login-box {
-      width: 56%;
-    }
+footer {
+  height: 3.0rem;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 1.0rem;
+  margin: 1.25rem;
+}
+
+#websitecredit {
+  color: #010b13;
+  font-size: 1.0rem;
+  padding-bottom: 1.0rem;
+  text-align: center;
+}
+
+/*-----------------------------------------media_queries*/
+
+@media only screen and (min-width: 601px) {
+  .container, .figure, .form-control, .login-box {
+    width: 56%;
   }
+}
 
-  @media only screen and (min-width: 601px) {
-    p {
-      width: 58%;
-    }
+@media only screen and (min-width: 601px) {
+  p {
+    width: 58%;
   }
+}
 
-  
-
-
+/*------------------------------------------end*/
