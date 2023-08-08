@@ -1,23 +1,31 @@
 #start
 import os
-from flask import Flask, render_template
+from flask import Flask, request, session, redirect, url_for, render_template, flash
+import psycopg2-binary
+import re
+from werkzeug import generate_password_hash, check_password_hash
 
 
 app = Flask(__name__)
 
 """
-app.secret_key = 'secret key'
+app.secret_key = "secret key"
 
 #postgresql database
 DB_HOST = "dpg-cj15uic07spjv9qfcr0g-a"
 DB_NAME = "only_analog_records"
-DB_USER = "only_analog_records_user"
 DB_PASS = "etc"
+DB_PORT = "5432"
+DB_USER = "only_analog_records_user"
 
-#postgresql connection
-conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
+#connection to sql
+conn = psycopg2.connect(
+    database="only_analog_records",
+    host="dpg-cj15uic07spjv9qfcr0g-a",
+    password="etc",
+    port="5432",
+    user="only_analog_records_user")
 """
-
 
 @app.route("/")
 def index():
