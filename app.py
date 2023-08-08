@@ -1,16 +1,11 @@
 #start
 import os
 from flask import Flask, request, session, redirect, url_for, render_template, flash
-import psycopg2 #pip install psycopg2
-import re
-from werkzeug import generate_password_hash, check_password_hash
-
 
 app = Flask(__name__)
+#app.secret_key = "secret key"
 
 """
-app.secret_key = "secret key"
-
 #postgresql database
 DB_HOST = "dpg-cj15uic07spjv9qfcr0g-a"
 DB_NAME = "only_analog_records"
