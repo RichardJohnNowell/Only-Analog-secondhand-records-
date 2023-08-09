@@ -43,6 +43,10 @@ nav li {
   text-align: center;
 }
 
+.navbar-nav > li > .dropdown-menu { 
+  background-color: #234F4E; 
+}
+
 /*-----------------------------------------login and register*/
 
 .btn-dark {
