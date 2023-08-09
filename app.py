@@ -3,24 +3,6 @@ import os
 from flask import Flask, request, session, redirect, url_for, render_template, flash
 
 app = Flask(__name__)
-#app.secret_key = "secret key"
-
-"""
-#postgresql database
-DB_HOST = "dpg-cj15uic07spjv9qfcr0g-a"
-DB_NAME = "only_analog_records"
-DB_PASS = "etc"
-DB_PORT = "5432"
-DB_USER = "only_analog_records_user"
-
-#connection to sql
-conn = psycopg2.connect(
-    database="only_analog_records",
-    host="dpg-cj15uic07spjv9qfcr0g-a",
-    password="etc",
-    port="5432",
-    user="only_analog_records_user")
-"""
 
 @app.route("/")
 def index():
