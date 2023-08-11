@@ -4,6 +4,20 @@ from flask import Flask, request, session, redirect, url_for, render_template, f
 
 app = Flask(__name__)
 
+"""
+#postgresql database values
+app.config["RENDER_HOST"] = os.environ.get("RENDER_HOST")
+app.config["RENDER_NAME"] = os.environ.get("RENDER_NAME")
+app.config["RENDER_PASSWORD"] = os.environ.get("RENDER_PASSWORD")
+app.config["RENDER_PORT"] = os.environ.get("RENDER_PORT")
+app.config["RENDER_URL"] = os.environ.get("RENDER_URL")
+app.config["RENDER_USERNAME"] = os.environ.get("RENDER_USERNAME")
+#secret key
+app.secret_key = os.environ.get("SECRET_KEY")
+#postgresql database connection using psycopg2
+conn = psycopg2.connect("dbname=RENDER_NAME user=RENDER_USERNAME password=RENDER_PASSWORD host=RENDER_HOST port=RENDER_PORT url=RENDER_URL")
+"""
+
 @app.route("/")
 def index():
     """
