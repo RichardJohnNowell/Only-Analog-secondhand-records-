@@ -88,12 +88,12 @@ def register():
     return render_template("register.html")
 
 
+"""
 @app.route("/profile")
 def profile():
-    """
     routing for profile page
-    """
     return render_template("profile.html")
+"""
 
 
 if __name__ == "__main__":
