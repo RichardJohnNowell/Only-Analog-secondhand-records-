@@ -1,12 +1,19 @@
-#start
 import os
-from flask import Flask, request, session, redirect, url_for, render_template, flash
-import psycopg2 
-import re 
+from flask import (Flask, request, session, redirect, url_for,
+                   render_template, flash)
+import psycopg2
+import re
 from werkzeug.security import generate_password_hash, check_password_hash
+if os.path.exists("env.py"):
+    import env
 
 
 app = Flask(__name__)
+
+"""
+DATABASE_URL = os.environ['DATABASE_URL']
+conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+"""
 
 
 @app.route("/")
