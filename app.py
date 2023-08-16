@@ -10,10 +10,11 @@ if os.path.exists("env.py"):
 
 app = Flask(__name__)
 
-"""
+
 DATABASE_URL = os.environ['DATABASE_URL']
+
+
 conn = psycopg2.connect(DATABASE_URL, sslmode='require')
-"""
 
 
 @app.route("/")
