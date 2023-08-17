@@ -171,8 +171,120 @@ palette using the colours shown in the image above. While this wasn't an excitin
 The website Only Analog Records was deployed using Render.com around 10am on 27th July 2023. I used Render as it has a free tier for its smaller websites and connects internally to a new PostgreSQL database, thus minimising linkage hassles between the site and the database. Render built the site within a a couple of minutes using the GitHub repo. The first few tries at deployment, as it was not a process I knew much about, failed mainly through choosing the wrong type of site (it is now part of their webservices category) and a struggle to get versions of the modules needed that Render insisted on. I then had to change the python file run.py to app.py, but it has now succeeded and the website is up-and-running. I considered using Heroku, but apart from its authentification regime, the amazing sites fellow students have put together now no longer work because of Heroku's 12 month limit. Migration from Heroku is not easy, so my choice was to use Render.com from the beginning.
 
 ## Validation
+   <!--- validation using Page Speed Insights --->
+Each of the seven pages was tested using Page Speed Insights mobile and desktop options. All scored 100% on 'accessibility' and 'search engine optimisation'. All scored in the high nineties for 'good practice'. Performance was good using the desktop option, though on some of the pages measuring mobile performance, scores could be a lot better. This might well be because they are measured against a Moto G4, a rather obsolete model.
 
-<!--- comment --->
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-homepage-mobile.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-homepage-mobile.jpg?raw=true"
+         width="350" height="272" title="page-speed-insights-homepage-mobile" id="page-speed-insights-homepage-mobile" alt="page-speed-insights-homepage-mobile">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-homepage-desktop.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-homepage-desktop.jpg?raw=true"
+         width="350" height="272" title="page-speed-insights-homepage-desktop" id="page-speed-insights-homepage-desktop" alt="page-speed-insights-homepage-desktop">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-recordspage-mobile.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-recordspage-mobile.jpg?raw=true"
+         width="350" height="297" title="page-speed-insights-recordspage-mobile" id="page-speed-insights-recordspage-mobile" alt="page-speed-insights-recordspage-mobile">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-recordspage-desktop.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-recordspage-desktop.jpg?raw=true"
+         width="350" height="264" title="page-speed-insights-recordspage-desktop" id="page-speed-insights-recordspage-desktop" alt="page-speed-insights-recordspage-desktop">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-cassettespage-mobile.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-cassettespage-mobile.jpg?raw=true"
+         width="350" height="273" title="page-speed-insights-cassettespage-mobile" id="page-speed-insights-cassettespage-mobile" alt="page-speed-insights-cassettespage-mobile">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-cassettespage-desktop.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-cassettespage-desktop.jpg?raw=true"
+         width="350" height="273" title="page-speed-insights-cassettespage-desktop" alt="page-speed-insights-cassettespage-desktop" alt="page-speed-insights-cassettespage-desktop">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-blogpage-mobile.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-blogpage-mobile.jpg?raw=true"
+         width="350" height="272" title="page-speed-insights-blogpage-mobile" id="page-speed-insights-blogpage-mobile" alt="page-speed-insights-blogpage-mobile">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-blogpage-desktop.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-blogpage-desktop.jpg?raw=true"
+         width="350" height="276" title="page-speed-insights-blogpage-desktop" id="page-speed-insights-blogpage-desktop" alt="page-speed-insights-blogpage-desktop">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-opinionspage-mobile.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-opinionspage-mobile.jpg?raw=true"
+         width="350" height="270" title="page-speed-insights-opinionspage-mobile" id="page-speed-insights-opinionspage-mobile" alt="page-speed-insights-opinionspage-mobile">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-opinionspage-desktop.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-opinionspage-desktop.jpg?raw=true"
+         width="350" height="274" title="page-speed-insights-opinionspage-desktop" id="page-speed-insights-opinionspage-desktop" alt="page-speed-insights-opinionspage-desktop">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-contactpage-mobile.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-contactpage-mobile.jpg?raw=true"
+         width="350" height="275" title="page-speed-insights-contactpage-mobile" id="page-speed-insights-contactpage-mobile" alt="page-speed-insights-contactpage-mobile">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-contactpage-desktop.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-contactpage-desktop.jpg?raw=true"
+         width="350" height="271" title="page-speed-insights-contactpage-desktop" id="page-speed-insights-contactpage-desktop" alt="page-speed-insights-contactpage-desktop">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-loginpage-mobile.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-loginpage-mobile.jpg?raw=true"
+         width="350" height="277" title="page-speed-insights-loginpage-mobile" id="page-speed-insights-loginpage-mobile" alt="page-speed-insights-loginpage-mobile">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-loginpage-desktop.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-loginpage-desktop.jpg?raw=true"
+         width="350" height="274" title="page-speed-insights-loginpage-desktop" id="page-speed-insights-loginpage-desktop" alt="page-speed-insights-loginpage-desktop">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-registerpage-mobile.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-registerpage-mobile.jpg?raw=true"
+         width="350" height="270" title="page-speed-insights-registerpage-mobile" id="page-speed-insights-registerpage-mobile" alt="page-speed-insights-registerpage-mobile">
+    </a>
+</div>
+
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-registerpage-desktop.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-registerpage-desktop.jpg?raw=true"
+         width="350" height="271" title="page-speed-insights-registerpage-desktop" id="page-speed-insights-registerpage-desktop" alt="page-speed-insights-registerpage-desktop">
+    </a>
+</div>
 
 ## Wireframes
 
