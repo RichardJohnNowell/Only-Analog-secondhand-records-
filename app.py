@@ -1,3 +1,4 @@
+# app.py start
 import os
 from flask import (Flask, request, session, redirect, url_for,
                    render_template, flash)
@@ -9,12 +10,6 @@ if os.path.exists("env.py"):
 
 
 app = Flask(__name__)
-
-
-DATABASE_URL = os.environ['DATABASE_URL']
-
-
-conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
 
 @app.route("/")
