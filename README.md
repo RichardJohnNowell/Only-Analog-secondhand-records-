@@ -5,7 +5,7 @@
 <p>The website for Only Analog records and cassettes.</p>
 <p>Only Analog is a well-known store in St.Nicholas market, Bristol. We sell only records and cassettes, preferring the sound of analog formats.</p>
 <br>
-<a href="https://only-analog-records.onrender.com" title="Only Analog Records" alt="Only Analog Records" rel="noopener">Visit Only Analog Records on Render.com</a>
+<a href="https://only-analog-secondhand-records-95f4c3b4fb8c.herokuapp.com/" title="Only Analog Records" alt="Only Analog Records" rel="noopener">Visit Only Analog Records on Heroku</a>
 
 ## Contents
 * [Introduction](#introduction)
@@ -163,15 +163,7 @@ palette using the colours shown in the image above. While this wasn't an excitin
 <!--- comment --->
 
 ## Testing
-
-<!--- comment --->
-
-## Deployment
-
-The website Only Analog Records was deployed using Render.com around 10am on 27th July 2023. I used Render as it has a free tier for its smaller websites and connects internally to a new PostgreSQL database, thus minimising linkage hassles between the site and the database. Render built the site within a a couple of minutes using the GitHub repo. The first few tries at deployment, as it was not a process I knew much about, failed mainly through choosing the wrong type of site (it is now part of their webservices category) and a struggle to get versions of the modules needed that Render insisted on. I then had to change the python file run.py to app.py, but it has now succeeded and the website is up-and-running. I considered using Heroku, but apart from its authentification regime, the amazing sites fellow students have put together now no longer work because of Heroku's 12 month limit. Migration from Heroku is not easy, so my choice was to use Render.com from the beginning.
-
-## Validation
-   <!--- validation using Page Speed Insights --->
+    <!--- testing using speed page insights --->
 Each of the seven pages was tested using Page Speed Insights mobile and desktop options. All scored 100% on 'accessibility' and 'search engine optimisation'. All scored in the high nineties for 'good practice'. Performance was good using the desktop option, though on some of the pages measuring mobile performance, scores could be a lot better. This might well be because they are measured against a Moto G4, a rather obsolete model.
 
 <div align="center">
@@ -285,6 +277,16 @@ Each of the seven pages was tested using Page Speed Insights mobile and desktop 
          width="350" height="271" title="page-speed-insights-registerpage-desktop" id="page-speed-insights-registerpage-desktop" alt="page-speed-insights-registerpage-desktop">
     </a>
 </div>
+
+## Deployment
+
+The website Only Analog Records was first deployed using Render.com around 10am on 27th July 2023. At that time I used Render as it has a free tier for its smaller websites. The first few tries at deployment, as it was not a process I knew much about, failed mainly through choosing the wrong type of site (it was part of their webservices category) and a struggle to get versions of the modules needed that Render insisted on. I then had to change the python file run.py to app.py, but it then succeeded and the website was up-and-running.
+
+Then I made a decision to pay for Heroku time as the free Code Institute student deal was not available. This was due to an annoying fact that long ago I deleted an account with GitHub which used the same email address as the Code Institute now uses. Unfortunately, this email address clashed with the old GitHub email and although trying to get GitHub to find it and delete it, this was not possible. Thus I paid the small amount of money and the website was deployed using Heroku on the 17th August 2023. 
+
+## Validation
+   <!--- validation using Page Speed Insights --->
+
 
 ## Wireframes
 
