@@ -1,84 +1,79 @@
 {% extends "base.html" %} 
-{% block content %}
-  <main>
-    <section>
-      <!-- register form section -->
-      <div class="container">
-        <div class="row main">
-          <div class="main-login main-center">
-            <!-- main page title -->
-            <h1>Register as a new user or login to existing OA account</h1>
-            <form action="{{ url_for('register') }}" method="post" autocomplete="off">
-              <!-- name entry -->
-              <div class="form-group">
-                <label for="name" class="cols-sm-2 control-label">Your Name
-                </label>
-                <div class="cols-sm-10">
-                  <div class="input-group">
-                    <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter your Name" />
-                  </div>
+    {% block content %}
+      <main>
+        <!-- start of register page -->
+        <div class="container">
+            <div class="row main">
+                <div class="main-login main-center">
+                  <!-- main page title -->
+                  <h1>Register as a new user or login to existing OA account:</h1>
+                  <form action="{{ url_for('register') }}" method="post" autocomplete="off">
+                      <!-- name entry -->
+                      <div class="form-group">
+                          <label for="name" class="cols-sm-2 control-label">Your Name
+                          </label>
+                          <div class="cols-sm-10">
+                              <div class="input-group">
+                                  <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter your Name">
+                              </div>
+                          </div>
+                      </div>
+                      <!-- email entry -->
+                      <div class="form-group">
+                          <label for="email" class="cols-sm-2 control-label">Your Email
+                          </label>
+                          <div class="cols-sm-10">
+                              <div class="input-group">
+                                  <input type="text" class="form-control" name="email" id="email" placeholder="Enter your Email">
+                              </div>
+                          </div>
+                      </div>
+                      <!-- username entry -->
+                      <div class="form-group">
+                          <label for="username" class="cols-sm-2 control-label">Username
+                          </label>
+                          <div class="cols-sm-10">
+                              <div class="input-group">
+                                  <input type="text" class="form-control" name="username" id="username" placeholder="Enter your Username" required>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- password entry -->
+                      <div class="form-group">
+                          <label for="password" class="cols-sm-2 control-label">Password
+                          </label>
+                          <div class="cols-sm-10">
+                              <div class="input-group">
+                                <input type="password" class="form-control" name="password" placeholder="password" id="password" required placeholder="Enter your Password">
+                              </div>
+                          </div>
+                      </div>
+                      <br>
+                      <!-- login if registered -->
+                      <div class="form-group "> 
+                          {% with messages = get_flashed_messages() %} 
+                          {% if messages %} 
+                          {% for message in messages %} 
+                          <div class="alert alert-success alert-dismissible fade show" role="alert">
+                              {{ message }}
+                              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                  <span aria-hidden="true">x</span>
+                              </button>
+                          </div> 
+                          {% endfor %} 
+                          {% endif %} 
+                          {% endwith %} 
+                          <input type="submit" value="Register" class="form-control btn btn-primary" name="#">
+                          <p>
+                              <a href="{{ url_for('login') }}" class="btn btn-dark">Login
+                              </a>
+                          </p>
+                      </div>
+                  </form>
                 </div>
-              </div>
-              <!-- email entry -->
-              <div class="form-group">
-                <label for="email" class="cols-sm-2 control-label">Your Email</label>
-                <div class="cols-sm-10">
-                  <div class="input-group">
-                    <input type="text" class="form-control" name="email" id="email" placeholder="Enter your Email" />
-                  </div>
-                </div>
-              </div>
-              <!-- username entry -->
-              <div class="form-group">
-                <label for="username" class="cols-sm-2 control-label">Username</label>
-                <div class="cols-sm-10">
-                  <div class="input-group">
-                    <input type="text" class="form-control" name="username" id="username" placeholder="Enter your Username" required>
-                  </div>
-                </div>
-              </div>
-              <!-- password entry -->
-              <div class="form-group">
-                <label for="password" class="cols-sm-2 control-label">Password</label>
-                <div class="cols-sm-10">
-                  <div class="input-group">
-                    <input type="password" class="form-control" name="password" placeholder="Password" id="password" required placeholder="Enter your Password" />
-                  </div>
-                </div>
-              </div>
-              <br>
-
-               <!-- end of form section -->
-               <!-- login section -->
-    
-              <!-- login if registered -->
-              <div class="form-group "> 
-                {% with messages = get_flashed_messages()  %} 
-                {% if messages %} 
-                {% for message in messages %} 
-                  <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    {{ message }}
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                      <span aria-hidden="true">x
-                      </span>
-                    </button>
-                  </div> 
-                  {% endfor %} 
-                  {% endif %} 
-                  {% endwith %} 
-                  <input type="submit" value="Register" class="form-control btn btn-primary " name="">
-                  <p>
-                    <a href="{{ url_for('login') }}" class="btn btn-dark ">Login
-                    </a>
-                  </p>
-              </div>
-            </form>
-          </div>
+            </div>
         </div>
-      </div>
-      <br>
-    </section>
-    <!-- end of login section -->
-  </main>
-  <!-- end -->
-{% endblock %}
+        <br>
+      </main>
+      <!-- end of register page -->
+    {% endblock %}
