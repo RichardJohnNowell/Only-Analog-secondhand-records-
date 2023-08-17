@@ -11,19 +11,21 @@
                     <!-- username and password form -->
                     <p>Please enter your username and password:
                     </p>
-                    <form class="form-group" action="{{ url_for('login') }}" method="post">
-                        <!-- username -->
-                        <label>Username 
-                        </label>
-                        <input type="text" class="form-control" name="username" placeholder="Username" id="username" required>
-                        <!-- password -->
-                        <label>Password 
-                        </label>
-                        <input type="password" class="form-control" name="password" placeholder="Password" id="password" required>
-                        <br>
-                        <!-- login button -->
-                        <input type="submit" value="Login" class="form-control btn btn-success" name="#">
-                    </form>
+                    <div>
+                        <form class="form-group" action="{{ url_for('login') }}" method="post">
+                            <!-- username -->
+                            <label>Username 
+                            </label>
+                            <input type="text" class="form-control login-entries" name="username" placeholder="Username" id="username" required>
+                            <!-- password -->
+                            <label>Password 
+                            </label>
+                            <input type="password" class="form-control login-entries" name="password" placeholder="Password" id="password" required>
+                            <br>
+                            <!-- login button -->
+                            <input type="submit" value="Login" class="form-control btn btn-success" name="#">
+                        </form>
+                    </div>
                     <!-- end of form section -->
                     <!-- flash message section -->   
                     {% with messages = get_flashed_messages()  %} 
