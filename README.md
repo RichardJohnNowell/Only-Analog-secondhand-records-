@@ -5,6 +5,13 @@
 <p>The website for Only Analog records and cassettes.</p>
 <p>Only Analog is a well-known store in St.Nicholas market, Bristol. We sell only records and cassettes, preferring the sound of analog formats.</p>
 <br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/oa-four-screens-montage.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/oa-four-screens-montage.jpg?raw=true"
+         width="350" height="164" title="oa-four-screens-montage" id="oa-four-screens-montage" alt="oa-four-screens-montage"> 
+    </a>
+</div>
+<br>
 <a href="https://only-analog-secondhand-records-95f4c3b4fb8c.herokuapp.com/" title="Only Analog Records" alt="Only Analog Records" rel="noopener">Visit Only Analog Records on Heroku</a>
 
 ## Contents
