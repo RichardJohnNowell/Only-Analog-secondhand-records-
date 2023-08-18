@@ -1,6 +1,11 @@
 # Only Analog secondhand records and cassettes
   <!--- logo and summary --->
-<img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/oar-Logo-28July-sized.jpg?raw=true" title="OAR-Logo-28July-sized" id="OAR-Logo-28July-sized" alt="OAR-Logo-28July-sized">
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/oar-logo-28-july.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/oar-logo-28-july.jpg?raw=true"
+         width="350" height="119" title="oa=logo" id="oa-logo" alt="oa-logo">
+    </a>
+</div>
 <br>
 <p>The website for Only Analog records and cassettes.</p>
 <p>Only Analog is a well-known store in St.Nicholas market, Bristol. We sell only records and cassettes, preferring the sound of analog formats.</p>
@@ -344,6 +349,13 @@ Each of the eight pages was tested using Page Speed Insights mobile and desktop 
 The website Only Analog Records was first deployed using Render.com around 10am on 27th July 2023. At that time I used Render as it has a free tier for its smaller websites. The first few tries at deployment, as it was not a process I knew much about, failed mainly through choosing the wrong type of site (it was part of their webservices category) and a struggle to get versions of the modules needed that Render insisted on. I then had to change the python file run.py to app.py, but it then succeeded and the website was up-and-running.
 
 Then I made a decision to pay for Heroku time as the free Code Institute student deal was not available. This was due to an annoying fact that long ago I deleted an account with GitHub which used the same email address as the Code Institute now uses. Unfortunately, this email address clashed with the old GitHub email and although trying to get GitHub to find it and delete it, this was not possible. Thus I paid the small amount of money and the website was deployed using Heroku on the 17th August 2023. 
+<br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/heroku-deployment-17-august-2023.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/heroku-deployment-17-august-2023.jpg?raw=true"
+         width="350" height="197" title="heroku-deployment-17-august-2023" id="heroku-deployment-17-august-2023" alt="heroku-deployment-17-august-2023">
+b   </a>
+</div>
 
   <!--- validation --->
 ## Validation
@@ -353,6 +365,7 @@ Then I made a decision to pay for Heroku time as the free Code Institute student
 ## Wireframes
 
 21 wireframes were made using the online software Balsamiq. I used three sizes from the choices available: smartphone, ipad and browser (1280x720). The browser choice was sized inline with the Nest Hub Max template on Chrome developers' tools. Each of the 7 website pages was drawn with the 3 choices above as part of the development of the site. So far, it has helped me move badly-placed paragraphs and think more about structure. Shown below are 9 images from the 21 available. All wireframes can be shown by following the link. Here are shown the first 3 pages (home, listings, blog) from the site in the 3 choices above. Please see the full range.
+<br>
 <div align="center">
     <p>All images can be clicked on for their full size.</p>
     <br>
