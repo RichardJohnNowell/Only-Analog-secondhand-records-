@@ -165,6 +165,18 @@ palette using the colours shown in the image above. While this wasn't an excitin
          width="350" height="221" title="only-analog-homepage" id="only-analog-homepage" alt="only-analog-homepage">
     </a>
 </div>
+<br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-homepage.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-homepage.jpg?raw=true"
+         width="338" height="750" title="oa-mobile-homepage" id="oa-mobile-homepage" alt="oa-mobile-homepage">
+    </a>
+</div>
+<br>
+The OA homepage introduces the business and website. The ethos of only buying and selling analog
+formats is outlined. A short introduction to St. Nicholas Market (St. Nick's) is also given. Images show collections
+of records (taken by me at Wanted Records). An image of St. Nick's is an uncredited one from the web. An
+information paragraph provides a guide to each page and a pagination set provides easy access to those pages.
 
 ### Listings
   <!--- records --->
@@ -174,6 +186,18 @@ palette using the colours shown in the image above. While this wasn't an excitin
          width="350" height="222" title="only-analog-records-page" id="only-analog-records-page" alt="only-analog-records-page">
     </a>
 </div>
+<br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-records-page.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-records-page.jpg?raw=true"
+         width="339" height="749" title="oa-mobile-records-page" id="oa-mobile-records-page" alt="oa-mobile-records-page">
+    </a>
+</div>
+<br>
+The first OA Listings page is for records. A list of possible purchases is given with genuine researched web
+prices for a mix of genres. An image of a collection of records is shown (taken by me at the Rockshop).
+It is hoped within future releases to have info and images for each track when clicked a track is clicked on.
+<br>
     <!--- cassettes --->
 <div align="center">
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-page-screenshots/only-analog-cassettes-page.jpg?raw=true">
@@ -181,6 +205,17 @@ palette using the colours shown in the image above. While this wasn't an excitin
         width="350" height="220" title="only-analog-cassettes-page" id="only-analog-cassettes-page" alt="only-analog-cassettes-page">
     </a>
 </div>
+<br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-cassettes-page.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-cassettes-page.jpg?raw=true"
+         width="337" height="750" title="oa-mobile-cassettes-page" id="oa-mobile-cassettes-page" alt="oa-mobile-cassettes-page">
+    </a>
+</div>
+<br>
+The second OA Listings page is for cassettes. A list of possible purchases is given with genuine researched web
+prices for a mix of genres. An image of a collection of cassettes is shown (taken by me at Plastic Wax). 
+It is hoped within future releases to have info and images for each track when clicked a track is clicked on.
 
 ### Blog
   <!--- blog --->
@@ -190,6 +225,18 @@ palette using the colours shown in the image above. While this wasn't an excitin
          width="350" height="221" title="only-analog-blog-page" id="only-analog-blog-page" alt="only-analog-blog-page">
     </a>
 </div>
+<br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-blog-page.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-blog-page.jpg?raw=true"
+         width="340" height="749" title="oa-mobile-blog-page" id="oa-mobile-blog-page" alt="oa-mobile-blog-page">
+    </a>
+</div>
+<br>
+The OA blog pages shows records and cassettes of interest, giving a commentary on each. The images
+are: i) Hombre - picture of record taken by me. ii) Avril Lavigne - picture of cassette from the web. iii) Ian Dury
+& The Blockheads - picture of record taken by me. iv) The Idles - picture of cassette from the web. v) Aswad - 
+picture of LP taken from the web. vi) Dr. Dre - picture of cassette from the web.
 
 ### Opinions
   <!--- opinions --->
@@ -199,6 +246,17 @@ palette using the colours shown in the image above. While this wasn't an excitin
          width="350" height="220" title="only-analog-opinions-page" id="only-analog-opinions-page" alt="only-analog-opinions-page">
     </a>
 </div>
+<br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-opinions-page.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-opinions-page.jpg?raw=true"
+         width="338" height="752" title="oa-mobile-opinions-page" id="oa-mobile-opinions-page" alt="oa-mobile-opinions-page">
+    </a>
+</div>
+The OA opinions page gives a description of the technology and thoughts about only using  analog formats.
+The page is provided for casual interest and some of its views are taken from articles on the web. Images show
+a record stall (picture taken by me of Payback Records stall) and a picture of boxes of singles taken by me
+at the Rockshop.
 
 ### Contact
   <!--- contact --->
@@ -208,6 +266,15 @@ palette using the colours shown in the image above. While this wasn't an excitin
          width="350" height="220" title="only-analog-contact-page.jpg" id="only-analog-contact-page.jpg" alt="only-analog-contact-page.jpg">
     </a>
 </div>
+<br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-contact-page.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-contact-page.jpg?raw=true"
+         width="337" height="748" title="oa-mobile-contact-page" id="oa-mobile-contact-page" alt="oa-mobile-contact-page">
+    </a>
+</div>
+<br>
+The OA contact page provides a professional Jotform for general enquiries.
 
 ### Login
   <!--- login --->
@@ -217,6 +284,16 @@ palette using the colours shown in the image above. While this wasn't an excitin
          width="350" height="220" title="only-analog-login-page" id="only-analog-login-page" alt="only-analog-login-page">
     </a>
 </div>
+<br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-login-page.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-login-page.jpg?raw=true"
+         width="340" height="749" title="oa-mobile-login-page" id="oa-mobile-login-page" alt="oa-mobile-login-page">      
+    </a>
+</div>
+<br>
+Enables a registered member to login and gives access to a profile page (see below). A seperate contact form is given to
+members for record or cassette reservations.
 
 ### Register
   <!--- register --->
@@ -226,6 +303,15 @@ palette using the colours shown in the image above. While this wasn't an excitin
          width="350" height="222" title="only-analog-register-page" id="only-analog-register-page" alt="only-analog-register-page">
     </a>
 </div>
+<br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-register-page.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/oa-mobile-page-screenshots/oa-mobile-register-page.jpg?raw=true"
+         width="339" height="749" title="oa-mobile-register-page" id="oa-mobile-register-page" alt="oa-mobile-register-page">
+    </a>
+</div>
+<br>
+Enables a member of the public to register with OA and gain their membership benefits.
 
 ## Testing
   <!--- testing using speed page insights --->  
@@ -354,7 +440,7 @@ Then I made a decision to pay for Heroku time as the free Code Institute student
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/heroku-deployment-17-august-2023.jpg?raw=true">
         <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/heroku-deployment-17-august-2023.jpg?raw=true"
          width="350" height="197" title="heroku-deployment-17-august-2023" id="heroku-deployment-17-august-2023" alt="heroku-deployment-17-august-2023">
-b   </a>
+    </a>
 </div>
 
   <!--- validation --->
