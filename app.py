@@ -1,13 +1,20 @@
-# app.py start
-# Flask imports
+"""start of only analog python file app.py"""
+
 import os
-from flask import (Flask, request, session, redirect, url_for,
-                   render_template, flash)
 import re
+from flask import (Flask, request, session, redirect, url_for, render_template, 
+    flash)
 import psycopg2
 from werkzeug.security import generate_password_hash, check_password_hash
 if os.path.exists("env.py"):
     import env
+
+# DB_HOST = "localhost"
+# DB_NAME = "sampledb"
+# DB_USER = "postgres"
+# DB_PASS = "password"
+# conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS,
+#    host=DB_HOST)
 
 # creating a Flask instance
 app = Flask(__name__)
@@ -100,4 +107,4 @@ if __name__ == "__main__":
         debug=True)
 
 
-# end of app.py
+"""end of only analog python file app.py"""
