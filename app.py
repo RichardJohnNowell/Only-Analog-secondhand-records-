@@ -1,16 +1,18 @@
 # app.py start
+# Flask imports
 import os
 from flask import (Flask, request, session, redirect, url_for,
                    render_template, flash)
 import re
+import psycopg2
 from werkzeug.security import generate_password_hash, check_password_hash
 if os.path.exists("env.py"):
     import env
 
-
+# creating a Flask instance
 app = Flask(__name__)
 
-
+# routes for different pages
 @app.route("/")
 def index():
     """
@@ -90,9 +92,12 @@ def profile():
     return render_template("profile.html")
 """
 
-
+# conditional statement 
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
         port=int(os.environ.get("PORT", "5000")),
         debug=True)
+
+
+# end of app.py
