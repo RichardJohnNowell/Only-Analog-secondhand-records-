@@ -8,7 +8,7 @@
 </div>
 <br>
 <p>The website for Only Analog records and cassettes.</p>
-<p>Only Analog is a well-known store in St.Nicholas market, Bristol. We sell only records and cassettes, preferring the sound of analog formats.</p>
+<p>Only Analog is a well-known stall in St.Nicholas Market, Bristol. We sell only records and cassettes, preferring the sound of analog formats.</p>
 <br>
 <div align="center">
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/oa-four-screens-montage.jpg?raw=true">
@@ -17,7 +17,7 @@
     </a>
 </div>
 <br>
-<a href="https://only-analog-secondhand-records-95f4c3b4fb8c.herokuapp.com/" title="Only Analog Records" alt="Only Analog Records" rel="noopener">Visit Only Analog Records on Heroku</a>
+<a href="https://only-analog-secondhand-records-95f4c3b4fb8c.herokuapp.com/" title="Only Analog Records" alt="Only Analog Records" rel="noopener">Visit Only Analog Secondhand Records on Heroku</a>
 
 ## Contents
 * [Introduction](#introduction)
@@ -40,26 +40,27 @@
 * [Credits](#credits)
 
 <br>
+All images on this README can be clicked on to expand them to their full size.
 
 ## Introduction
   <!--- introduction to readme and story --->
-The idea of the Only Analog stall was inspired by various existing stalls in 
-the indoor St. Nicholas market in Bristol. These three stalls and two local shops
+The idea of the Only Analog stall was inspired by various existing stalls in and around
+the indoor St. Nicholas Market in Bristol. These three stalls and two local shops
 provide a wide selection of secondhand records and some cassettes. Many of the images 
 on this website were taken by me at those shops with the cooperation of the owners 
 who all expressed an interest in the project.
 
-The background to this re-emergence of my liking for the anlogue sound was started 
-by finding a once-valuable cassette deck in another, less fancy market building,
+The background to this re-emergence of my liking for the analog sound was started 
+by finding a once-valuable TEAC cassette deck in another, less fancy market building,
 known simply as 'The Stokes Croft Indoor Market'. I knew a friend who had a huge 
-cassette collection and knowing he'd buy a secondhand machine, I paid the £20 and 
+cassette collection and knowing he'd buy a secondhand machine, I paid the £30 and 
 took home the player, which was filthy. 
 
 Cleaning the body and the heads with Dettol wet-wipes, a lovely machine emerged.
-I then presented it to him and he has not stopped using it since. It was noticeable 
-that when compared to cds he had, the sound of the cassettes, for all its faults, 
+I then presented it to my friend and he has not stopped using it since. It was noticeable 
+that when compared to the cds he had, the sound of the cassettes, for all its faults, 
 was so much smoother - voices became lush rather than exact algorithmic products.
-This is the origin of OA's logo 'Smooth not brittle': digital music sounds brittle.
+This is the origin of Only Analog's logo 'Smooth not brittle': digital music sounds brittle.
 
 While there is a limited interest in records and less so in cassettes, market research 
 suggests people and professionals interested in the media tend to pay good money for what 
@@ -70,8 +71,6 @@ Links to the vendors' websites can be found in the credits section.
 Inline with other secondhand record shops and stalls, Only Analog does not have an e-commerce
 facility on this site or an ebay store. This is because Only Analog wants customers to come to the
 stall and maybe buy other items.
-
-All images are 'clickable' for full size.
 
 ## UserExperience
   <!--- customer user experience --->
@@ -138,7 +137,7 @@ All images are 'clickable' for full size.
     </a>
 </div>
 
-The font Nunito Sans is a modern, plain and readable font that is seventh in the <a href="https://justcreative.com/best-google-fonts" title="best-google-fonts" alt="best-google-fonts" target="_blank" rel="noopener">Best Google fonts 2023 for Professional Design</a> list. Quoting: "Projecting professional confidence, this font can make words hold integrity and depth."
+The font Nunito Sans is a modern, plain and readable font that is 7th in the <a href="https://justcreative.com/best-google-fonts" title="best-google-fonts" alt="best-google-fonts" target="_blank" rel="noopener">Best Google fonts 2023 for Professional Design</a> list. Quoting: "Projecting professional confidence, this font can make words hold integrity and depth."
 
 ## Colours
   <!--- colour scheme --->
@@ -149,9 +148,7 @@ The font Nunito Sans is a modern, plain and readable font that is seventh in the
     </a>
 </div>
 
-My first colour scheme was based around a bright, trendy, 'fizzy' orange, but after testing the homepage with Page Speed Insights, I had to change. I then proceeded to use
-the recommended Deque University accessibility checker, which conforms to WCAG standards. After many combinations that didn't work, I eventually found a 'muted'
-palette using the colours shown in the image above. While this wasn't an exciting and fresh scheme, there is a clear contrast and as shown, passes the WCAG test.
+My first colour scheme was based around a bright, trendy, 'fizzy' orange, but after testing the homepage with Page Speed Insights, I had to change. I then proceeded to use the recommended Deque University accessibility checker, which conforms to WCAG standards. Using the website Encycolorpedia, after many combinations that didn't work, I eventually found a palette using the colours shown in the image above. While this wasn't a particularly exciting and fresh scheme, there is a clear contrast and as shown, passes the WCAG test.
 
 
 ## Features
@@ -175,7 +172,7 @@ palette using the colours shown in the image above. While this wasn't an excitin
 <br>
 The OA homepage introduces the business and website. The ethos of only buying and selling analog
 formats is outlined. A short introduction to St. Nicholas Market (St. Nick's) is also given. Images show collections
-of records (taken by me at Wanted Records). An image of St. Nick's is an uncredited one from the web. An
+of records taken by me at Wanted Records. An image of St. Nick's is an uncredited one from the web. An
 information paragraph provides a guide to each page and a pagination set provides easy access to those pages.
 
 ### Listings
@@ -194,8 +191,8 @@ information paragraph provides a guide to each page and a pagination set provide
     </a>
 </div>
 <br>
-The first OA Listings page is for records. A list of possible purchases is given with genuine researched web
-prices for a mix of genres. An image of a collection of records is shown (taken by me at the Rockshop).
+The first OA Listings page is for Records. A list of possible purchases is given with genuine researched web
+prices for a mix of genres. An image of a collection of records is shown which was taken by me at the Rockshop.
 It is hoped within future releases to have info and images for each track when clicked a track is clicked on.
 <br>
     <!--- cassettes --->
@@ -213,8 +210,8 @@ It is hoped within future releases to have info and images for each track when c
     </a>
 </div>
 <br>
-The second OA Listings page is for cassettes. A list of possible purchases is given with genuine researched web
-prices for a mix of genres. An image of a collection of cassettes is shown (taken by me at Plastic Wax). 
+The second OA Listings page is for Cassettes. A list of possible purchases is given with genuine researched web
+prices for a mix of genres. An image of a collection of cassettes which is shown was taken by me at Plastic Wax. 
 It is hoped within future releases to have info and images for each track when clicked a track is clicked on.
 
 ### Blog
@@ -253,9 +250,9 @@ picture of LP taken from the web. vi) Dr. Dre - picture of cassette from the web
          width="338" height="752" title="oa-mobile-opinions-page" id="oa-mobile-opinions-page" alt="oa-mobile-opinions-page">
     </a>
 </div>
-The OA opinions page gives a description of the technology and thoughts about only using  analog formats.
+The OA opinions page gives a description of the technology and thoughts about only using analog formats.
 The page is provided for casual interest and some of its views are taken from articles on the web. Images show
-a record stall (picture taken by me of Payback Records stall) and a picture of boxes of singles taken by me
+a record stall that was taken by me of Payback Records. A picture of boxes of singles was taken by me
 at the Rockshop.
 
 ### Contact
@@ -293,7 +290,7 @@ The OA contact page provides a professional Jotform for general enquiries.
 </div>
 <br>
 Enables a registered member to login and gives access to a profile page (see below). A seperate contact form is given to
-members for record or cassette reservations.
+members for record or cassette reservations once logged in.
 
 ### Register
   <!--- register --->
@@ -314,7 +311,11 @@ members for record or cassette reservations.
 Enables a member of the public to register with OA and gain their membership benefits.
 
 ## Testing
-  <!--- testing using speed page insights --->  
+  <!--- testing using speed page insights ---> 
+Throughout the build process, the coding was tested using VS Code and online validators. The deployed project was built
+on a Dell machine running Linux and extensive use of Gitpod and its development server. How the site responded was tested using a
+Windows 10 laptop running Firefox, an iPad running Safari and a Samsung running Chrome. 
+
 Each of the eight pages was tested using Page Speed Insights mobile and desktop options. All scored 100% on 'accessibility' and 'search engine optimisation'. All scored in the high nineties for 'good practice'. Performance was good using the desktop option, though on some of the pages measuring mobile performance, scores could be a lot better. This might well be because they are measured against a Moto G4, a rather obsolete model.
   <!--- homepage mobile --->
 <div align="center">
@@ -432,9 +433,9 @@ Each of the eight pages was tested using Page Speed Insights mobile and desktop 
   <!--- deployment --->
 ## Deployment
 
-The website Only Analog Records was first deployed using Render.com around 10am on 27th July 2023. At that time I used Render as it has a free tier for its smaller websites. The first few tries at deployment, as it was not a process I knew much about, failed mainly through choosing the wrong type of site (it was part of their webservices category) and a struggle to get versions of the modules needed that Render insisted on. I then had to change the python file run.py to app.py, but it then succeeded and the website was up-and-running.
+The website Only Analog Records was first deployed using Render.com around 10am on 27th July 2023. At that time I used Render as it has a free tier for its smaller websites. The first few tries at deployment, as it was not a process I knew much about, failed mainly through choosing the wrong type of site (it was part of their webservices category) and a struggle to get versions of the Python modules needed that Render insisted on. I then had to change the python file run.py to app.py, but it then succeeded and the website was up-and-running.
 
-Then I made a decision to pay for Heroku time as the free Code Institute student deal was not available. This was due to an annoying fact that long ago I deleted an account with GitHub which used the same email address as the Code Institute now uses. Unfortunately, this email address clashed with the old GitHub email and although trying to get GitHub to find it and delete it, this was not possible. Thus I paid the small amount of money and the website was deployed using Heroku on the 17th August 2023. 
+Then I made a decision to pay for Heroku time as the free Code Institute student deal was not available. This was due to an annoying fact that long ago I deleted an account with GitHub which used the same email address as the Code Institute now uses. Unfortunately, this email address clashed with the old GitHub email and although trying to get GitHub to find it and delete it, this was not possible. Thus I paid the small amount of money and the website was deployed using Heroku on the 17th August 2023. This had a small hiccup, a 'H10 problem', but this was easily sorted by removing a leftover line of code. The website was then fully visible.
 <br>
 <div align="center">
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/heroku-deployment-17-august-2023.jpg?raw=true">
@@ -453,8 +454,6 @@ Then I made a decision to pay for Heroku time as the free Code Institute student
 21 wireframes were made using the online software Balsamiq. I used three sizes from the choices available: smartphone, ipad and browser (1280x720). The browser choice was sized inline with the Nest Hub Max template on Chrome developers' tools. Each of the 7 website pages was drawn with the 3 choices above as part of the development of the site. So far, it has helped me move badly-placed paragraphs and think more about structure. Shown below are 9 images from the 21 available. All wireframes can be shown by following the link. Here are shown the first 3 pages (home, listings, blog) from the site in the 3 choices above. Please see the full range.
 <br>
 <div align="center">
-    <p>All images can be clicked on for their full size.</p>
-    <br>
   <!--- wireframe folders link --->
     <p>Link to wireframe folders:
       <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/tree/main/static/img/wireframes">Only Analog wireframes.</a>
@@ -541,7 +540,12 @@ Then I made a decision to pay for Heroku time as the free Code Institute student
             </a>
         </li>
         <li>Wanted Records is a shop next to St. Nicks and has an enviable stock.
-            <a href="https://www.wantedrecords.co.uk/" title="wanted-records" alt="wanted-records" target="_blank" rel="noopener">Wanted Records
+            <a href="https://www.wantedrecords.co.uk" title="wanted-records" alt="wanted-records" target="_blank" rel="noopener">Wanted Records
+            </a>
+        </li>
+        <li>Prime Cuts is located in the basement of a shop RePsycho on the Gloucester Road in Bristol and has
+            an outstanding collection.
+            <a href="https://prime-cuts.edan.io" title="prime-cuts" alt="prime-cuts" target="_blank" rel="noopener">Prime Cuts
             </a>
         </li>
         <li>Uncredited image from Groupon "St. Nicholas Market and Air Raid Shelter Walking Tour" page.
