@@ -154,6 +154,15 @@ label {
   padding: 10px 40px;
 }
 
+/*-----------------------------------------membership form*/
+
+#member-contact {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 /*-----------------------------------------headings*/ 
 
 #aswad {   
