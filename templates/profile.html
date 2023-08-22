@@ -3,7 +3,7 @@
         <!-- profile page -->
         <main>
             <section>
-                <h1 id="solutions_h2">YOUR PROFILE PAGE</h1>
+                <h1 id="member-contact">YOUR PROFILE PAGE</h1>
                 <div>
                     <p>Your OA account details are below:</p>
                     <!-- details -->
@@ -29,16 +29,24 @@
               <!-- end of user details -->
               <!-- contact form -->
             <section>
-                  <h2 id="solutions_h2">CONTACT OA USING THIS FORM</h2>
-                  <div class="contact_container">
-                      <form action="richard.j.w.nowell@outlook.com" method="POST" target="_blank">
-                          <label for="fname"><strong>Username</strong></label>
-                              <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-                          <label for="subject"><strong>Subject</strong></label>
-                          <textarea class="text_area" id="subject" name="subject" placeholder="Write something..." required></textarea>
-                              <input type="submit" value="Submit">
-                      </form>
-                  </div>
+                <h2 id="member-contact">CONTACT OA FOR MEMBERSHIP BENEFITS</h2>
+                <div class="contact_container">
+                    <form action="richard.j.w.nowell@outlook.com" method="POST" target="_blank">
+                        <!-- first name -->
+                        <label for="fname"><strong>First Name</strong>
+                        </label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your first name..." required>
+                        <!-- last name -->
+                        <label for="lname"><strong>Last Name</strong>
+                        </label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                        <!-- text area for messages -->
+                        <label for="subject"><strong>Subject</strong>
+                        </label>
+                            <textarea class="text_area" id="subject" name="subject" placeholder="Write something..." required></textarea>
+                                <input type="submit" value="Submit">
+                    </form>
+                </div>
             </section>
               <!-- end of contact form -->
         </main>
