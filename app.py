@@ -9,20 +9,19 @@ from werkzeug.security import generate_password_hash, check_password_hash
 if os.path.exists("env.py"):
     import env
 
-# os.environ.get("DATABASE_URL")
-# os.environ.get("SECRET_KEY")
-# os.environ.get("IP")
-# os.environ.get("PORT")
-# os.environ.get["DEBUG"]
-# os.environ.get["PASSWORD"]
-# os.environ.get
-
-
-# conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS,
-#    host=DB_HOST)
-
 # creating a Flask instance
 app = Flask(__name__)
+
+# fetching from environment file
+# os.environ.get("DATABASE_URL")
+# os.environ.get("DB_NAME")
+
+
+# using psycopg2 to connect to database
+# conn = psycopg2.connect(
+#    database_url="DATABASE_URL",
+#    dbname="DB_NAME", 
+# )
 
 
 # routes for different pages
