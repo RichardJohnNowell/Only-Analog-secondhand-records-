@@ -28,9 +28,13 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     """
-    routing for homepage
+    routing for homepage with loggedin option
     """
-    return render_template("index.html")
+    if "loggedin" in session:
+        # if user logged in show them the homepage
+        return render_template("index.html", username=session["username"])
+        # if user is not logged in show them to homepage
+    return render_template(url_for("index.html"))
 
 
 @app.route("/listings")
@@ -89,18 +93,17 @@ def login():
     return render_template("login.html")
     
 
-"""
 @app.route("/logout")
 def logout():
-    
+    """
     routing for login page
-    
+    """
     session.pop("loggedin", None)
     session.pop("id", None)
     session.pop("username", None)
-    # Redirect to login page
-    return redirect(url_for("login.html"))
-"""
+    flash('You have been logged out')
+    # redirect to homepage
+    return redirect(url_for("index.html"))
 
 
 @app.route("/register")
@@ -111,12 +114,24 @@ def register():
     return render_template("register.html")
 
 
-"""
 @app.route("/profile")
 def profile():
+    """
     routing for profile page
-    return render_template("profile.html")
-"""
+    """
+    cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+    # postgreSQL query
+    cursor.execute("SELECT * FROM")
+    # check if user is logged in
+    if "loggedin" in session:
+        # postgreSQL query
+        cursor.execute("SELECT * FROM users WHERE id = %s", [session["id"]])
+        account = cursor.fetchone()
+        # show the profile page with account info
+        return render_template("profile.html", account=account)
+        # user is not logged in so redirected to login page
+    return redirect(url_for("login"))
+    
 
 # conditional statement 
 if __name__ == "__main__":
@@ -126,4 +141,4 @@ if __name__ == "__main__":
         debug=True)
 
 
-"""end of only analog python file app.py"""
+# end of only analog python file app.py
