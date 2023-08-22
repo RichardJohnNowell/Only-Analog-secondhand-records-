@@ -87,6 +87,20 @@ def login():
     routing for login page
     """
     return render_template("login.html")
+    
+
+"""
+@app.route("/logout")
+def logout():
+    
+    routing for login page
+    
+    session.pop("loggedin", None)
+    session.pop("id", None)
+    session.pop("username", None)
+    # Redirect to login page
+    return redirect(url_for("login.html"))
+"""
 
 
 @app.route("/register")
