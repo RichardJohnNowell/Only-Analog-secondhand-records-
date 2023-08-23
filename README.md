@@ -7,7 +7,7 @@
     </a>
 </div>
 <br>
-<p>The website for Only Analog records and cassettes.</p>
+<p>The website for Only Analog records and cassettes - "Smooth not brittle".</p>
 <p>Only Analog is a well-known stall in St.Nicholas Market, Bristol. We sell only records and cassettes, preferring the sound of analog formats.</p>
 <br>
 <div align="center">
@@ -17,7 +17,10 @@
     </a>
 </div>
 <br>
-<a href="https://only-analog-secondhand-records-95f4c3b4fb8c.herokuapp.com/" title="Only Analog Records" alt="Only Analog Records" rel="noopener">Visit Only Analog Secondhand Records on Heroku</a>
+<a href="https://only-analog-secondhand-records-95f4c3b4fb8c.herokuapp.com/" title="Only Analog Records" alt="Only Analog Records" rel="noopener">Visit Only Analog Secondhand Records</a>
+<br>
+<br>
+<p>All images on this README can be clicked on to expand them to their full size.</p>
 
 ## Contents
 * [Introduction](#introduction)
@@ -39,12 +42,10 @@
 * [Wireframes](#wireframes)
 * [Credits](#credits)
 
-<br>
-All images on this README can be clicked on to expand them to their full size.
 
 ## Introduction
   <!--- introduction to readme and story --->
-The idea of the Only Analog stall was inspired by various existing stalls in and around
+The idea of the Only Analog stall was inspired by various existing businesses in and around
 the indoor St. Nicholas Market in Bristol. These three stalls and two local shops
 provide a wide selection of secondhand records and some cassettes. Many of the images 
 on this website were taken by me at those shops with the cooperation of the owners 
@@ -252,7 +253,7 @@ picture of LP taken from the web. vi) Dr. Dre - picture of cassette from the web
 </div>
 The OA opinions page gives a description of the technology and thoughts about only using analog formats.
 The page is provided for casual interest and some of its views are taken from articles on the web. Images show
-a record stall that was taken by me of Payback Records. A picture of boxes of singles was taken by me
+a record stall that was taken by me from Payback Records. A picture of boxes of singles was taken by me
 at the Rockshop.
 
 ### Contact
@@ -271,7 +272,7 @@ at the Rockshop.
     </a>
 </div>
 <br>
-The OA contact page provides a professional Jotform for general enquiries.
+The OA contact page provides a professional Jotform for general enquiries and an address so you know where to visit!
 
 ### Login
   <!--- login --->
@@ -314,7 +315,7 @@ Enables a member of the public to register with OA and gain their membership ben
   <!--- testing using speed page insights ---> 
 Throughout the build process, the coding was tested using VS Code and online validators. The deployed project was built
 on a Dell machine running Linux and extensive use of Gitpod and its development server. How the site responded was tested using a
-Windows 10 laptop running Firefox, an iPad running Safari and a Samsung running Chrome. 
+Windows 10 laptop running Firefox, an iPad running Safari and a Samsung smartphone running Chrome. 
 
 Each of the eight pages was tested using Page Speed Insights mobile and desktop options. All scored 100% on 'accessibility' and 'search engine optimisation'. All scored in the high nineties for 'good practice'. Performance was good using the desktop option, though on some of the pages measuring mobile performance, scores could be a lot better. This might well be because they are measured against a Moto G4, a rather obsolete model.
   <!--- homepage mobile --->
@@ -435,7 +436,7 @@ Each of the eight pages was tested using Page Speed Insights mobile and desktop 
 
 The website Only Analog Records was first deployed using Render.com around 10am on 27th July 2023. At that time I used Render as it has a free tier for its smaller websites. The first few tries at deployment, as it was not a process I knew much about, failed mainly through choosing the wrong type of site (it was part of their webservices category) and a struggle to get versions of the Python modules needed that Render insisted on. I then had to change the python file run.py to app.py, but it then succeeded and the website was up-and-running.
 
-Then I made a decision to pay for Heroku time as the free Code Institute student deal was not available. This was due to an annoying fact that long ago I deleted an account with GitHub which used the same email address as the Code Institute now uses. Unfortunately, this email address clashed with the old GitHub email and although trying to get GitHub to find it and delete it, this was not possible. Thus I paid the small amount of money and the website was deployed using Heroku on the 17th August 2023. This had a small hiccup, a 'H10 problem', but this was easily sorted by removing a leftover line of code. The website was then fully visible.
+Then I made a decision to pay for Heroku time as the free Code Institute student deal was not available. This was due to an annoying fact that long ago I deleted an account with GitHub which used the same email address as the Code Institute now uses. Unfortunately, this email address clashed with the old GitHub email and although trying to get GitHub to find it and delete it, this was not possible. Thus I paid the small amount of money and the website was deployed using Heroku on the 17th August 2023. This had a small hiccup, a 'H10 problem', but this was easily sorted by removing a leftover line of code. The website was then fully visible and loaded quickly, unlike Render. 
 <br>
 <div align="center">
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/heroku-deployment-17-august-2023.jpg?raw=true">
