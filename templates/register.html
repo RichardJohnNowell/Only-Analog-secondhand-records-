@@ -1,4 +1,4 @@
-{% extends "base.html" %} 
+quired{% extends "base.html" %} 
     {% block content %}
       <main>
         <!-- start of register page -->
@@ -14,7 +14,7 @@
                           </label>
                           <div class="cols-sm-10">
                               <div class="input-group">
-                                  <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter your Name">
+                                  <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter your Name" required>
                               </div>
                           </div>
                       </div>
@@ -24,7 +24,7 @@
                           </label>
                           <div class="cols-sm-10">
                               <div class="input-group">
-                                  <input type="text" class="form-control" name="email" id="email" placeholder="Enter your Email">
+                                  <input type="text" class="form-control" name="email" id="email" placeholder="Enter your Email" required>
                               </div>
                           </div>
                       </div>
@@ -44,7 +44,8 @@
                           </label>
                           <div class="cols-sm-10">
                               <div class="input-group">
-                                <input type="password" class="form-control" name="password" placeholder="password" id="password" required placeholder="Enter your Password">
+                                <input type="text" class="form-control" name="password" id="password" placeholder="Enter your Password" required>
+
                               </div>
                           </div>
                       </div>
