@@ -1,6 +1,7 @@
 """start of only analog python file app.py"""
 
 import os
+import urllib.parse as up
 import re
 from flask import (Flask, request, session, redirect, url_for, render_template, 
     flash)
@@ -9,19 +10,22 @@ from werkzeug.security import generate_password_hash, check_password_hash
 if os.path.exists("env.py"):
     import env
 
+
 # creating a Flask instance
 app = Flask(__name__)
 
+
 # fetching from environment file
-# os.environ.get("DATABASE_URL")
-# os.environ.get("DB_NAME")
+url = up.urlparse(os.environ["DATABASE_URL"])
 
 
 # using psycopg2 to connect to database
-# conn = psycopg2.connect(
-#    database_url="DATABASE_URL",
-#    dbname="DB_NAME", 
-# )
+conn = psycopg2.connect(database=url.path[1:],
+  user=url.username,
+  password=url.password,
+  host=url.hostname,
+  port=url.port
+)
 
 
 # routes for different pages
@@ -31,10 +35,10 @@ def index():
     routing for homepage with loggedin option
     """
     if "loggedin" in session:
-        # if user logged in show them the homepage
+        # if user logged in show them the homepage with name
         return render_template("index.html", username=session["username"])
-        # if user is not logged in show them to homepage
-    return render_template(url_for("index.html"))
+        # if user is not logged in show them to the homepage
+    return render_template("index.html")
 
 
 @app.route("/listings")
@@ -136,9 +140,8 @@ def profile():
 # conditional statement 
 if __name__ == "__main__":
     app.run(
-        host=os.environ.get("IP", "0.0.0.0"),
-        port=int(os.environ.get("PORT", "5000")),
-        debug=True)
+        debug=True
+    )
 
 
 # end of only analog python file app.py
