@@ -504,6 +504,17 @@ HTML Validation for the website pages used W3 validator. All pages passed the te
     </a>
 </div>
 <br>
+  <!--- contact page --->
+The Jotform JavaScript code is provided by the company but was tested anyway.
+<br>
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-jotform-jshint-validation.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-jotform-jshint-validation.jpg?raw=true"
+         width="350" height="289" title="oa-jotform-jshint-validation" id="oa-jotform-jshint-validation" alt="oa-jotform-jshint-validation">
+    </a>
+</div>
+<br>
+
 
 ## Wireframes
   <!--- wireframes --->
