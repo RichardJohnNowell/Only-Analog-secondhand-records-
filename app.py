@@ -1,12 +1,16 @@
 """start of only analog python file app.py"""
 
+
 import os
 import urllib.parse as up
 import re
 from flask import (Flask, request, session, redirect, url_for, render_template, 
-    flash)
+                   flash)
 import psycopg2
 from werkzeug.security import generate_password_hash, check_password_hash
+
+
+# if the environment file is available, use that
 if os.path.exists("env.py"):
     import env
 
@@ -19,12 +23,13 @@ app = Flask(__name__)
 url = up.urlparse(os.environ["DATABASE_URL"])
 
 
-# using psycopg2 to connect to database
-conn = psycopg2.connect(database=url.path[1:],
-  user=url.username,
-  password=url.password,
-  host=url.hostname,
-  port=url.port
+# using psycopg2 to connect to the elephantsql database
+conn = psycopg2.connect(
+    database=url.path[1:],
+    user=url.username,
+    password=url.password,
+    host=url.hostname,
+    port=url.port,
 )
 
 
