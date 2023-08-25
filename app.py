@@ -19,17 +19,20 @@ if os.path.exists("env.py"):
 app = Flask(__name__)
 
 
+# elephant SQL coding
+up.uses_netloc.append("postgres")
+
+
 # fetching from environment file
 url = up.urlparse(os.environ["DATABASE_URL"])
 
 
 # using psycopg2 to connect to the elephantsql database
-conn = psycopg2.connect(
-    database=url.path[1:],
-    user=url.username,
-    password=url.password,
-    host=url.hostname,
-    port=url.port,
+conn = psycopg2.connect(database=url.path[1:],
+user=url.username,
+password=url.password,
+host=url.hostname,
+port=url.port,
 )
 
 
@@ -146,7 +149,7 @@ def profile():
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
-        port=int(os.environ.get("PORT", "5000")),
+        port=int(os.environ.get("PORT", "5432")),
         debug=True)
 
 
