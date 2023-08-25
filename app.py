@@ -7,6 +7,7 @@ import re
 from flask import (Flask, request, session, redirect, url_for, render_template, 
                    flash)
 import psycopg2
+import psycopg2.extras
 from werkzeug.security import generate_password_hash, check_password_hash
 
 
@@ -149,7 +150,7 @@ def profile():
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
-        port=int(os.environ.get("PORT", "5432")),
+        port=int(os.environ.get("PORT", "5000")),
         debug=True)
 
 
