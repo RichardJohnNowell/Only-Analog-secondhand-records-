@@ -120,11 +120,52 @@ def logout():
     return redirect(url_for("index.html"))
 
 
-@app.route("/register")
+@app.route("/register", methods=["GET", "POST"])
 def register():
     """
     routing for register page
     """
+    cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+    # check if "username", "password" and "email" POST requests exist
+    if (
+        request.method == "POST"
+        and "username" in request.form
+        and "password" in request.form
+        and "email" in request.form
+    ):
+        # create variables for easy access
+        fullname = request.form["fullname"]
+        username = request.form["username"]
+        password = request.form["password"]
+        email = request.form["email"]
+        # generate password security hash
+        _hashed_password = generate_password_hash(password)
+        # check if account exists using postgreSQL query
+        cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
+        account = cursor.fetchone()
+        print(account)
+        # if account exists show error and validation checks
+        if account:
+            flash("Account already exists!")
+        elif not re.match(r"[^@]+@[^@]+\.[^@]+", email):
+            flash("Invalid email address!")
+        elif not re.match(r"[A-Za-z0-9]+", username):
+            flash("Username must contain only characters and numbers!")
+        elif not username or not password or not email:
+            flash("Please fill out the form!")
+        else:
+            # if account does not exist and the form data is valid,
+            # insert new account into users table
+            cursor.execute(
+                "INSERT INTO users (fullname, username, password, email) VALUES (%s,%s,%s,%s)",
+                (fullname, username, _hashed_password, email),
+            )
+            conn.commit()
+            flash("You have successfully registered!")
+    elif request.method == "POST":
+        # form is empty... (no POST data)
+        flash("Please fill out the form!")
+        # show registration form with message (if any)
     return render_template("register.html")
 
 
