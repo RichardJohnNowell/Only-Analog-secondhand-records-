@@ -4,7 +4,7 @@
 import os
 import urllib.parse as up
 import re
-from flask import (Flask, request, session, redirect, url_for, render_template, 
+from flask import (Flask, request, session, redirect, url_for, render_template,
                    flash)
 import psycopg2
 import psycopg2.extras
@@ -145,7 +145,7 @@ def profile():
         return render_template("profile.html", account=account)
         # user is not logged in so redirected to login page
     return redirect(url_for("login"))
-    
+        
 
 # conditional statement 
 if __name__ == "__main__":
