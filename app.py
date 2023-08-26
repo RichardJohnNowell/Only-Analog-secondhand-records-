@@ -105,8 +105,8 @@ def login():
     routing for login page
     """
     return render_template("login.html")
-
- 
+    
+    
 @app.route("/logout")
 def logout():
     """
