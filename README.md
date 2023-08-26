@@ -7,7 +7,7 @@
     </a>
 </div>
 <br>
-<p>The website for Only Analog records and cassettes - "Smooth not brittle".</p>
+<p>The website for Only Analog Secondhand Records - "Smooth not brittle".</p>
 <p>Only Analog is a well-known stall in St.Nicholas Market, Bristol. We sell only records and cassettes, preferring the sound of analog formats.</p>
 <br>
 <div align="center">
