@@ -29,11 +29,12 @@ url = up.urlparse(os.environ["DATABASE_URL"])
 
 
 # using psycopg2 to connect to the elephantsql database
-conn = psycopg2.connect(database=url.path[1:],
-user=url.username,
-password=url.password,
-host=url.hostname,
-port=url.port,
+conn = psycopg2.connect(
+    database=url.path[1:],
+    user=url.username,
+    password=url.password,
+    host=url.hostname,
+    port=url.port,
 )
 
 
