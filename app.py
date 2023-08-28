@@ -26,6 +26,7 @@ up.uses_netloc.append("postgres")
 
 # fetching from environment file
 url = up.urlparse(os.environ["DATABASE_URL"])
+url = up.urlparse(os.environ["SECRET_KEY"])
 
 
 # using psycopg2 to connect to the elephantsql database
