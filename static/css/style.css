@@ -85,7 +85,7 @@ hr {
   width: 10%;
 }
 
-input, input::-webkit-input-placeholder {
+input {
   font-size: 11px;
   padding-top: 3px;
 }
