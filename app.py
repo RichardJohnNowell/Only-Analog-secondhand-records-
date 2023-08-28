@@ -182,8 +182,8 @@ def profile():
     cursor.execute("SELECT * FROM")
     # check if user is logged in
     if "loggedin" in session:
-        # postgreSQL query
-        cursor.execute("SELECT * FROM users WHERE id = %s", [session["id"]])
+        # postgreSQL query from oa_memb
+        cursor.execute("SELECT * FROM oa_memb WHERE id = %s", [session["id"]])
         account = cursor.fetchone()
         # show the profile page with account info
         return render_template("profile.html", account=account)
