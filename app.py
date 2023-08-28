@@ -106,7 +106,7 @@ def login():
     """
     return render_template("login.html")
 
-  
+
 @app.route("/logout")
 def logout():
     """
@@ -125,6 +125,7 @@ def register():
     """
     routing for register page
     """
+    # postgreSQL connection with cursor
     cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     # check if "username", "password" and "email" POST requests exist
     if (
@@ -140,8 +141,9 @@ def register():
         email = request.form["email"]
         # generate password security hash
         _hashed_password = generate_password_hash(password)
-        # check if account exists using postgreSQL query
-        cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
+        # check if oa_memb account exists using postgreSQL
+        cursor.execute("SELECT * FROM oa_memb \
+            WHERE username = %s", (username,))
         account = cursor.fetchone()
         print(account)
         # if account exists show error and validation checks
@@ -154,10 +156,11 @@ def register():
         elif not username or not password or not email:
             flash("Please fill out the form!")
         else:
-            # if account does not exist and the form data is valid,
-            # insert new account into users table
+            # if account does not exist and the form data is valid then
+            # insert a new account into the oa_membership table
             cursor.execute(
-                "INSERT INTO users (fullname, username, password, email) VALUES (%s,%s,%s,%s)",
+                "INSERT INTO oa_memb (fullname, username, password, email) \
+                    VALUES (%s,%s,%s,%s)",
                 (fullname, username, _hashed_password, email),
             )
             conn.commit()
