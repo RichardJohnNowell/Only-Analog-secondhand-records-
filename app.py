@@ -110,7 +110,7 @@ def login():
 @app.route("/logout")
 def logout():
     """
-    routing for login page
+    routing for logout page
     """
     session.pop("loggedin", None)
     session.pop("id", None)
