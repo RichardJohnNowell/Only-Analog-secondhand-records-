@@ -194,8 +194,8 @@ def profile():
         # user is not logged in so redirected to login page
     return redirect(url_for("login"))
     
-
-# conditional statement
+    
+    # conditional statement
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
