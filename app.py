@@ -112,6 +112,38 @@ def login():
     cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     # comment
     return render_template("login.html")
+        # check if "username" and "password" POST requests exist
+    if (
+        request.method == "POST"
+        and "username" in request.form
+        and "password" in request.form
+    ):
+        username = request.form["username"]
+        password = request.form["password"]
+        print(password)
+        # check if account exists using postgreSQL query of oa_memb
+        cursor.execute("SELECT * FROM oa_memb \
+                       WHERE username = %s", (username,))
+        # fetch one record and return the result
+        account = cursor.fetchone()
+        # check if entry is correct or incorrect
+        if account:
+            password_rs = account["password"]
+            print(password_rs)
+            if check_password_hash(password_rs, password):
+                # create session data, we can access this data in other routes
+                session["loggedin"] = True
+                session["id"] = account["id"]
+                session["username"] = account["username"]
+                # redirect to the homepage
+                return redirect(url_for("index"))
+            else:
+                # account does not exist or username/password incorrect
+                flash("Incorrect username/password")
+        else:
+            # account does not exist or username/password incorrect
+            flash("Incorrect username/password")
+    return render_template("login.html")
 
 
 @app.route("/logout")
