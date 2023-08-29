@@ -106,7 +106,7 @@ def contact():
 @app.route("/login")
 def login():
     """
-    routing for login page
+    routing for login page sorting
     """
     return render_template("login.html")
 
