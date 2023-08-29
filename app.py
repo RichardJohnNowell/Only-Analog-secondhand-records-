@@ -103,7 +103,7 @@ def contact():
     return render_template("contact.html")
 
 
-@app.route("/login")
+@app.route("/login", methods=["GET", "POST"])
 def login():
     """
     routing for login page sorting
