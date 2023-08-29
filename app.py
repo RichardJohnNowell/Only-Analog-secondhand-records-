@@ -109,7 +109,7 @@ def login():
     routing for login page sorting
     """
     # postgreSQL connection with cursor
-    cursor = conn.cursor(cursor_factory = psycopg2.extras.DictCursor)
+    cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     # comment
     return render_template("login.html")
 
@@ -196,9 +196,8 @@ def profile():
         return render_template("profile.html", account=account)
         # user is not logged in so redirected to login page
     return redirect(url_for("login"))
-    
-    
-    # conditional statement
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
