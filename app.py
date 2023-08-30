@@ -16,12 +16,12 @@ if os.path.exists("env.py"):
     import env
 
 
-# secret key import
-SECRET_KEY = os.environ.get("SECRET_KEY")
-
-
 # creating a Flask instance
 app = Flask(__name__)
+
+
+# secret key import
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 
 # elephant SQL coding
