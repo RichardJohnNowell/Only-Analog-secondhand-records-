@@ -22,6 +22,7 @@ app = Flask(__name__)
 
 # secret key import
 SECRET_KEY = os.environ.get("SECRET_KEY")
+app.config["SECRET_KEY"] = SECRET_KEY
 
 
 # elephant SQL coding
