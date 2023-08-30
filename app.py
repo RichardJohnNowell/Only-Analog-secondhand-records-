@@ -111,8 +111,6 @@ def login():
     """
     # postgreSQL connection with cursor
     cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-    # comment
-    return render_template("login.html")
     # check if "username" and "password" POST requests exist
     if (
         request.method == "POST"
