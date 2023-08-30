@@ -218,8 +218,6 @@ def profile():
     routing for profile page
     """
     cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-    # postgreSQL query
-    cursor.execute("SELECT * FROM")
     # check if user is logged in
     if "loggedin" in session:
         # postgreSQL query from oa_memb
