@@ -17,7 +17,7 @@ if os.path.exists("env.py"):
 
 
 # secret key import
-
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 
 # creating a Flask instance
