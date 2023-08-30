@@ -508,7 +508,8 @@ HTML Validation for the website pages used W3 validator. All pages passed the te
 The w3 css validation:
 <div align="center">
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-w3-css-validation.jpg.jpg?raw=true">
-        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-w3-css-validation.jpg?raw=true"
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-w3-css-validation. 
+         jpg?raw=true"
          width="350" height="176" title="oa-w3-css-validation" id="oa-w3-css-validation" alt="oa-w3-css-validation">
     </a>
 </div>
