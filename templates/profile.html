@@ -3,12 +3,13 @@
         <!-- profile page -->
         <main>
             <section>
+                <br>
                 <h1 id="member-contact">YOUR PROFILE PAGE</h1>
                 <div class="container">
                     <div class="form-control">
-                            <p>Your OA account details are below:</p>
+                        <p>Your OA account details are below:</p>
                             <!-- details -->
-                            <table>
+                        <table>
                             <!-- names and emails -->
                             <tr>
                                 <td>Name:</td>
@@ -19,17 +20,23 @@
                                 <td>Username:</td>
                                 <td>{{ account['username'] }}</td>
                             </tr>
-                        <!-- email -->
+                            <!-- email -->
                             <tr>
                                 <td>Email:</td>
                                 <td>{{ account['email'] }}</td>
                             </tr>
-                           </table>
+                            <!-- delete account -->
+                            <!-- delete account --><tr>
+                            <!-- delete account -->    <td>Delete account:</td>
+                            <!-- delete account -->   <td>{{ account['delete'] }}</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </section>
             <!-- end of user details -->
             <!-- contact form -->
+            <br>
             <section>
                 <h2 id="members_h2">CONTACT ONLY ANALOG USING THIS FORM</h2>
                 <div class="contact_container">
