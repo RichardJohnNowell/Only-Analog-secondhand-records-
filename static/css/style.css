@@ -164,9 +164,9 @@ label {
 
 input[type=submit] {
   background-color: gold;
-  border: 3px solid black;
+  border: 3px solid #010b13;
   border-radius: 10px;
-  color: black;
+  color: #010b13;
   font-weight: 600;
   cursor: pointer;
   padding: 12px 20px;
@@ -177,7 +177,7 @@ input[type=submit]:hover {
 }
 
 input[type=text], select, textarea {
-  border: 3px solid black;
+  border: 3px solid #010b13;
   border-radius: 10px;
   box-sizing: border-box;
   padding: 10px;
@@ -195,7 +195,7 @@ input[type=text], select, textarea {
 #members_h2 {
   color: red;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -204,7 +204,7 @@ input[type=text], select, textarea {
 }
 
 .text_area {
-  height: 190px;
+  height: 200px;
 }
 
 /*-----------------------------------------headings*/ 
