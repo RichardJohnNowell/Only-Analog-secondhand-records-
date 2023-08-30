@@ -192,6 +192,13 @@ input[type=text], select, textarea {
   text-align: center;
 }
 
+#members_h2 {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
 .line_padding {
   padding-bottom: 8px;
 }
