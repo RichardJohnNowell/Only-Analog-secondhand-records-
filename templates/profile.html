@@ -4,26 +4,28 @@
         <main>
             <section>
                 <h1 id="member-contact">YOUR PROFILE PAGE</h1>
-                <div>
-                    <p>Your OA account details are below:</p>
-                    <!-- details -->
-                    <table>
-                        <!-- name -->
-                        <tr>
-                            <td>Name:</td>
-                            <td>{{ account['fullname'] }}</td>
-                        </tr>
-                        <!-- username -->
-                        <tr>
-                            <td>Username:</td>
-                            <td>{{ account['username'] }}</td>
-                        </tr>
+                <div class="container">
+                    <div class="form-control">
+                            <p>Your OA account details are below:</p>
+                            <!-- details -->
+                            <table>
+                            <!-- names and emails -->
+                            <tr>
+                                <td>Name:</td>
+                                <td>{{ account['fullname'] }}</td>
+                            </tr>
+                            <!-- username -->
+                            <tr>
+                                <td>Username:</td>
+                                <td>{{ account['username'] }}</td>
+                            </tr>
                         <!-- email -->
-                        <tr>
-                            <td>Email:</td>
-                            <td>{{ account['email'] }}</td>
-                        </tr>
-                    </table>
+                            <tr>
+                                <td>Email:</td>
+                                <td>{{ account['email'] }}</td>
+                            </tr>
+                           </table>
+                    </div>
                 </div>
             </section>
               <!-- end of user details -->
