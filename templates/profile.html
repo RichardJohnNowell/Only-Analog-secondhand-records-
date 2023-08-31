@@ -35,26 +35,17 @@
                 </div>
             </section>
             <!-- end of user details -->
-            <!-- contact form -->
             <br>
             <section>
-                <h2 id="members_h2">CONTACT ONLY ANALOG USING THIS FORM</h2>
-                <div class="contact_container">
-                    <form action="mailto:feelthequalityrecords@swisscows.email" method="POST" target="_blank">
-                        <label for="fname"><strong>First Name</strong>
-                        </label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your first name..." required>
-                        <label for="lname"><strong>Last Name</strong>
-                        </label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-                        <label for="subject"><strong>Subject</strong>
-                        </label>
-                        <textarea class="text_area" id="subject" name="subject" placeholder="Write something..." required></textarea>
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
+              <!-- start of membership contact form -->
+              <h2 id="members_h2">CONTACT ONLY ANALOG USING THIS FORM</h2>
+              <br>
+              <div>
+                <iframe id="JotFormIFrame-230943552692360" title="FotForm" onload="window.parent.scrollTo(0,0)" allow="fullscreen" src="https://form.jotform.com/230943552692360"></iframe>
+              </div>
             </section>
-            <!-- end of contact form-->
+            <!-- end of membership jotform -->
+            <script src="static/js/jotform-members-only.js"></script>
         </main>
         <!-- end -->
     {% endblock %}
