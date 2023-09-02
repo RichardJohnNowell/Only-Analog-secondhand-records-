@@ -26,16 +26,70 @@
                                 <td>{{ account['email'] }}</td>
                             </tr>
                             <!-- delete account -->
-                            <tr>
-                                <td>Delete account:</td>
-                                <td>{{ account['delete'] }}</td>
-                            </tr>
                         </table>
                     </div>
                 </div>
             </section>
             <!-- end of user details -->
             <br>
+            <!-- interactive calendar -->
+            <section>
+                <div class="calendar">
+                    <div class="col leftCol">
+                        <div class="content">
+                            <h3 class="date">Fri<span>Sep</span></h3>
+                            <div class="notes">
+                              <p>
+                                <input type="text" value="" placeholder="new note">
+                                    <a href="#" title="Add note" class="addNote animate">+</a>
+                              </p>
+                              <ul class="noteList">
+                                  <li>Only Analog<a href="#" title="Remove note" class="removeNote animate">x</a></li>
+                              </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- calendar years -->
+                    <div class="col rightCol">
+                        <div class="content">
+                            <h4 class="year">2023</h4>
+                            <ul class="months">
+                                <li><a href="#" title="Jan" data-value="1">Jan</a></li>
+                                <li><a href="#" title="Feb" data-value="2">Feb</a></li>
+                                <li><a href="#" title="Mar" data-value="3">Mar</a></li>
+                                <li><a href="#" title="Apr" data-value="4">Apr</a></li>
+                                <li><a href="#" title="May" data-value="5">May</a></li>
+                                <li><a href="#" title="Jun" data-value="6">Jun</a></li>
+                                <li><a href="#" title="Jul" data-value="7">Jul</a></li>
+                                <li><a href="#" title="Aug" data-value="8">Aug</a></li>
+                                <li><a href="#" title="Sep" data-value="9" class="selected">Sep</a></li>
+                                <li><a href="#" title="Oct" data-value="10">Oct</a></li>
+                                <li><a href="#" title="Nov" data-value="11">Nov</a></li>
+                                <li><a href="#" title="Dec" data-value="12">Dec</a></li>
+                            </ul>
+                            <!-- calender weeks -->
+                            <div class="clearfix"></div>
+                                <ul class="weekday">
+                                    <li><a href="#" title="Mon" data-value="1">Mon</a></li>
+                                    <li><a href="#" title="Tue" data-value="2">Tue</a></li>
+                                    <li><a href="#" title="Wed" data-value="3">Wed</a></li>
+                                    <li><a href="#" title="Thu" data-value="4">Thu</a></li>
+                                    <li><a href="#" title="Fri" data-value="5">Fri</a></li>
+                                    <li><a href="#" title="Say" data-value="6">Sat</a></li>
+                                    <li><a href="#" title="Sun" data-value="7">Sun</a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                                    <ul class="days">
+                                        <script></script>
+                                    </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </section>
+            <br>            
             <section>
               <!-- start of membership contact form -->
               <h2 id="members_h2">CONTACT ONLY ANALOG USING THIS FORM</h2>
