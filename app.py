@@ -235,7 +235,6 @@ def delete_profile():
     cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     cursor.execute("DELETE FROM oa_memb WHERE id = %s", [session["id"]])
     flash("Your Profile Has Been Deleted")
-    session.pop("user")
     return render_template("index.html")
 
 
