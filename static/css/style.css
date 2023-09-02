@@ -156,14 +156,21 @@ label {
 
 /*-----------------------------------------membership form*/
 
-#member-contact {
+#member-profile-1 {
   color: red;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
 }
 
-#members_h2 {
+#member-profile-2 {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+#member-profile-3 {
   color: red;
   font-size: 1.5rem;
   font-weight: 600;
