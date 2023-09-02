@@ -227,7 +227,7 @@ def profile():
     return redirect(url_for("login"))
 
 
-@app.route("/delete-profile")
+@app.route("/delete_profile")
 def delete_profile():
     """
     routing for deleting profile
