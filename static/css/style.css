@@ -170,6 +170,184 @@ label {
   text-align: center;
 }
 
+ /* ------------------------------- calendar*/
+
+ .animate{
+  transition: all 0.3s ease-in-out;
+}
+
+.calendar{
+  background-color: #fefefa;
+  border-radius: 4px;
+  color: #333333;
+  height: 450px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  width: 800px;
+}
+
+.calendar h3, .calendar h4{
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 28px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+}
+
+.calendar h3 span{
+  display: block;
+}
+
+.calendar .col{
+  float: left;
+  height: 100%;
+  position: relative;
+}
+
+.calendar .col .content{
+  padding: 40px;
+}
+
+.calendar ul{
+  margin: 0;
+}
+
+.calendar ul li{
+  list-style: none;
+}
+
+.calendar .leftCol{
+  background-color: #F48989;
+  width: 40%;
+}
+
+.calendar .noteList li{
+  color: #fefefa;
+  margin-bottom: 10px;
+}
+
+.calendar .notes p,
+.calendar .notes input,
+.calendar .noteList li{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.calendar .notes p{
+  border-bottom: solid 1px rgba(255,255,255,0.4);
+}
+
+.calendar .notes input{
+  background-color: #F48989;
+  border: none;
+  color: #fefefa;
+  width: 200px;
+}
+
+.calendar .addNote,
+.calendar .removeNote{
+  color: rgba(255,255,255,0.4);
+  float: right;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.calendar .addNote:hover,
+.calendar .removeNote:hover{
+  color: #fefefa;
+}
+
+.calendar .addNote{
+  font-size: 16px;
+}
+
+.calendar .leftCol h1{
+  color: #fefefa;
+  margin-bottom: 40px;
+}
+
+.calendar .rightCol{
+  width: 60%;
+}
+
+.calendar .rightCol h2{
+  color: #C7BEBE;
+  margin-bottom: 70px;
+  text-align: right;
+}
+
+.calendar .months li,
+.calendar .weekday li,
+.calendar .days li{
+  float: left;
+  text-transform: uppercase;
+}
+
+.calendar .months li a,
+.calendar .weekday li a,
+.calendar .days li a{
+  color: #747978;
+  display: block;
+}
+
+.calendar .months li a{
+  color: #C7BEBE;
+  font-size: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 32px;
+}
+
+.calendar .months li .selected{
+  color: #747978;
+  font-weight: bold;
+}
+
+.calendar .weekday li a{
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 55px;
+}
+
+.calendar .days li{
+  width: 55px;
+}
+
+.calendar .days li a{
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  height: 24px;
+  margin: auto auto;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  width: 36px;
+}
+
+.calendar .days li a:hover{
+  background-color: #EEEDE9;
+}
+
+.calendar .days li .selected{
+  background-color: #F5A1A3;
+  color: #fefefa;
+}
+
+.calendar .days li .event{
+  color: #F5A1A3;
+}
+
+.clearfix{
+  clear: both;
+}
+
 /*-----------------------------------------headings*/ 
 
 #aswad {   
