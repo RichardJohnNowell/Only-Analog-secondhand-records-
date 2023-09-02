@@ -41,7 +41,18 @@
               </div>
             </section>
             <!-- delete confirmation modal -->
-
+            <section>
+                <h3 id="member-profile-3">DELETE YOUR ACCOUNT HERE</h3>
+                <div class="modal-content center-align">
+                    <p>Deletion of account is terminal! {{ username }}?</p>
+                </div>
+                <!-- delete button -->
+                <div class="row modal-footer">
+                  <a href="{{ url_for('delete_profile') }}" class="btn delete">
+                  Delete
+                  </a>
+                </div>
+            </section>
             <br>
             <!-- end of membership jotform -->
             <script src="static/js/jotform-members-only.js"></script>
