@@ -227,6 +227,18 @@ def profile():
     return redirect(url_for("login"))
 
 
+@app.route("/delete-profile")
+def delete_profile():
+    """
+    routing for deleting profile
+    """
+    cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+    cursor.execute("DELETE FROM oa_memb WHERE id = %s", [session["id"]])
+    flash("Your Profile Has Been Deleted")
+    session.pop("user")
+    return render_template("index.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
@@ -235,4 +247,3 @@ if __name__ == "__main__":
 
 
 # end of only analog python file app.py
-
