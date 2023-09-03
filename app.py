@@ -20,20 +20,23 @@ if os.path.exists("env.py"):
 app = Flask(__name__)
 
 
-# secret key import
+# key import
 SECRET_KEY = os.environ.get("SECRET_KEY")
+
+
+# key configuration
 app.config["SECRET_KEY"] = SECRET_KEY
 
 
-# elephant SQL coding
+# elephant sql parse
 up.uses_netloc.append("postgres")
 
 
-# fetching from environment file
+# fetching database link from environment file
 url = up.urlparse(os.environ["DATABASE_URL"])
 
 
-# using psycopg2 to connect to the elephantsql database
+# using psycopg2 to connect to the elephant sql database
 conn = psycopg2.connect(
     database=url.path[1:],
     user=url.username,
@@ -109,7 +112,7 @@ def login():
     """
     routing for login page sorting
     """
-    # postgreSQL connection with cursor
+    # postgres connection with cursor from extras dictionary
     cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     # check if "username" and "password" POST requests exist
     if (
@@ -120,7 +123,7 @@ def login():
         username = request.form["username"]
         password = request.form["password"]
         print(password)
-        # check if account exists using postgreSQL query of oa_memb
+        # check if account exists using postgres query of oa_memb
         cursor.execute("SELECT * FROM oa_memb \
                        WHERE username = %s", (username,))
         # fetch one record and return the result
@@ -130,11 +133,11 @@ def login():
             password_rs = account["password"]
             print(password_rs)
             if check_password_hash(password_rs, password):
-                # create session data, we can access this data in other routes
+                # create session data
                 session["loggedin"] = True
                 session["id"] = account["id"]
                 session["username"] = account["username"]
-                # redirect to the homepage
+                # go to profile page
                 return redirect(url_for("profile"))
             else:
                 # account does not exist or username/password incorrect
@@ -150,9 +153,11 @@ def logout():
     """
     routing for logout page
     """
+    # session ends
     session.pop("loggedin", None)
     session.pop("id", None)
     session.pop("username", None)
+    # logout message
     flash('You have been logged out')
     # redirect to homepage
     return redirect(url_for("index.html"))
@@ -163,7 +168,7 @@ def register():
     """
     routing for register page
     """
-    # postgreSQL connection with cursor
+    # postgres connection with cursor from extras dictionary
     cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     # check if "username", "password" and "email" POST requests exist
     if (
@@ -179,7 +184,7 @@ def register():
         email = request.form["email"]
         # generate password security hash
         _hashed_password = generate_password_hash(password)
-        # check if oa_memb account exists using postgreSQL
+        # check if oa_memb account exists using postgres
         cursor.execute("SELECT * FROM oa_memb \
             WHERE username = %s", (username,))
         account = cursor.fetchone()
@@ -195,18 +200,19 @@ def register():
             flash("Please fill out the form!")
         else:
             # if account does not exist and the form data is valid then
-            # insert a new account into the oa_membership table
+            # insert a new account into the oa_memb membership
             cursor.execute(
                 "INSERT INTO oa_memb (fullname, username, password, email) \
                     VALUES (%s,%s,%s,%s)",
                 (fullname, username, _hashed_password, email),
             )
             conn.commit()
+            # registration ok message
             flash("You have successfully registered!")
     elif request.method == "POST":
-        # form is empty... (no POST data)
+        # form is empty as no POST data
         flash("Please fill out the form!")
-        # show registration form with message (if any)
+        # show registration form with message or not
     return render_template("register.html")
 
 
@@ -215,10 +221,11 @@ def profile():
     """
     routing for profile page
     """
+    # postgres connection with cursor from extras dictionary
     cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     # check if user is logged in
     if "loggedin" in session:
-        # postgreSQL query from oa_memb
+        # postgres query from oa_memb membership
         cursor.execute("SELECT * FROM oa_memb WHERE id = %s", [session["id"]])
         account = cursor.fetchone()
         # show the profile page with account info
@@ -232,9 +239,13 @@ def delete_profile():
     """
     routing for deleting profile
     """
+    # postgres connection with cursor from extras dictionary
     cursor = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+    # delete member using sql
     cursor.execute("DELETE FROM oa_memb WHERE id = %s", [session["id"]])
+    # delete message
     flash("Your Profile Has Been Deleted")
+    # back to the homepage
     return render_template("index.html")
 
 
