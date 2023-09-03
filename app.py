@@ -52,6 +52,7 @@ def index():
     """
     routing for homepage with loggedin option
     """
+    # check if user is logged in
     if "loggedin" in session:
         # if user logged in show them the homepage with name
         return render_template("index.html", username=session["username"])
@@ -160,7 +161,7 @@ def logout():
     # logout message
     flash('You have been logged out')
     # redirect to homepage
-    return redirect(url_for("index.html"))
+    return redirect(url_for("index"))
 
 
 @app.route("/register", methods=["GET", "POST"])
