@@ -25,36 +25,57 @@
                                 <td>Email:</td>
                                 <td>{{ account['email'] }}</td>
                             </tr>
-                            <!-- delete account -->
                         </table>
                     </div>
                 </div>
             </section>
-            <br>
             <!-- end of user details -->
-            <!-- start of membership contact form -->
+            <br>
             <section>
+                <h3 id="member-profile-2">LOGOUT HERE</h3>
+                <div class="modal-content center-align">
+                    <p><strong>LOGOUT TO HOMEPAGE</strong></p>
+                </div>
+                <br>
+                <!-- logout button -->
+                <div class="row modal-footer">
+                  <button type="button" class="btn btn-warning btn-lg d-grid gap-2 col-4 mx-auto fw-bold fs-4">
+                    <a href="{{ url_for('logout') }}" >
+                        LOGOUT
+                    </a>
+                  </button>
+                </div>
+            </section>
+            <br>
+            <!-- account deletion -->
+            <section>
+              <h3 id="member-profile-3">DELETE YOUR ACCOUNT HERE</h3>
+              <div class="modal-content center-align">
+                  <p><strong>DELETION OF ACCOUNT IS TERMINAL!</strong></p>
+              </div>
+              <br>
+              <!-- delete button -->
+              <div class="row modal-footer">
+                <button type="button" class="btn btn-danger btn-lg d-grid gap-2 col-4 mx-auto fw-bold fs-4">
+                  <a href="{{ url_for('delete_profile') }}" >
+                      DELETE
+                  </a>
+                </button>
+              </div>
+            </section>
+            <!-- end of account deletion -->
+              <br>
+            <section>
+              <!-- start of membership contact form -->
               <h2 id="member-profile-2">CONTACT ONLY ANALOG USING THIS FORM</h2>
               <br>
               <div>
                 <iframe id="JotFormIFrame-230943552692360" title="FotForm" onload="window.parent.scrollTo(0,0)" allow="fullscreen" src="https://form.jotform.com/230943552692360"></iframe>
               </div>
             </section>
-            <!-- delete confirmation modal -->
-            <section>
-                <h3 id="member-profile-3">DELETE YOUR ACCOUNT HERE</h3>
-                <div class="modal-content center-align">
-                    <p>Deletion of account is terminal! {{ username }}</p>
-                </div>
-                <!-- delete button -->
-                <div class="row modal-footer">
-                  <a href="{{ url_for('delete_profile') }}" class="btn delete">
-                  Delete
-                  </a>
-                </div>
-            </section>
             <br>
             <!-- end of membership jotform -->
+            <!-- delete confirmation modal -->
             <script src="static/js/jotform-members-only.js"></script>
         </main>
         <!-- end -->
