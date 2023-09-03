@@ -154,7 +154,7 @@ label {
   padding: 10px 40px;
 }
 
-/*-----------------------------------------membership form*/
+/*-----------------------------------------profile*/
 
 #member-profile-1 {
   color: red;
@@ -172,6 +172,13 @@ label {
 
 #member-profile-3 {
   color: red;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+#member-profile-4 {
+  color: #010b13;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
