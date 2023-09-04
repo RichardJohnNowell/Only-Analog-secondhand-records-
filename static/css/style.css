@@ -157,32 +157,40 @@ label {
 /*-----------------------------------------profile*/
 
 #member-profile-1 {
-  color: red;
+  color: #d40000;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
 }
 
 #member-profile-2 {
-  color: red;
+  color: #d40000;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
 }
 
 #member-profile-3 {
-  color: red;
+  color: #d40000;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
 }
 
 #member-profile-4 {
-  color: #010b13;
+  color: #d40000;
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
 }
+
+#member-profile-5 {
+  color: #d40000;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
 
 /*-----------------------------------------headings*/ 
 
