@@ -161,7 +161,7 @@ def logout():
     # logout message
     flash('You have been logged out')
     # redirect to homepage
-    return redirect(url_for("index"))
+    return redirect(url_for("login"))
 
 
 @app.route("/register", methods=["GET", "POST"])
