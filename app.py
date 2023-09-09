@@ -57,7 +57,7 @@ def index():
         # if user logged in show them the homepage with name
         return render_template("index.html", username=session["username"])
         # if user is not logged in show them to the homepage
-    return render_template("index.html")
+    return render_template("index")
 
 
 @app.route("/listings")
@@ -152,7 +152,7 @@ def login():
 @app.route("/logout")
 def logout():
     """
-    routing for logout page
+    routing for logout
     """
     # session ends
     session.pop("loggedin", None)
@@ -255,7 +255,7 @@ if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
         port=int(os.environ.get("PORT", "5000")),
-        debug=False)
+        debug=True)
 
 
 # end of only analog python file app.py
