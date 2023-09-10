@@ -36,42 +36,44 @@
     * [Contact](#contact)
     * [Login](#login)
     * [Register](#register)
+    * [Profile](#profile)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Validation](#validation)
 * [Wireframes](#wireframes)
+* [Improvements](#improvements)
 * [Credits](#credits)
 
 
 ## Introduction
   <!--- introduction to readme and story --->
-The idea of the Only Analog stall was inspired by various existing businesses in and around
+<p>The idea of the Only Analog stall was inspired by various existing businesses in and around
 the indoor St. Nicholas Market in Bristol. These three stalls and two local shops
 provide a wide selection of secondhand records and some cassettes. Many of the images 
 on this website were taken by me at those shops with the cooperation of the owners 
-who all expressed an interest in the project.
+who all expressed an interest in the project.</p>
 
-The background to this re-emergence of my liking for the analog sound was started 
+<p>The background to this re-emergence of my liking for the analog sound was started 
 by finding a once-valuable TEAC cassette deck in another, less fancy market building,
 known simply as 'The Stokes Croft Indoor Market'. I knew a friend who had a huge 
 cassette collection and knowing he'd buy a secondhand machine, I paid the £30 and 
-took home the player, which was filthy. 
+took home the player, which was filthy.</p> 
 
-Cleaning the body and the heads with Dettol wet-wipes, a lovely machine emerged.
+<p>Cleaning the body and the heads with Dettol wet-wipes, a lovely machine emerged.
 I then presented it to my friend and he has not stopped using it since. It was noticeable 
 that when compared to the cds he had, the sound of the cassettes, for all its faults, 
 was so much smoother - voices became lush rather than exact algorithmic products.
-This is the origin of Only Analog's logo 'Smooth not brittle': digital music sounds brittle.
+This is the origin of Only Analog's logo 'Smooth not brittle': digital music sounds brittle.</p>
 
-While there is a limited interest in records and less so in cassettes, market research 
+<p>While there is a limited interest in records and less so in cassettes, market research 
 suggests people and professionals interested in the media tend to pay good money for what 
 they want. The three stalls and two shops which have kindly participated, have existed in 
 various forms for decades and each has a vast stock of the media. There is money to be made!
-Links to the vendors' websites can be found in the credits section.
+Links to the vendors' websites can be found in the credits section.</p>
 
-Inline with other secondhand record shops and stalls, Only Analog does not have an e-commerce
+<p>Inline with other secondhand record shops and stalls, Only Analog does not have an e-commerce
 facility on this site or an ebay store. This is because Only Analog wants customers to come to the
-stall and maybe buy other items.
+stall and maybe buy other items.</p>
 
 ## UserExperience
   <!--- customer user experience --->
@@ -85,7 +87,7 @@ stall and maybe buy other items.
     </li>
     <li> Only Analog is shown to be a reputable business with a history. 
     </li>
-    <li> Information about St. Nicholas Market.
+    <li> There is information about its home in St. Nicholas Market.
     </li>
   </ol>
 </div>
@@ -98,9 +100,9 @@ stall and maybe buy other items.
     </li>
     <li> OAR's commitment to updating the listings on the first of every calendar month.
     </li>
-    <li> Registered members will be allowed to reserve listed items for 14 calendar days.
+    <li> Registered members will be allowed to reserve listed items for 10 calendar days.
     </li>
-    <li> Registered members will have a personal secure account that can be changed or deleted.
+    <li> Registered members will have a secure account that they can delete from within the profile page.
     </li>
     <li> Registered members can send a secure message to Only Analog requesting record reservations.
     </li>
@@ -115,7 +117,7 @@ stall and maybe buy other items.
         </li>
         <li> Vandalism or harrassment will result in deletion of account.
         </li>
-        <li> Enquiries and reservations will be dealt within three calender days of message arrival.
+        <li> Enquiries and reservations will be dealt within three calendar days of message arrival.
         </li>
       </ul>
     </li>
@@ -138,7 +140,7 @@ stall and maybe buy other items.
     </a>
 </div>
 
-The font Nunito Sans is a modern, plain and readable font that is 7th in the <a href="https://justcreative.com/best-google-fonts" title="best-google-fonts" alt="best-google-fonts" target="_blank" rel="noopener">Best Google fonts 2023 for Professional Design</a> list. Quoting: "Projecting professional confidence, this font can make words hold integrity and depth."
+<p>The font Nunito Sans is a modern, plain and readable font that is 7th in the <a href="https://justcreative.com/best-google-fonts" title="best-google-fonts" alt="best-google-fonts" target="_blank" rel="noopener">Best Google fonts 2023 for Professional Design</a> list. Quoting: "Projecting professional confidence, this font can make words hold integrity and depth."</p>
 
 ## Colours
   <!--- colour scheme --->
@@ -149,7 +151,7 @@ The font Nunito Sans is a modern, plain and readable font that is 7th in the <a 
     </a>
 </div>
 
-My first colour scheme was based around a bright, trendy, 'fizzy' orange, but after testing the homepage with Page Speed Insights, I had to change. I then proceeded to use the recommended Deque University accessibility checker, which conforms to WCAG standards. Using the website Encycolorpedia, after many combinations that didn't work, I eventually found a palette using the colours shown in the image above. While this wasn't a particularly exciting and fresh scheme, there is a clear contrast and as shown, passes the WCAG test.
+<p>My first colour scheme was based around a bright, trendy, 'fizzy' orange, but after testing the homepage with Page Speed Insights, I had to change. I then proceeded to use the recommended Deque University accessibility checker, which conforms to WCAG standards. Using the website Encycolorpedia, after many combinations that didn't work, I eventually found a palette using the colours shown in the image above. While this wasn't a particularly exciting and fresh scheme, there is a clear contrast and as shown, passes the WCAG test.</p>
 
 
 ## Features
@@ -171,10 +173,10 @@ My first colour scheme was based around a bright, trendy, 'fizzy' orange, but af
     </a>
 </div>
 <br>
-The OA homepage introduces the business and website. The ethos of only buying and selling analog
+<p>The OA homepage introduces the business and website. The ethos of only buying and selling analog
 formats is outlined. A short introduction to St. Nicholas Market (St. Nick's) is also given. Images show collections
 of records taken by me at Wanted Records. An image of St. Nick's is an uncredited one from the web. An
-information paragraph provides a guide to each page and a pagination set provides easy access to those pages.
+information paragraph provides a guide to each page and a pagination set provides easy access to those pages.</p>
 
 ### Listings
   <!--- records --->
@@ -192,9 +194,9 @@ information paragraph provides a guide to each page and a pagination set provide
     </a>
 </div>
 <br>
-The first OA Listings page is for Records. A list of possible purchases is given with genuine researched web
+<p>The first OA Listings page is for Records. A list of possible purchases is given with genuine researched web
 prices for a mix of genres. An image of a collection of records is shown which was taken by me at the Rockshop.
-It is hoped within future releases to have info and images for each track when clicked a track is clicked on.
+It is hoped within future releases to have info and images for each track when clicked a track is clicked on.</p>
 <br>
     <!--- cassettes --->
 <div align="center">
@@ -211,9 +213,9 @@ It is hoped within future releases to have info and images for each track when c
     </a>
 </div>
 <br>
-The second OA Listings page is for Cassettes. A list of possible purchases is given with genuine researched web
+<p>The second OA Listings page is for Cassettes. A list of possible purchases is given with genuine researched web
 prices for a mix of genres. An image of a collection of cassettes which is shown was taken by me at Plastic Wax. 
-It is hoped within future releases to have info and images for each track when clicked a track is clicked on.
+It is hoped within future releases to have info and images for each track when clicked a track is clicked on.</p>
 
 ### Blog
   <!--- blog --->
@@ -231,10 +233,10 @@ It is hoped within future releases to have info and images for each track when c
     </a>
 </div>
 <br>
-The OA blog pages shows records and cassettes of interest, giving a commentary on each. The images
+<p>The OA blog pages shows records and cassettes of interest, giving a commentary on each. The images
 are: i) Hombre - picture of record taken by me. ii) Avril Lavigne - picture of cassette from the web. iii) Ian Dury
 & The Blockheads - picture of record taken by me. iv) The Idles - picture of cassette from the web. v) Aswad - 
-picture of LP taken from the web. vi) Dr. Dre - picture of cassette from the web.
+picture of LP taken from the web. vi) Dr. Dre - picture of cassette from the web.</p>
 
 ### Opinions
   <!--- opinions --->
@@ -251,10 +253,10 @@ picture of LP taken from the web. vi) Dr. Dre - picture of cassette from the web
          width="338" height="752" title="oa-mobile-opinions-page" id="oa-mobile-opinions-page" alt="oa-mobile-opinions-page">
     </a>
 </div>
-The OA opinions page gives a description of the technology and thoughts about only using analog formats.
+<p>The OA opinions page gives a description of the technology and thoughts about only using analog formats.
 The page is provided for casual interest and some of its views are taken from articles on the web. Images show
 a record stall that was taken by me from Payback Records. A picture of boxes of singles was taken by me
-at the Rockshop.
+at the Rockshop.</p>
 
 ### Contact
   <!--- contact --->
@@ -272,7 +274,7 @@ at the Rockshop.
     </a>
 </div>
 <br>
-The OA contact page provides a professional Jotform for general enquiries and an address so you know where to visit!
+<p>The OA contact page provides a professional Jotform for general enquiries and an address so you know where to visit!</p>
 
 ### Login
   <!--- login --->
@@ -290,8 +292,8 @@ The OA contact page provides a professional Jotform for general enquiries and an
     </a>
 </div>
 <br>
-Enables a registered member to login and gives access to a profile page (see below). A seperate contact form is given to
-members for record or cassette reservations once logged in.
+<p>Enables a registered member to login and gives access to a profile page (see below). A seperate contact form is given to
+members for record or cassette reservations once logged in.</p>
 
 ### Register
   <!--- register --->
@@ -309,15 +311,39 @@ members for record or cassette reservations once logged in.
     </a>
 </div>
 <br>
-Enables a member of the public to register with OA and gain their membership benefits.
+<p>Enables a member of the public to register with OA and gain their membership benefits.</p>
+<br>
 
+### Profile
+ <!--- profile page --->
+<div align="center">
+    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-elephantsql-query-success.jpg?raw=true">
+        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-elephantsql-query-success.jpg?raw=true"
+         width="350" height="217" title="oa-elephantsql-query-success" id="oa-elephantsql-query-success" alt="oa-elephantsql-query-success">
+    </a>
+</div>
+<br>
+<div align="center">
+    <a href="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/only-analog-profile-page_orig.jpg?raw=true">
+        <img src="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/only-analog-profile-page_orig.jpg?raw=true"
+         width="350" height="162" title="only-analog-profile-page" id="only-analog-profile-page" alt="only-analog-profile-page">
+    </a>
+</div>
+<br>
+<p>The Profile page gives access to the reservation messaging service using Jotform. Members can delete their accounts or 
+just logout. Account details are also shown.</p>
+<br>
 ## Testing
   <!--- testing using speed page insights ---> 
-Throughout the build process, the coding was tested using VS Code and online validators. The deployed project was built
-on a Dell machine running Linux and extensive use of Gitpod and its development server. How the site responded was tested using a
-Windows 10 laptop running Firefox, an iPad running Safari and a Samsung smartphone running Chrome. 
+<p>Throughout the build process, the coding was tested using VS Code and online validators, including the Code Institute's 
+Python linter. The deployed project was built on a Dell machine running Linux and extensive use of Gitpod and its development 
+server. How the site responded was tested using a Windows 10 laptop running Firefox, an iPad running Safari and a Samsung 
+smartphone</p>
 
-Each of the eight pages was tested using Page Speed Insights mobile and desktop options. All scored 100% on 'accessibility' and 'search engine optimisation'. All scored in the high nineties for 'good practice'. Performance was good using the desktop option, though on some of the pages measuring mobile performance, scores could be a lot better. This might well be because they are measured against a Moto G4, a rather obsolete model.
+<p>Each of the eight pages was tested using Page Speed Insights mobile and desktop options. All scored 100% on 'accessibility' 
+and 'search engine optimisation'. All scored in the high nineties for 'good practice'. Performance was good using the desktop 
+option, though on some of the pages measuring mobile performance, scores could be a lot better. This might well be because 
+they are measured against a Moto G4, a rather obsolete model.</p>
   <!--- homepage mobile --->
 <div align="center">
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-homepage-mobile.jpg?raw=true">
@@ -434,9 +460,18 @@ Each of the eight pages was tested using Page Speed Insights mobile and desktop 
   
 ## Deployment
   <!--- deployment --->
-The website Only Analog Records was first deployed using Render.com around 10am on 27th July 2023. At that time I used Render as it has a free tier for its smaller websites. The first few tries at deployment, as it was not a process I knew much about, failed mainly through choosing the wrong type of site (it was part of their webservices category) and a struggle to get versions of the Python modules needed that Render insisted on. I then had to change the python file run.py to app.py, but it then succeeded and the website was up-and-running.
+<p>The website Only Analog Records was first deployed using Render.com around 10am on 27th July 2023. At that time 
+I used Render as it has a free tier for its smaller websites. The first few tries at deployment, as it was not a process 
+I knew much about, failed mainly through choosing the wrong type of site (it was part of their webservices category) 
+and a struggle to get versions of the Python modules needed that Render insisted on. I then had to change the python 
+file run.py to app.py, but it then succeeded and the website was up-and-running.</p>
 
-Then I made a decision to pay for Heroku time as the free Code Institute student deal was not available. This was due to an annoying fact that long ago I deleted an account with GitHub which used the same email address as the Code Institute now uses. Unfortunately, this email address clashed with the old GitHub email and although trying to get GitHub to find it and delete it, this was not possible. Thus I paid the small amount of money and the website was deployed using Heroku on the 17th August 2023. This had a small hiccup, a 'H10 problem', but this was easily sorted by removing a leftover line of code. The website was then fully visible and loaded quickly, unlike Render. 
+<p>Then I made a decision to pay for Heroku time as the free Code Institute student deal was not available. This was 
+due to an annoying fact that long ago I deleted an account with GitHub which used the same email address as the Code 
+Institute now uses. Unfortunately, this email address clashed with the old GitHub email and although trying to get 
+GitHub to find it and delete it, this was not possible. Thus I paid the small amount of money and the website was 
+deployed using Heroku on the 17th August 2023. This had a small hiccup, a 'H10 problem', but this was easily sorted 
+by removing a leftover line of code from Render.</p>
 <br>
 <div align="center">
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/heroku-deployment-17-august-2023.jpg?raw=true">
@@ -447,7 +482,15 @@ Then I made a decision to pay for Heroku time as the free Code Institute student
 
 ## Validation
   <!--- validation --->
-HTML Validation for the website pages used W3 validator. All pages passed the tests which were carried out on the 23rd of August 2023. All results are shown here:
+<p>The Code Institute's Python Linter was used to validate the python.app file. No errors were found.</p>
+<br>
+<div align="center">
+    <a href="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-code-institute-python-linter_orig.jpg?raw=true">
+        <img src="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-code-institute-python-linter_orig.jpg?raw=true"
+         width="350" height="180" title="oa-code-institute-python-linter" id="oa-code-institute-python-linter" alt="oa-code-institute-python-linter">
+    </a>
+</div>
+<p>HTML Validation for the website pages used W3 validator. All pages passed the tests which were carried out on the 23rd of August 2023. All results are shown here:</p>
 <br>
   <!--- homepage --->
 <div align="center">
@@ -505,29 +548,19 @@ HTML Validation for the website pages used W3 validator. All pages passed the te
 </div>
 <br>
   <!--- w3 css validation --->
-The w3 css validation:
+<p>The w3 css validation:</p>
 <div align="center">
-    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-w3-css-validation.jpg.jpg?raw=true">
-        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-w3-css-validation. 
-         jpg?raw=true"
+    <a href="https://144286628-491633316595147729.preview.editmysite.com/uploads/1/4/4/2/144286628/oa-w3-css-validation_orig.jpg?raw=true">
+        <img src="https://144286628-491633316595147729.preview.editmysite.com/uploads/1/4/4/2/144286628/oa-w3-css-validation_orig.jpg?raw=true"
          width="350" height="176" title="oa-w3-css-validation" id="oa-w3-css-validation" alt="oa-w3-css-validation">
-    </a>
-</div>
-  <!--- contact page --->
-The Jotform JavaScript code is provided by the company but was tested anyway.
-<br>
-<div align="center">
-    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-jotform-jshint-validation.jpg?raw=true">
-        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-jotform-jshint-validation.jpg?raw=true"
-         width="350" height="289" title="oa-jotform-jshint-validation" id="oa-jotform-jshint-validation" alt="oa-jotform-jshint-validation">
     </a>
 </div>
 <br>
   <!--- elephantsql success --->
-The sql query from elephantsql:
+<p>The sql query from elephantsql:</p>
 <div align="center">
-    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-elephantsql-query-success.jpg?raw=true">
-        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-elephantsql-query-success.jpg?raw=true"
+    <a href="https://144286628-491633316595147729.preview.editmysite.com/uploads/1/4/4/2/144286628/oa-elephantsql-query-success_orig.jpg?raw=true">
+        <img src="https://144286628-491633316595147729.preview.editmysite.com/uploads/1/4/4/2/144286628/oa-elephantsql-query-success_orig.jpg?raw=true"
          width="350" height="217" title="oa-elephantsql-query-success" id="oa-elephantsql-query-success" alt="oa-elephantsql-query-success">
     </a>
 </div>
@@ -535,7 +568,7 @@ The sql query from elephantsql:
 
 ## Wireframes
   <!--- wireframes --->
-21 wireframes were made using the online software Balsamiq. I used three sizes from the choices available: smartphone, ipad and browser (1280x720). The browser choice was sized inline with the Nest Hub Max template on Chrome developers' tools. Each of the 7 website pages was drawn with the 3 choices above as part of the development of the site. So far, it has helped me move badly-placed paragraphs and think more about structure. Shown below are 9 images from the 21 available. All wireframes can be shown by following the link. Here are shown the first 3 pages (home, listings, blog) from the site in the 3 choices above. Please see the full range.
+<p>21 wireframes were made using the online software Balsamiq. I used three sizes from the choices available: smartphone, ipad and browser (1280x720). The browser choice was sized inline with the Nest Hub Max template on Chrome developers' tools. Each of the 7 website pages was drawn with the 3 choices above as part of the development of the site. So far, it has helped me move badly-placed paragraphs and think more about structure. Shown below are 9 images from the 21 available. All wireframes can be shown by following the link. Here are shown the first 3 pages (home, listings, blog) from the site in the 3 choices above. Please see the full range.</p>
 <br>
 <div align="center">
   <!--- wireframe folders link --->
@@ -607,7 +640,20 @@ The sql query from elephantsql:
     </a>
 </div>
 
-  
+## Improvements
+  <!--- future improvements --->
+<br>
+<p>There are two improvements that could be implemented. Firstly, on each of the records and cassettes listings, 
+there could be a pop-up image of the product, perhaps with some info. This could be helpful for potential buyers, 
+although it would need more server storage space.</p>
+
+
+<p>Perhaps most needed is a way for members to have their own personal 'details pad' to write information about
+reservations. I tried this using various existing apps like event diaries, but these were too big and complicated
+and probably unnecessary with mobile phone accessories a few clicks away. I also tried a simple text file downloader 
+found on Codepen, but this did not work satisfactorily and froze the profile page.</p>
+
+
 ## Credits
   <!--- credits --->
 <div align="left">
@@ -638,7 +684,14 @@ The sql query from elephantsql:
              rel="noopener">Groupon Tour
             </a>
         </li>
+        <li>Special thanks to my Code Institute mentor Rory Sheridan for his help building this project. Also, the staff
+            at ElephantSQL and Heroku who have been very helpful advising a newbie. And of course, the staff at 
+            City of Bristol College.
+        </li>
+        <li>The Opinions page used many sources but those worth crediting are: Wikipedia ("Comparison of analog and 
+            digital recording"), PSAudio ("Analog vs. Digital: An Unending Debate") and The Sound Advocate ("ANALOG 
+            vs. DIGITAL AUDIO; some final thoughts!").
+        </li>
     </ul
 </div>
 <!--- end --->
-
