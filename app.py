@@ -57,7 +57,7 @@ def index():
         # if user logged in show them the homepage with name
         return render_template("index.html", username=session["username"])
         # if user is not logged in show them to the homepage
-    return render_template("index")
+    return render_template("index.html")
 
 
 @app.route("/listings")
