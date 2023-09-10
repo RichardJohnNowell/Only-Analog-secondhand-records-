@@ -30,56 +30,95 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <!-- homepage -->
-                    <li class="nav-item">
-                        <a class="nav-link" aria-label="home" href="{{ url_for('index') }}">Home</a>
-                    </li>
-                    <!-- listings tab, records and cassettes dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ url_for('records') }}"  role="button" data-bs-toggle="dropdown" aria-expanded="false">Listings</a>
-                        <ul class="dropdown-menu">
-                            <!-- dropdown for records -->
-                            <li>
-                                <a class="dropdown-item" href="{{ url_for('records') }}">Records</a>
-                            </li>
-                            <!-- dropdown for cassettes -->
-                            <li>
-                                <a class="dropdown-item" href="{{ url_for('cassettes') }}">Cassettes</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!-- blog -->
-                    <li class="nav-item">
-                        <a class="nav-link" aria-label="blog" href="{{ url_for('blog') }}">Blog</a>
-                    </li>
-                    <!-- opinions -->
-                    <li class="nav-item">
-                        <a class="nav-link" aria-label="opinions" href="{{ url_for('opinions') }}">Opinions</a>   
-                    </li>
-                    <!-- contact -->
-                    <li class="nav-item">
-                        <a class="nav-link" aria-label="contact" href="{{ url_for('contact') }}">Contact</a>                    
-                    </li>
-                    <!-- login -->
-                    <li class="nav-item">
-                        <a class="nav-link" aria-label="login" href="{{ url_for('login') }}">Login</a>
-                    </li>
-                    <!-- register -->
-                    <li class="nav-item">
-                        <a class="nav-link" aria-label="register" href="{{ url_for('register') }}">Register</a>
-                    </li>
-                  </ul>
+                  <!-- if new user show as normal with register and login -->
+                  {% if 'username' not in session %}
+                    <ul class="navbar-nav">
+                      <!-- homepage -->
+                      <li class="nav-item">
+                          <a class="nav-link" aria-label="home" href="{{ url_for('index') }}">Home</a>
+                      </li>
+                      <!-- listings tab, records and cassettes dropdown -->
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="{{ url_for('records') }}"  role="button" data-bs-toggle="dropdown" aria-expanded="false">Listings</a>
+                          <ul class="dropdown-menu">
+                              <!-- dropdown for records -->
+                              <li>
+                                  <a class="dropdown-item" href="{{ url_for('records') }}">Records</a>
+                              </li>
+                              <!-- dropdown for cassettes -->
+                              <li>
+                                  <a class="dropdown-item" href="{{ url_for('cassettes') }}">Cassettes</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <!-- blog -->
+                      <li class="nav-item">
+                          <a class="nav-link" aria-label="blog" href="{{ url_for('blog') }}">Blog</a>
+                      </li>
+                      <!-- opinions -->
+                      <li class="nav-item">
+                          <a class="nav-link" aria-label="opinions" href="{{ url_for('opinions') }}">Opinions</a>   
+                      </li>
+                      <!-- contact -->
+                      <li class="nav-item">
+                          <a class="nav-link" aria-label="contact" href="{{ url_for('contact') }}">Contact</a>                    
+                      </li>
+                      <!-- login -->
+                      <li class="nav-item">
+                          <a class="nav-link" aria-label="login" href="{{ url_for('login') }}">Login</a>
+                      </li>
+                      <!-- register -->
+                      <li class="nav-item">
+                          <a class="nav-link" aria-label="register" href="{{ url_for('register') }}">Register</a>
+                      </li>
+                    </ul>
+                  {% else %}
+                    <!-- if user is logged in -->
+                    <ul class="navbar-nav">
+                      <!-- homepage -->
+                      <li class="nav-item">
+                          <a class="nav-link" aria-label="home" href="{{ url_for('index') }}">Home</a>
+                      </li>
+                      <!-- listings tab, records and cassettes dropdown -->
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="{{ url_for('records') }}"  role="button" data-bs-toggle="dropdown" aria-expanded="false">Listings</a>
+                          <ul class="dropdown-menu">
+                              <!-- dropdown for records -->
+                              <li>
+                                  <a class="dropdown-item" href="{{ url_for('records') }}">Records</a>
+                              </li>
+                              <!-- dropdown for cassettes -->
+                              <li>
+                                  <a class="dropdown-item" href="{{ url_for('cassettes') }}">Cassettes</a>
+                              </li>
+                          </ul>
+                      </li>
+                      <!-- blog -->
+                      <li class="nav-item">
+                          <a class="nav-link" aria-label="blog" href="{{ url_for('blog') }}">Blog</a>
+                      </li>
+                      <!-- opinions -->
+                      <li class="nav-item">
+                          <a class="nav-link" aria-label="opinions" href="{{ url_for('opinions') }}">Opinions</a>   
+                      </li>
+                      <!-- contact -->
+                      <li class="nav-item">
+                          <a class="nav-link" aria-label="contact" href="{{ url_for('contact') }}">Contact</a>                    
+                      </li>
+                      <!-- logout -->
+                      <li class="nav-item">
+                          <a class="nav-link" aria-label="logout" href="{{ url_for('profile') }}">Profile</a>
+                      </li>
+                    </ul>
+                  {% endif %}
                 </div>
               </div>
             </nav>
             <!-- end of navbar -->
           </header>
           <!-- end of header -->
-          <!-- start of jinja template -->
           {% block content %}
           {% endblock %}
-          <!-- end of jinja template -->
           <!-- footer -->
           <footer>
               <div class="social-networks">
