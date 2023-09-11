@@ -26,6 +26,7 @@
 * [Introduction](#introduction)
 * [UserExperience](#userexperience)
 * [Expectations](#expectations)
+* [UserProfileModel](#userprofilemodel)
 * [Font](#font)
 * [Colours](#colours)
 * [Features](#features)
@@ -128,6 +129,18 @@ stall and maybe buy other items.</p>
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/oa-privilege-card.jpg?raw=true">
       <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/various-images/oa-privilege-card.jpg?raw=true"
        width="350" height="228" title="oa-privilege-card" id="oa-privilege-card" alt="oa-privilege-card">
+    </a>
+</div>
+
+## UserProfileModel
+  <!-- model showing user process -->
+<p>The diagram below shows the processes that can take place from entering to leaving the website. Once the user is logged in,
+a session begins, so a decision is made as to which format the menu shows and what is available to who.</p>
+<br>
+<div align="center">
+    <a href="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-user-process-model_orig.jpg?raw=true">
+        <img src="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-user-process-model_orig.jpg?raw=true"
+        width="350" height="242" title="oa-user-process-model" id="oa-user-process-model" alt="oa-user-process-model">
     </a>
 </div>
 
@@ -317,22 +330,23 @@ members for record or cassette reservations once logged in.</p>
 ### Profile
  <!--- profile page --->
 <div align="center">
-    <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-elephantsql-query-success.jpg?raw=true">
-        <img src="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/oa-elephantsql-query-success.jpg?raw=true"
-         width="350" height="217" title="oa-elephantsql-query-success" id="oa-elephantsql-query-success" alt="oa-elephantsql-query-success">
+    <a href="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-profile-page-fullscreen_orig.jpg?raw=true">
+        <img src="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-profile-page-fullscreen_orig.jpg?raw=true"
+         width="350" height="218" title="oa-profile-page-fullscreen" id="oa-profile-page-fullscreen" alt="oa-profile-page-fullscreen">
     </a>
 </div>
 <br>
 <div align="center">
-    <a href="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/only-analog-profile-page_orig.jpg?raw=true">
-        <img src="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/only-analog-profile-page_orig.jpg?raw=true"
-         width="350" height="162" title="only-analog-profile-page" id="only-analog-profile-page" alt="only-analog-profile-page">
+    <a href="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-profile-page-smartphone_orig.jpg?raw=true">
+        <img src="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-profile-page-smartphone_orig.jpg?raw=true"
+         width="350" height="777" title="oa-profile-page-smartphone" id="oa-profile-page-smartphone" alt="oa-profile-page-smartphone">
     </a>
 </div>
 <br>
 <p>The Profile page gives access to the reservation messaging service using Jotform. Members can delete their accounts or 
 just logout. Account details are also shown.</p>
 <br>
+
 ## Testing
   <!--- testing using speed page insights ---> 
 <p>Throughout the build process, the coding was tested using VS Code and online validators, including the Code Institute's 
