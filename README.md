@@ -26,7 +26,7 @@
 * [Introduction](#introduction)
 * [UserExperience](#userexperience)
 * [Expectations](#expectations)
-* [UserProfileModel](#userprofilemodel)
+* [UserProcessModel](#userprocessmodel)
 * [Font](#font)
 * [Colours](#colours)
 * [Features](#features)
@@ -101,13 +101,13 @@ stall and maybe buy other items.</p>
     </li>
     <li> OAR's commitment to updating the listings on the first of every calendar month.
     </li>
-    <li> Registered members will be allowed to reserve listed items for 10 calendar days.
+    <li> Registered members will be allowed to reserve 3 listed items for 10 calendar days.
     </li>
     <li> Registered members will have a secure account that they can delete from within the profile page.
     </li>
     <li> Registered members can send a secure message to Only Analog requesting record reservations.
     </li>
-    <li> Registered members will receive a discount privilege card when first buying a record in person.
+    <li> Registered members will receive a 10% discount privilege card when first buying a record in person.
     </li>   
     <li> Registered members can expect other members to be treated equally.
     </li>
@@ -132,7 +132,7 @@ stall and maybe buy other items.</p>
     </a>
 </div>
 
-## UserProfileModel
+## UserProcessModel
   <!-- model showing user process -->
 <p>The diagram below shows the processes that can take place from entering to leaving the website. Once the user is logged in,
 a session begins, so a decision is made as to which format the menu shows and what is available to who.</p>
