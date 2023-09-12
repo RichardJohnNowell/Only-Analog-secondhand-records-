@@ -48,8 +48,8 @@
 
 ## Introduction
   <!--- introduction to readme and story --->
-<p>The idea of the Only Analog stall was inspired by various existing businesses in and around
-the indoor St. Nicholas Market in Bristol. These three stalls and two local shops
+<p>The idea of the Only Analog stall was inspired by various existing businesses in and nearby
+the indoor St. Nicholas Market in Bristol. These two stalls and three local shops
 provide a wide selection of secondhand records and some cassettes. Many of the images 
 on this website were taken by me at those shops with the cooperation of the owners 
 who all expressed an interest in the project.</p>
@@ -84,7 +84,7 @@ stall and maybe buy other items.</p>
     </li>
     <li> Information can be clearly seen by people with limited sight options. 
     </li>
-    <li> For non-members contacting Only Analog is easily done with a professional Jotform. 
+    <li> For non-members contacting Only Analog is easily done with a professional and 3rd-party Jotform. 
     </li>
     <li> Only Analog is shown to be a reputable business with a history. 
     </li>
@@ -135,12 +135,13 @@ stall and maybe buy other items.</p>
 ## UserProcessModel
   <!-- model showing user process -->
 <p>The diagram below shows the processes that can take place from entering to leaving the website. Once the user is logged in,
-a session begins, so a decision is made as to which format the menu shows and what is available to who.</p>
+a session begins and a choice is made as to which format the menu shows and what is available. A session can continue if
+the user goes to another website and then comes back to OA, unless the cache has been cleared.</p>
 <br>
 <div align="center">
-    <a href="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-user-process-model_orig.jpg?raw=true">
-        <img src="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-user-process-model_orig.jpg?raw=true"
-        width="350" height="242" title="oa-user-process-model" id="oa-user-process-model" alt="oa-user-process-model">
+    <a href="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-user-process-model-v1_orig.jpg?raw=true">
+        <img src="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/oa-user-process-model-v1_orig.jpg?raw=true"
+         width="350" height="242" title="oa-user-process-model-v1" id="oa-user-process-model-v1" alt="oa-user-process-model-v1">
     </a>
 </div>
 
@@ -352,12 +353,12 @@ just logout. Account details are also shown.</p>
 <p>Throughout the build process, the coding was tested using VS Code and online validators, including the Code Institute's 
 Python linter. The deployed project was built on a Dell machine running Linux and extensive use of Gitpod and its development 
 server. How the site responded was tested using a Windows 10 laptop running Firefox, an iPad running Safari and a Samsung 
-smartphone</p>
+smartphone.</p>
 
 <p>Each of the eight pages was tested using Page Speed Insights mobile and desktop options. All scored 100% on 'accessibility' 
 and 'search engine optimisation'. All scored in the high nineties for 'good practice'. Performance was good using the desktop 
 option, though on some of the pages measuring mobile performance, scores could be a lot better. This might well be because 
-they are measured against a Moto G4, a rather obsolete model.</p>
+they are measured against a Moto G4, a rather obsolete model. Insights would not test the profile page.</p>
   <!--- homepage mobile --->
 <div align="center">
     <a href="https://github.com/RichardJohnNowell/Only-Analog-secondhand-records-/blob/main/static/img/validation/page-speed-insights-homepage-mobile.jpg?raw=true">
@@ -504,7 +505,7 @@ by removing a leftover line of code from Render.</p>
          width="350" height="180" title="oa-code-institute-python-linter" id="oa-code-institute-python-linter" alt="oa-code-institute-python-linter">
     </a>
 </div>
-<p>HTML Validation for the website pages used W3 validator. All pages passed the tests which were carried out on the 23rd of August 2023. All results are shown here:</p>
+<p>HTML Validation for the website pages used W3 validator. All but 2 pages passed the tests which were carried out on the 23rd of August 2023. Two more, the Profile and Register pages, were tested on the 12th September and passed. All results are shown here:</p>
 <br>
   <!--- homepage --->
 <div align="center">
@@ -561,6 +562,22 @@ by removing a leftover line of code from Render.</p>
     </a>
 </div>
 <br>
+  <!--- register page --->
+<div align="center">
+    <a href="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/w3-validator-oa-register-page_orig.jpg?raw=true">
+        <img src="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/w3-validator-oa-register-page_orig.jpg?raw=true"
+        width="350" height="144" title="w3-validator-oa-register-page" id="w3-validator-oa-register-page" alt="w3-validator-oa-register-page">
+    </a>
+</div>
+<br>
+  <!--- profile page --->
+<div align="center">
+    <a href="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/w3-validator-oa-profile-page_orig.jpg?raw=true">
+        <img src="https://www.bristolcybersolutions.co.uk/uploads/1/4/4/2/144286628/w3-validator-oa-profile-page_orig.jpg?raw=true"
+         width="350" height="145" title="w3-validator-oa-profile-page" id="w3-validator-oa-profile-page" alt="w3-validator-oa-profile-page">
+    </a>
+</div>
+<br>
   <!--- w3 css validation --->
 <p>The w3 css validation:</p>
 <div align="center">
@@ -570,7 +587,7 @@ by removing a leftover line of code from Render.</p>
     </a>
 </div>
 <br>
-  <!--- elephantsql success --->
+  <!--- elephantsql --->
 <p>The sql query from elephantsql:</p>
 <div align="center">
     <a href="https://144286628-491633316595147729.preview.editmysite.com/uploads/1/4/4/2/144286628/oa-elephantsql-query-success_orig.jpg?raw=true">
@@ -662,7 +679,7 @@ there could be a pop-up image of the product, perhaps with some info. This could
 although it would need more server storage space.</p>
 
 
-<p>Perhaps most needed is a way for members to have their own personal 'details pad' to write information about
+<p>Secondly, but perhaps most needed, is a way for members to have their own personal 'details pad' to write information about
 reservations. I tried this using various existing apps like event diaries, but these were too big and complicated
 and probably unnecessary with mobile phone accessories a few clicks away. I also tried a simple text file downloader 
 found on Codepen, but this did not work satisfactorily and froze the profile page.</p>
@@ -672,7 +689,7 @@ found on Codepen, but this did not work satisfactorily and froze the profile pag
   <!--- credits --->
 <div align="left">
     <ul>
-        <li>Payback records is a stall in St. Nicks specialising in reggae and jamaican music.
+        <li>Payback records is a stall in St. Nicks specialising in reggae and Jamaican music.
             <a href="https://www.bristol.gov.uk/st-nicholas-markets/shopping/payback-records" title="payback-records" alt="payback-records" target="_blank" rel="noopener">Payback Records
             </a>
         </li>
